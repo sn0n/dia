@@ -1,8 +1,16 @@
 {
   "name": "dia",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive, fully offline-capable library of 398+ workflow patterns and diagram examples",
   "main": "index.js",
+  "homepage": "https://dia.ai-prompts.help",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sn0n/dia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sn0n/dia/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,9 +22,20 @@
     "scrape": "tsx scripts/scraper/index.ts",
     "generate:api": "tsx scripts/generate-api.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "workflow",
+    "diagrams",
+    "mermaid",
+    "graphviz",
+    "ai-workflows",
+    "machine-learning",
+    "productivity",
+    "visual-diagrams",
+    "offline-first",
+    "static-site"
+  ],
+  "author": "sn0n",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@prisma/client": "^7.3.0",

@@ -366,11 +366,22 @@ The app works entirely without a database!
 - **[API_ENDPOINTS.md](API_ENDPOINTS.md)** - Complete API reference
 - **[STATIC_API_SUMMARY.md](STATIC_API_SUMMARY.md)** - API implementation guide
 - **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Detailed project overview
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributing guidelines
+- **[SECURITY.md](SECURITY.md)** - Security policy and known vulnerabilities
+- **[IMPROVEMENTS.md](IMPROVEMENTS.md)** - Future improvements and roadmap
+- **[LICENSE](LICENSE)** - MIT License
 - **[public/v1/README.md](public/v1/README.md)** - API quick start
 
 ## 🤝 Contributing
 
-### Adding Workflows
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
+- How to report issues
+- Adding new workflows and diagrams
+- Development setup
+- Code standards
+- Pull request process
+
+Quick start for contributors:
 
 Edit data files:
 
@@ -382,23 +393,16 @@ Edit data files:
 "AI Workflow|Step 1 → Step 2|Category"
 ```
 
-Then regenerate the API:
+For more details, see the [Contributing Guide](CONTRIBUTING.md).
 
-```bash
-npm run generate:api
-```
+## 🔒 Security
 
-### Adding Advanced Diagrams
+We take security seriously. For information about:
+- Known vulnerabilities and their status
+- Security best practices
+- How to report security issues
 
-For complex diagrams with Mermaid/Graphviz:
-
-```typescript
-// In complexWorkflows or aiComplexWorkflows
-"Workflow Name": {
-  code: `graph TD\n  A --> B`,
-  source: "mermaid"
-}
-```
+Please see our [Security Policy](SECURITY.md).
 
 ## 🙏 Acknowledgments
 

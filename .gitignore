@@ -62,5 +62,9 @@ $RECYCLE.BIN/
 
 # Test results
 test-results/
+test-results.json
 playwright-report/
 playwright/.cache/
+
+# Generated config files with timestamps
+*.config.timestamp_*.js
