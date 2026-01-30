@@ -218,7 +218,7 @@ console.log(`Advanced: ${stats.advanced_diagrams}`)
 
 ### Try the Demo
 
-Visit `/api-demo.html` in your browser for an interactive API demo!
+Visit [dia.ai-prompts.help/api-demo.html](https://dia.ai-prompts.help/api-demo.html) for an interactive API demo!
 
 ## 📁 Project Structure
 
