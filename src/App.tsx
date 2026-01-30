@@ -13,15 +13,18 @@ const nonLinearWorkflows = parseData(rawNonLinearData, 'nonlinear');
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/linear" element={<ListView type="linear" data={linearWorkflows} />} />
-      <Route path="/non-linear" element={<ListView type="nonlinear" data={nonLinearWorkflows} />} />
-      <Route path="/ai-workflows" element={<AIWorkflowsPage />} />
-      <Route path="/linear/:slug" element={<DiagramDetail />} />
-      <Route path="/non-linear/:slug" element={<DiagramDetail />} />
-      <Route path="/ai-workflows/:slug" element={<AIWorkflowDetail />} />
-    </Routes>
+    <>
+      <AboutModal />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/linear" element={<ListView type="linear" data={linearWorkflows} />} />
+        <Route path="/non-linear" element={<ListView type="nonlinear" data={nonLinearWorkflows} />} />
+        <Route path="/ai-workflows" element={<AIWorkflowsPage />} />
+        <Route path="/linear/:slug" element={<DiagramDetail />} />
+        <Route path="/non-linear/:slug" element={<DiagramDetail />} />
+        <Route path="/ai-workflows/:slug" element={<AIWorkflowDetail />} />
+      </Routes>
+    </>
   )
 }
 
