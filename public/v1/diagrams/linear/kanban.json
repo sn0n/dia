@@ -1,0 +1,19 @@
+{
+  "id": "kanban",
+  "title": "Kanban",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Backlog → To Do → In Progress → Review → Done",
+  "slug": "kanban-diagram",
+  "url": "/linear/kanban-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Backlog",
+    "To Do",
+    "In Progress",
+    "Review",
+    "Done"
+  ],
+  "advanced": null
+}

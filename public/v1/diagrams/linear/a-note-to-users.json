@@ -1,0 +1,19 @@
+{
+  "id": "a-note-to-users",
+  "title": "A note to users",
+  "type": "linear",
+  "category": "Gantt Chart",
+  "description": "Real example from Mermaid.js gantt documentation",
+  "slug": "a-note-to-users-diagram",
+  "url": "/linear/a-note-to-users-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Real example from Mermaid.js gantt documentation"
+  ],
+  "advanced": {
+    "code": "gantt\n    title A Gantt Diagram\n    %% This is a comment\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d",
+    "source": "mermaid",
+    "root": null
+  }
+}

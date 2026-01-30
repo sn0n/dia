@@ -1,0 +1,20 @@
+{
+  "id": "circuit-diagram",
+  "title": "Circuit Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Power → Components → Connections → Ground → Signals → Schematic",
+  "slug": "circuit-diagram-diagram",
+  "url": "/non-linear/circuit-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Power",
+    "Components",
+    "Connections",
+    "Ground",
+    "Signals",
+    "Schematic"
+  ],
+  "advanced": null
+}

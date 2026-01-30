@@ -1,0 +1,19 @@
+{
+  "id": "impact-mapping",
+  "title": "Impact Mapping",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Goal → Actor → Impact → Deliverable → Prioritize",
+  "slug": "impact-mapping-diagram",
+  "url": "/non-linear/impact-mapping-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Goal",
+    "Actor",
+    "Impact",
+    "Deliverable",
+    "Prioritize"
+  ],
+  "advanced": null
+}

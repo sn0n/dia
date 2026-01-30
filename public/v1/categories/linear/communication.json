@@ -1,0 +1,18 @@
+{
+  "category": "Communication",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "websocket-real-time-communication",
+      "title": "WebSocket Real-time Communication ⭐",
+      "type": "linear",
+      "category": "Communication",
+      "description": "WebSocket connection lifecycle and message flow",
+      "slug": "websocket-real-time-communication-diagram",
+      "url": "/linear/websocket-real-time-communication-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "the-5-whys",
+  "title": "The 5 Whys",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "State Problem → Ask 'Why?' → Answer → Ask 'Why?' again → Repeat 5x → Root Cause",
+  "slug": "the-5-whys-diagram",
+  "url": "/linear/the-5-whys-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "State Problem",
+    "Ask 'Why?'",
+    "Answer",
+    "Ask 'Why?' again",
+    "Repeat 5x",
+    "Root Cause"
+  ],
+  "advanced": null
+}

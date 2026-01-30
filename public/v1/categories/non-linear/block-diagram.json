@@ -1,0 +1,18 @@
+{
+  "category": "Block Diagram",
+  "type": "non-linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "blockdiag-example",
+      "title": "BlockDiag Example",
+      "type": "non-linear",
+      "category": "Block Diagram",
+      "description": "Block Diagram via Kroki unified API",
+      "slug": "blockdiag-example-diagram",
+      "url": "/non-linear/blockdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    }
+  ]
+}

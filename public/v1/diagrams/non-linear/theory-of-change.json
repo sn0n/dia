@@ -1,0 +1,18 @@
+{
+  "id": "theory-of-change",
+  "title": "Theory of Change",
+  "type": "non-linear",
+  "category": "Strategy",
+  "description": "Long-term Goal → Preconditions → Interventions → Indicators",
+  "slug": "theory-of-change-diagram",
+  "url": "/non-linear/theory-of-change-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Long-term Goal",
+    "Preconditions",
+    "Interventions",
+    "Indicators"
+  ],
+  "advanced": null
+}

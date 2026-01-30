@@ -1,0 +1,41 @@
+// This is your Prisma schema file
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Diagram {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  source      String   // Which library/app this came from
+  category    String   // e.g., "flowchart", "sequence", "network", etc.
+  type        String   // e.g., "linear", "nonlinear"
+  imageUrl    String?  // URL to the diagram image
+  code        String?  // Source code for the diagram (if applicable)
+  tags        String[] // Array of tags
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([source])
+  @@index([category])
+  @@index([type])
+}
+
+model Workflow {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  category    String
+  type        String   // linear or nonlinear
+  data        Json     // Store the workflow data as JSON
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([type])
+}

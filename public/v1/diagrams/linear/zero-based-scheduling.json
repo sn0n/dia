@@ -1,0 +1,17 @@
+{
+  "id": "zero-based-scheduling",
+  "title": "Zero-Based Scheduling",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "List Available Hours → Assign Every Hour a Function → 0 Hours Remain",
+  "slug": "zero-based-scheduling-diagram",
+  "url": "/linear/zero-based-scheduling-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Available Hours",
+    "Assign Every Hour a Function",
+    "0 Hours Remain"
+  ],
+  "advanced": null
+}

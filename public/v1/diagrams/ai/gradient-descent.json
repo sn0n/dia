@@ -1,0 +1,19 @@
+{
+  "id": "gradient-descent",
+  "title": "Gradient Descent",
+  "type": "ai-workflows",
+  "category": "Optimization",
+  "description": "Initialize Parameters → Calculate Gradient → Update Parameters → Check Convergence → Loop",
+  "slug": "gradient-descent-diagram",
+  "url": "/ai-workflows/gradient-descent-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Initialize Parameters",
+    "Calculate Gradient",
+    "Update Parameters",
+    "Check Convergence",
+    "Loop"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "stride",
+  "title": "STRIDE",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Inspect Flow → Branch: Spoofing? Tampering? Repudiation? Info Disclosure? DoS?",
+  "slug": "stride-diagram",
+  "url": "/non-linear/stride-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Inspect Flow",
+    "Branch: Spoofing? Tampering? Repudiation? Info Disclosure? DoS?"
+  ],
+  "advanced": null
+}

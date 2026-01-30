@@ -1,0 +1,20 @@
+{
+  "id": "pugh-matrix",
+  "title": "Pugh Matrix",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Baseline → Alternatives → Criteria → Better/Same/Worse → Sum → Select",
+  "slug": "pugh-matrix-diagram",
+  "url": "/non-linear/pugh-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Baseline",
+    "Alternatives",
+    "Criteria",
+    "Better/Same/Worse",
+    "Sum",
+    "Select"
+  ],
+  "advanced": null
+}

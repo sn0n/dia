@@ -1,0 +1,19 @@
+{
+  "id": "heat-map",
+  "title": "Heat Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Data Matrix → Color Scale → Patterns → Clusters → Outliers",
+  "slug": "heat-map-diagram",
+  "url": "/non-linear/heat-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Data Matrix",
+    "Color Scale",
+    "Patterns",
+    "Clusters",
+    "Outliers"
+  ],
+  "advanced": null
+}

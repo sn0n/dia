@@ -1,0 +1,19 @@
+{
+  "id": "matrix-diagram",
+  "title": "Matrix Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Row Items → Column Items → Intersections → Relationships → Strength",
+  "slug": "matrix-diagram-diagram",
+  "url": "/non-linear/matrix-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Row Items",
+    "Column Items",
+    "Intersections",
+    "Relationships",
+    "Strength"
+  ],
+  "advanced": null
+}

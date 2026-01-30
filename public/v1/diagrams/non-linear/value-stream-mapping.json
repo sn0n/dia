@@ -1,0 +1,18 @@
+{
+  "id": "value-stream-mapping",
+  "title": "Value Stream Mapping",
+  "type": "non-linear",
+  "category": "Strategy",
+  "description": "Current State → Identify Waste → Future State → Plan",
+  "slug": "value-stream-mapping-diagram",
+  "url": "/non-linear/value-stream-mapping-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Current State",
+    "Identify Waste",
+    "Future State",
+    "Plan"
+  ],
+  "advanced": null
+}

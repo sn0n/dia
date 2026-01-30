@@ -1,0 +1,19 @@
+{
+  "id": "error-handling",
+  "title": "Error Handling",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Error handling sequence",
+  "slug": "error-handling-diagram",
+  "url": "/linear/error-handling-diagram",
+  "hasAdvanced": true,
+  "source": "js-sequence-diagrams",
+  "steps": [
+    "Error handling sequence"
+  ],
+  "advanced": {
+    "code": "User->System: Submit Form\nSystem->Validator: Validate\nValidator-->System: Error\nSystem-->User: Show Error",
+    "source": "js-sequence-diagrams",
+    "root": null
+  }
+}

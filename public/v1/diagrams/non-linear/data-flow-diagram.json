@@ -1,0 +1,20 @@
+{
+  "id": "data-flow-diagram",
+  "title": "Data Flow Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "External Entity → Process → Data Store → Data Flow → Context → Levels",
+  "slug": "data-flow-diagram-diagram",
+  "url": "/non-linear/data-flow-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "External Entity",
+    "Process",
+    "Data Store",
+    "Data Flow",
+    "Context",
+    "Levels"
+  ],
+  "advanced": null
+}

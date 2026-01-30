@@ -1,0 +1,20 @@
+{
+  "id": "pros-and-cons",
+  "title": "Pros and Cons",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Option → Pros → Cons → Weight → Score → Choose",
+  "slug": "pros-and-cons-diagram",
+  "url": "/non-linear/pros-and-cons-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Option",
+    "Pros",
+    "Cons",
+    "Weight",
+    "Score",
+    "Choose"
+  ],
+  "advanced": null
+}

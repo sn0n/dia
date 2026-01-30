@@ -1,0 +1,21 @@
+{
+  "id": "a3-problem-solving",
+  "title": "A3 Problem Solving",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Background → Current Condition → Goal → Root Cause → Countermeasures → Confirmation → Follow-up",
+  "slug": "a3-problem-solving-diagram",
+  "url": "/linear/a3-problem-solving-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Background",
+    "Current Condition",
+    "Goal",
+    "Root Cause",
+    "Countermeasures",
+    "Confirmation",
+    "Follow-up"
+  ],
+  "advanced": null
+}

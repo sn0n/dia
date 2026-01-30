@@ -1,0 +1,17 @@
+{
+  "id": "regret-minimization",
+  "title": "Regret Minimization",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Project to Age 80 → Ask 'Will I Regret This?' → Minimize Regret",
+  "slug": "regret-minimization-diagram",
+  "url": "/linear/regret-minimization-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Project to Age 80",
+    "Ask 'Will I Regret This?'",
+    "Minimize Regret"
+  ],
+  "advanced": null
+}

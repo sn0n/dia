@@ -1,0 +1,18 @@
+{
+  "id": "fishbone-diagram",
+  "title": "Fishbone Diagram",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Define Effect → Draw Spine → Categorize Causes (Man/Machine/etc) → Brainstorm Sub-causes",
+  "slug": "fishbone-diagram-diagram",
+  "url": "/linear/fishbone-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Effect",
+    "Draw Spine",
+    "Categorize Causes (Man/Machine/etc)",
+    "Brainstorm Sub-causes"
+  ],
+  "advanced": null
+}

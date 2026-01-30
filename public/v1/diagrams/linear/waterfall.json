@@ -1,0 +1,19 @@
+{
+  "id": "waterfall",
+  "title": "Waterfall",
+  "type": "linear",
+  "category": "Agile",
+  "description": "Requirements → Design → Implementation → Verification → Maintenance",
+  "slug": "waterfall-diagram",
+  "url": "/linear/waterfall-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Requirements",
+    "Design",
+    "Implementation",
+    "Verification",
+    "Maintenance"
+  ],
+  "advanced": null
+}

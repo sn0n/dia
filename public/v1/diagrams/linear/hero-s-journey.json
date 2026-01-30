@@ -1,0 +1,20 @@
+{
+  "id": "hero-s-journey",
+  "title": "Hero's Journey",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Call to Adventure → Threshold → Challenges → Abyss → Transformation → Return",
+  "slug": "hero-s-journey-diagram",
+  "url": "/linear/hero-s-journey-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Call to Adventure",
+    "Threshold",
+    "Challenges",
+    "Abyss",
+    "Transformation",
+    "Return"
+  ],
+  "advanced": null
+}

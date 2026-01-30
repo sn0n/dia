@@ -1,0 +1,18 @@
+{
+  "id": "win-win-negotiation",
+  "title": "Win-Win Negotiation",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Separate People from Problem → Focus on Interests → Invent Options → Use Objective Criteria",
+  "slug": "win-win-negotiation-diagram",
+  "url": "/linear/win-win-negotiation-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Separate People from Problem",
+    "Focus on Interests",
+    "Invent Options",
+    "Use Objective Criteria"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "self-supervised-learning",
+  "title": "Self-Supervised Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Unlabeled Data → Create Pretext Task → Train → Fine-tune → Downstream Task",
+  "slug": "self-supervised-learning-diagram",
+  "url": "/ai-workflows/self-supervised-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Unlabeled Data",
+    "Create Pretext Task",
+    "Train",
+    "Fine-tune",
+    "Downstream Task"
+  ],
+  "advanced": null
+}

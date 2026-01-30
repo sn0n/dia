@@ -1,0 +1,19 @@
+{
+  "id": "cbt-cycle",
+  "title": "CBT Cycle",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Trigger → Automatic Thought → Emotion → Behavior → Challenge Thought",
+  "slug": "cbt-cycle-diagram",
+  "url": "/linear/cbt-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Trigger",
+    "Automatic Thought",
+    "Emotion",
+    "Behavior",
+    "Challenge Thought"
+  ],
+  "advanced": null
+}

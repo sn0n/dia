@@ -1,0 +1,15 @@
+{
+  "id": "sankey-diagram",
+  "title": "Sankey Diagram",
+  "type": "non-linear",
+  "category": "Flow Diagram",
+  "description": "Flow visualization from D3 Gallery",
+  "slug": "sankey-diagram-diagram",
+  "url": "/non-linear/sankey-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Flow visualization from D3 Gallery"
+  ],
+  "advanced": null
+}

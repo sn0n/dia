@@ -1,0 +1,18 @@
+{
+  "id": "must-should-want",
+  "title": "Must/Should/Want",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "List Tasks → Label 'Must' → Label 'Should' → Label 'Want'",
+  "slug": "must-should-want-diagram",
+  "url": "/linear/must-should-want-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Tasks",
+    "Label 'Must'",
+    "Label 'Should'",
+    "Label 'Want'"
+  ],
+  "advanced": null
+}

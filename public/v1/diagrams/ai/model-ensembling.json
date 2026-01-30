@@ -1,0 +1,18 @@
+{
+  "id": "model-ensembling",
+  "title": "Model Ensembling",
+  "type": "ai-workflows",
+  "category": "Ensemble",
+  "description": "Train Multiple Models → Predictions → Voting/Averaging → Final Prediction",
+  "slug": "model-ensembling-diagram",
+  "url": "/ai-workflows/model-ensembling-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Train Multiple Models",
+    "Predictions",
+    "Voting/Averaging",
+    "Final Prediction"
+  ],
+  "advanced": null
+}

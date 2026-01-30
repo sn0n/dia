@@ -1,0 +1,19 @@
+{
+  "id": "autoencoder",
+  "title": "Autoencoder",
+  "type": "ai-workflows",
+  "category": "Unsupervised Learning",
+  "description": "Encode → Bottleneck (Latent Space) → Decode → Reconstruction Loss → Train",
+  "slug": "autoencoder-diagram",
+  "url": "/ai-workflows/autoencoder-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Encode",
+    "Bottleneck (Latent Space)",
+    "Decode",
+    "Reconstruction Loss",
+    "Train"
+  ],
+  "advanced": null
+}

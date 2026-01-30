@@ -1,0 +1,197 @@
+[
+  {
+    "title": "Introduction to Block Diagrams",
+    "description": "Real example from Mermaid.js block documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "block\n  columns 3\n  Frontend blockArrowId6<[\" \"]>(right) Backend\n  space:2 down<[\" \"]>(down)\n  Disk left<[\" \"]>(left) Database[(\"Database\")]\n\n  classDef front fill:#696,stroke:#333;\n  classDef back fill:#969,stroke:#333;\n  class Frontend front\n  class Backend,Database back",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n%% This whole line is a comment classDiagram class Shape <<interface>>\nclass Shape{\n    <<interface>>\n    noOfVertices\n    draw()\n}",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n    note \"This is a general note\"\n    note for MyClass \"This is a note for a class\"\n    class MyClass{\n    }",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\nclass Shape\nlink Shape \"https://www.github.com\" \"This is a tooltip for a link\"\nclass Shape2\nclick Shape2 href \"https://www.github.com\" \"This is a tooltip for a link\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\nclass Shape\ncallback Shape \"callbackFunction\" \"This is a tooltip for a callback\"\nclass Shape2\nclick Shape2 call callbackFunction() \"This is a tooltip for a callback\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n    class Class01\n    class Class02\n    callback Class01 \"callbackFunction\" \"Callback tooltip\"\n    link Class02 \"https://www.github.com\" \"This is a link\"\n    class Class03\n    class Class04\n    click Class03 call callbackFunction() \"Callback tooltip\"\n    click Class04 href \"https://www.github.com\" \"This is a link\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart TD\n  %% My image with a constrained aspect ratio\n  A@{ img: \"https://mermaid.js.org/favicon.svg\", label: \"My example image label\", pos: \"t\", h: 60, constraint: \"on\" }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart TB\n    A --> C\n    A --> D\n    B --> C\n    B --> D",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@==> B\n  e1@{ animate: true }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B\n  e1@{ animation: fast }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B\n  classDef animate stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: dash 25s linear infinite;\n  class e1 animate",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n%% this is a comment A -- text --> B{node}\n   A -- text --> B -- text2 --> C",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n    A e1@==> B\n    A e2@--> C\n    e1@{ curve: linear }\n    e2@{ curve: natural }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A note to users",
+    "description": "Real example from Mermaid.js gantt documentation",
+    "source": "mermaid",
+    "category": "Gantt Chart",
+    "type": "linear",
+    "code": "gantt\n    title A Gantt Diagram\n    %% This is a comment\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d",
+    "tags": [
+      "gantt chart",
+      "mermaid",
+      "official"
+    ]
+  }
+]

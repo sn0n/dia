@@ -1,0 +1,19 @@
+{
+  "id": "directed-graph",
+  "title": "Directed Graph",
+  "type": "non-linear",
+  "category": "Graph Diagram",
+  "description": "Graphviz DOT language example",
+  "slug": "directed-graph-diagram",
+  "url": "/non-linear/directed-graph-diagram",
+  "hasAdvanced": true,
+  "source": "graphviz",
+  "steps": [
+    "Graphviz DOT language example"
+  ],
+  "advanced": {
+    "code": "digraph G {\n  A -> B;\n  B -> C;\n  C -> A;\n}",
+    "source": "graphviz",
+    "root": null
+  }
+}

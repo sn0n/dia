@@ -1,0 +1,60 @@
+{
+  "id": "ooda-loop",
+  "title": "OODA Loop",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Observe → Orient → Decide → Act",
+  "slug": "ooda-loop-diagram",
+  "url": "/linear/ooda-loop-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Observe",
+    "Orient",
+    "Decide",
+    "Act"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Unfolding Circumstances",
+      "type": "start",
+      "next": {
+        "label": "OBSERVE",
+        "type": "action",
+        "next": {
+          "label": "ORIENT",
+          "note": "(Culture, Genetics, Analysis)",
+          "type": "decision",
+          "branches": [
+            {
+              "label": "New Info",
+              "path": {
+                "label": "Feedback to Observe",
+                "type": "action",
+                "loop": true
+              }
+            },
+            {
+              "label": "Hypothesis",
+              "path": {
+                "label": "DECIDE",
+                "type": "action",
+                "next": {
+                  "label": "ACT",
+                  "type": "action",
+                  "next": {
+                    "label": "Change Environment",
+                    "type": "end",
+                    "loop": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "system-diagram",
+  "title": "System Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Inputs → Process → Outputs → Feedback → Environment",
+  "slug": "system-diagram-diagram",
+  "url": "/non-linear/system-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Inputs",
+    "Process",
+    "Outputs",
+    "Feedback",
+    "Environment"
+  ],
+  "advanced": null
+}

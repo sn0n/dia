@@ -1,0 +1,18 @@
+{
+  "category": "Sequence-to-Sequence",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "encoder-decoder",
+      "title": "Encoder-Decoder",
+      "type": "ai-workflows",
+      "category": "Sequence-to-Sequence",
+      "description": "Encode Input → Context Vector → Decode → Generate Output → Attention Bridge",
+      "slug": "encoder-decoder-diagram",
+      "url": "/ai-workflows/encoder-decoder-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

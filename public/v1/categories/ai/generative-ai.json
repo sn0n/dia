@@ -1,0 +1,29 @@
+{
+  "category": "Generative AI",
+  "type": "ai",
+  "count": 2,
+  "diagrams": [
+    {
+      "id": "gans-generative-adversarial-networks",
+      "title": "GANs (Generative Adversarial Networks)",
+      "type": "ai-workflows",
+      "category": "Generative AI",
+      "description": "Generator Creates → Discriminator Judges → Real/Fake Decision → Backprop Both → Adversarial Training",
+      "slug": "gans-generative-adversarial-networks-diagram",
+      "url": "/ai-workflows/gans-generative-adversarial-networks-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "diffusion-model",
+      "title": "Diffusion Model",
+      "type": "ai-workflows",
+      "category": "Generative AI",
+      "description": "Add Noise (Forward) → Learn Reverse → Denoise Step-by-Step → Generate Sample",
+      "slug": "diffusion-model-diagram",
+      "url": "/ai-workflows/diffusion-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

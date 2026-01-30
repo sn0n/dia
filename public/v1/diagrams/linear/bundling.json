@@ -1,0 +1,15 @@
+{
+  "id": "bundling",
+  "title": "Bundling",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Bundling example from official bpmn-js repository",
+  "slug": "bundling-diagram",
+  "url": "/linear/bundling-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Bundling example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

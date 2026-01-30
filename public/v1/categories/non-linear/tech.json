@@ -1,0 +1,95 @@
+{
+  "category": "Tech",
+  "type": "non-linear",
+  "count": 8,
+  "diagrams": [
+    {
+      "id": "saga-pattern",
+      "title": "Saga Pattern",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Service A → Success? (Next) : Fail? (Compensate A/Undo)",
+      "slug": "saga-pattern-diagram",
+      "url": "/non-linear/saga-pattern-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "red-green-refactor",
+      "title": "Red-Green-Refactor",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Write Red Test (Fail) → Write Code (Pass) → Refactor → Loop",
+      "slug": "red-green-refactor-diagram",
+      "url": "/non-linear/red-green-refactor-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "chaos-engineering",
+      "title": "Chaos Engineering",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Steady State → Introduce Turbulence → Observe System → Improve → Loop",
+      "slug": "chaos-engineering-diagram",
+      "url": "/non-linear/chaos-engineering-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pub-sub",
+      "title": "Pub/Sub",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Publisher → Message → Topic → Subscriber A (Parallel) / Subscriber B (Parallel)",
+      "slug": "pub-sub-diagram",
+      "url": "/non-linear/pub-sub-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "circuit-breaker",
+      "title": "Circuit Breaker",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Request → Failures > Threshold? → Open Circuit (Block) → Timeout → Half-Open (Test)",
+      "slug": "circuit-breaker-diagram",
+      "url": "/non-linear/circuit-breaker-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "mvc",
+      "title": "MVC",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "User Action → Controller → Model Update → View Update → User",
+      "slug": "mvc-diagram",
+      "url": "/non-linear/mvc-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "oauth-2-0",
+      "title": "OAuth 2.0",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Request → Auth Server → Login → Auth Code → Token Exchange → Resource",
+      "slug": "oauth-2-0-diagram",
+      "url": "/non-linear/oauth-2-0-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cap-theorem",
+      "title": "CAP Theorem",
+      "type": "non-linear",
+      "category": "Tech",
+      "description": "Consistency ↔ Availability ↔ Partition Tolerance (Pick 2)",
+      "slug": "cap-theorem-diagram",
+      "url": "/non-linear/cap-theorem-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

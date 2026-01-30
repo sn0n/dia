@@ -1,0 +1,18 @@
+{
+  "id": "if-then-else",
+  "title": "If-Then-Else",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Condition Met? → True Path ↔ Condition Failed? → False Path",
+  "slug": "if-then-else-diagram",
+  "url": "/non-linear/if-then-else-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Condition Met?",
+    "True Path",
+    "Condition Failed?",
+    "False Path"
+  ],
+  "advanced": null
+}

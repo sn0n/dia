@@ -1,0 +1,19 @@
+{
+  "id": "threat-model",
+  "title": "Threat Model",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Assets → Threats → Vulnerabilities → Countermeasures → Risk",
+  "slug": "threat-model-diagram",
+  "url": "/non-linear/threat-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Assets",
+    "Threats",
+    "Vulnerabilities",
+    "Countermeasures",
+    "Risk"
+  ],
+  "advanced": null
+}

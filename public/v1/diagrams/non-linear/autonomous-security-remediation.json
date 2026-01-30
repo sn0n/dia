@@ -1,0 +1,19 @@
+{
+  "id": "autonomous-security-remediation",
+  "title": "Autonomous Security Remediation ⭐",
+  "type": "non-linear",
+  "category": "DevOps",
+  "description": "Security system that detects and autonomously remediates vulnerabilities",
+  "slug": "autonomous-security-remediation-diagram",
+  "url": "/non-linear/autonomous-security-remediation-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Security system that detects and autonomously remediates vulnerabilities"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Security Scan] --> B[AI Threat Detection]\n    B --> C{Severity}\n    C -->|Critical| D[Auto-Patch]\n    C -->|High| E[AI Remediation Plan]\n    C -->|Medium| F[Schedule Fix]\n    C -->|Low| G[Log Only]\n    D --> H[Test Patch]\n    H --> I{Safe?}\n    I -->|Yes| J[Deploy Fix]\n    I -->|No| K[Escalate]\n    E --> L[Generate PR]\n    L --> M[AI Code Review]\n    M --> N[Auto-Merge]\n    N --> J\n    J --> O[Verify Fix]\n    O --> P[Update Documentation]",
+    "source": "mermaid",
+    "root": null
+  }
+}

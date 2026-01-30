@@ -1,0 +1,19 @@
+{
+  "id": "uml-class-diagram",
+  "title": "UML Class Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Define Classes → Add Attributes → Add Methods → Define Relationships → Inheritance",
+  "slug": "uml-class-diagram-diagram",
+  "url": "/non-linear/uml-class-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Classes",
+    "Add Attributes",
+    "Add Methods",
+    "Define Relationships",
+    "Inheritance"
+  ],
+  "advanced": null
+}

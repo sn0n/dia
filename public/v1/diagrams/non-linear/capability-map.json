@@ -1,0 +1,18 @@
+{
+  "id": "capability-map",
+  "title": "Capability Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Business Capabilities → Sub-capabilities → Hierarchy → Dependencies",
+  "slug": "capability-map-diagram",
+  "url": "/non-linear/capability-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Business Capabilities",
+    "Sub-capabilities",
+    "Hierarchy",
+    "Dependencies"
+  ],
+  "advanced": null
+}

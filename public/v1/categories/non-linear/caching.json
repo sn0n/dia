@@ -1,0 +1,18 @@
+{
+  "category": "Caching",
+  "type": "non-linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "cache-invalidation-strategy",
+      "title": "Cache Invalidation Strategy ⭐",
+      "type": "non-linear",
+      "category": "Caching",
+      "description": "Multi-level cache with intelligent invalidation",
+      "slug": "cache-invalidation-strategy-diagram",
+      "url": "/non-linear/cache-invalidation-strategy-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

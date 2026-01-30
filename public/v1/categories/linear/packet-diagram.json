@@ -1,0 +1,18 @@
+{
+  "category": "Packet Diagram",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "packetdiag-example",
+      "title": "PacketDiag Example",
+      "type": "linear",
+      "category": "Packet Diagram",
+      "description": "Packet Diagram via Kroki unified API",
+      "slug": "packetdiag-example-diagram",
+      "url": "/linear/packetdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    }
+  ]
+}

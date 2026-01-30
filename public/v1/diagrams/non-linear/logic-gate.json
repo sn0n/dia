@@ -1,0 +1,19 @@
+{
+  "id": "logic-gate",
+  "title": "Logic Gate",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Input A → Gate (AND/OR/NOT) → Output → Truth Table → Circuit",
+  "slug": "logic-gate-diagram",
+  "url": "/non-linear/logic-gate-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input A",
+    "Gate (AND/OR/NOT)",
+    "Output",
+    "Truth Table",
+    "Circuit"
+  ],
+  "advanced": null
+}

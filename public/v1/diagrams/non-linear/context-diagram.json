@@ -1,0 +1,18 @@
+{
+  "id": "context-diagram",
+  "title": "Context Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "System → External Entities → Data Flows → Boundary",
+  "slug": "context-diagram-diagram",
+  "url": "/non-linear/context-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "System",
+    "External Entities",
+    "Data Flows",
+    "Boundary"
+  ],
+  "advanced": null
+}

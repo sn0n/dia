@@ -1,0 +1,19 @@
+{
+  "id": "morphological-chart",
+  "title": "Morphological Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Functions → Alternatives → Combinations → Solutions → Evaluate",
+  "slug": "morphological-chart-diagram",
+  "url": "/non-linear/morphological-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Functions",
+    "Alternatives",
+    "Combinations",
+    "Solutions",
+    "Evaluate"
+  ],
+  "advanced": null
+}

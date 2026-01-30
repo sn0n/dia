@@ -1,0 +1,19 @@
+{
+  "id": "spiral-model",
+  "title": "Spiral Model",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Objectives → Risks → Develop/Test → Plan Next → Loop (Expand)",
+  "slug": "spiral-model-diagram",
+  "url": "/non-linear/spiral-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Objectives",
+    "Risks",
+    "Develop/Test",
+    "Plan Next",
+    "Loop (Expand)"
+  ],
+  "advanced": null
+}

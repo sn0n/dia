@@ -1,0 +1,19 @@
+{
+  "id": "event-driven-saga-pattern",
+  "title": "Event-Driven Saga Pattern ⭐",
+  "type": "non-linear",
+  "category": "Architecture",
+  "description": "Distributed transaction handling using saga pattern with compensating transactions",
+  "slug": "event-driven-saga-pattern-diagram",
+  "url": "/non-linear/event-driven-saga-pattern-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Distributed transaction handling using saga pattern with compensating transactions"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Order Service] --> B{Create Order}\n    B -->|Success| C[Payment Service]\n    B -->|Fail| D[Order Failed]\n    C --> E{Process Payment}\n    E -->|Success| F[Inventory Service]\n    E -->|Fail| G[Compensate Order]\n    F --> H{Reserve Items}\n    H -->|Success| I[Shipping Service]\n    H -->|Fail| J[Compensate Payment]\n    I --> K{Create Shipment}\n    K -->|Success| L[Order Complete]\n    K -->|Fail| M[Compensate Inventory]\n    J --> G\n    M --> J\n    G --> D",
+    "source": "mermaid",
+    "root": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "syntax",
+  "title": "Syntax",
+  "type": "non-linear",
+  "category": "Class Diagram",
+  "description": "Real example from Mermaid.js classDiagram documentation",
+  "slug": "syntax-diagram",
+  "url": "/non-linear/syntax-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Real example from Mermaid.js classDiagram documentation"
+  ],
+  "advanced": {
+    "code": "classDiagram\n    class Class01\n    class Class02\n    callback Class01 \"callbackFunction\" \"Callback tooltip\"\n    link Class02 \"https://www.github.com\" \"This is a link\"\n    class Class03\n    class Class04\n    click Class03 call callbackFunction() \"Callback tooltip\"\n    click Class04 href \"https://www.github.com\" \"This is a link\"",
+    "source": "mermaid",
+    "root": null
+  }
+}

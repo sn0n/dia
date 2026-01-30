@@ -1,0 +1,18 @@
+{
+  "id": "critical-path-method",
+  "title": "Critical Path Method",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "List Tasks → Define Dependencies → Calculate Longest Path → Identify Float",
+  "slug": "critical-path-method-diagram",
+  "url": "/non-linear/critical-path-method-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Tasks",
+    "Define Dependencies",
+    "Calculate Longest Path",
+    "Identify Float"
+  ],
+  "advanced": null
+}

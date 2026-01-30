@@ -1,0 +1,18 @@
+{
+  "id": "cynefin-logic",
+  "title": "Cynefin (Logic)",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Simple (Categorize) → Complicated (Analyze) → Complex (Probe) → Chaotic (Act)",
+  "slug": "cynefin-logic-diagram",
+  "url": "/non-linear/cynefin-logic-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Simple (Categorize)",
+    "Complicated (Analyze)",
+    "Complex (Probe)",
+    "Chaotic (Act)"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "family-tree",
+  "title": "Family Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Ancestors → Parents → Siblings → Children → Descendants → Relations",
+  "slug": "family-tree-diagram",
+  "url": "/non-linear/family-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Ancestors",
+    "Parents",
+    "Siblings",
+    "Children",
+    "Descendants",
+    "Relations"
+  ],
+  "advanced": null
+}

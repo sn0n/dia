@@ -1,0 +1,22 @@
+{
+  "id": "lean-canvas",
+  "title": "Lean Canvas",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Problem → Solution → Metrics → Value → Channels → Segments → Costs → Revenue",
+  "slug": "lean-canvas-diagram",
+  "url": "/non-linear/lean-canvas-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Problem",
+    "Solution",
+    "Metrics",
+    "Value",
+    "Channels",
+    "Segments",
+    "Costs",
+    "Revenue"
+  ],
+  "advanced": null
+}

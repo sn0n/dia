@@ -1,0 +1,19 @@
+{
+  "id": "shadow-deployment",
+  "title": "Shadow Deployment",
+  "type": "ai-workflows",
+  "category": "Deployment",
+  "description": "New Model → Mirror Production → Compare Results → No User Impact → Validation",
+  "slug": "shadow-deployment-diagram",
+  "url": "/ai-workflows/shadow-deployment-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "New Model",
+    "Mirror Production",
+    "Compare Results",
+    "No User Impact",
+    "Validation"
+  ],
+  "advanced": null
+}

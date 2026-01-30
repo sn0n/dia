@@ -1,0 +1,18 @@
+{
+  "id": "triz-contradiction-matrix",
+  "title": "TRIZ Contradiction Matrix",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Worsening → Improving → Principles → Solutions",
+  "slug": "triz-contradiction-matrix-diagram",
+  "url": "/non-linear/triz-contradiction-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Worsening",
+    "Improving",
+    "Principles",
+    "Solutions"
+  ],
+  "advanced": null
+}

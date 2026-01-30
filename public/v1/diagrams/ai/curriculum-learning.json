@@ -1,0 +1,18 @@
+{
+  "id": "curriculum-learning",
+  "title": "Curriculum Learning",
+  "type": "ai-workflows",
+  "category": "Training Strategy",
+  "description": "Easy Examples → Medium Examples → Hard Examples → Progressive Training",
+  "slug": "curriculum-learning-diagram",
+  "url": "/ai-workflows/curriculum-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Easy Examples",
+    "Medium Examples",
+    "Hard Examples",
+    "Progressive Training"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Thinking",
+  "type": "linear",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "socratic-method",
+      "title": "Socratic Method",
+      "type": "linear",
+      "category": "Thinking",
+      "description": "Make Claim → Ask Probing Questions → Reveal Contradictions → Refine Claim",
+      "slug": "socratic-method-diagram",
+      "url": "/linear/socratic-method-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "ladder-of-inference",
+      "title": "Ladder of Inference",
+      "type": "linear",
+      "category": "Thinking",
+      "description": "Data → Select Data → Interpret → Assume → Conclude → Believe → Act",
+      "slug": "ladder-of-inference-diagram",
+      "url": "/linear/ladder-of-inference-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "hanlon-s-razor",
+      "title": "Hanlon's Razor",
+      "type": "linear",
+      "category": "Thinking",
+      "description": "Observe Negative Outcome → Question Malice → Default to Incompetence",
+      "slug": "hanlon-s-razor-diagram",
+      "url": "/linear/hanlon-s-razor-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

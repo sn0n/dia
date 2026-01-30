@@ -1,0 +1,73 @@
+{
+  "id": "reinforcement-learning",
+  "title": "Reinforcement Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Observe State → Select Action (Policy) → Receive Reward → Update Q-Table → Explore/Exploit → Loop",
+  "slug": "reinforcement-learning-diagram",
+  "url": "/ai-workflows/reinforcement-learning-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Observe State",
+    "Select Action (Policy)",
+    "Receive Reward",
+    "Update Q-Table",
+    "Explore/Exploit",
+    "Loop"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Observe State",
+      "type": "start",
+      "next": {
+        "label": "Explore or Exploit?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "Explore",
+            "path": {
+              "label": "Random Action",
+              "type": "action",
+              "next": {
+                "label": "Receive Reward",
+                "type": "action",
+                "next": {
+                  "label": "Update Q-Table",
+                  "type": "action",
+                  "next": {
+                    "label": "Next State",
+                    "type": "action",
+                    "loop": true
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "Exploit",
+            "path": {
+              "label": "Best Action (Policy)",
+              "type": "action",
+              "next": {
+                "label": "Receive Reward",
+                "type": "action",
+                "next": {
+                  "label": "Update Q-Table",
+                  "type": "action",
+                  "next": {
+                    "label": "Next State",
+                    "type": "action",
+                    "loop": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

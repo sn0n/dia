@@ -1,0 +1,15 @@
+{
+  "id": "6000-elements",
+  "title": "6000 Elements",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js 6000-elements demo from official repository",
+  "slug": "6000-elements-diagram",
+  "url": "/non-linear/6000-elements-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js 6000-elements demo from official repository"
+  ],
+  "advanced": null
+}

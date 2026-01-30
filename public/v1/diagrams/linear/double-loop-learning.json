@@ -1,0 +1,19 @@
+{
+  "id": "double-loop-learning",
+  "title": "Double-Loop Learning",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Action → Result → Mismatch? → Question Assumptions → New Action",
+  "slug": "double-loop-learning-diagram",
+  "url": "/linear/double-loop-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Action",
+    "Result",
+    "Mismatch?",
+    "Question Assumptions",
+    "New Action"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Graph Diagram",
+  "type": "non-linear",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "simple-graph",
+      "title": "Simple Graph",
+      "type": "non-linear",
+      "category": "Graph Diagram",
+      "description": "Graphviz DOT language example",
+      "slug": "simple-graph-diagram",
+      "url": "/non-linear/simple-graph-diagram",
+      "hasAdvanced": true,
+      "source": "graphviz"
+    },
+    {
+      "id": "directed-graph",
+      "title": "Directed Graph",
+      "type": "non-linear",
+      "category": "Graph Diagram",
+      "description": "Graphviz DOT language example",
+      "slug": "directed-graph-diagram",
+      "url": "/non-linear/directed-graph-diagram",
+      "hasAdvanced": true,
+      "source": "graphviz"
+    },
+    {
+      "id": "cluster-example",
+      "title": "Cluster Example",
+      "type": "non-linear",
+      "category": "Graph Diagram",
+      "description": "Graphviz DOT language example",
+      "slug": "cluster-example-diagram",
+      "url": "/non-linear/cluster-example-diagram",
+      "hasAdvanced": true,
+      "source": "graphviz"
+    }
+  ]
+}

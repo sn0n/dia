@@ -1,0 +1,19 @@
+{
+  "id": "async-process",
+  "title": "Async Process",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Asynchronous processing flow",
+  "slug": "async-process-diagram",
+  "url": "/linear/async-process-diagram",
+  "hasAdvanced": true,
+  "source": "js-sequence-diagrams",
+  "steps": [
+    "Asynchronous processing flow"
+  ],
+  "advanced": {
+    "code": "Client->Server: Start Process\nNote over Server: Processing...\nServer->Queue: Add Job\nQueue-->Worker: Execute\nWorker-->Client: Notify Complete",
+    "source": "js-sequence-diagrams",
+    "root": null
+  }
+}

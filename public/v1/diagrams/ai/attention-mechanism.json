@@ -1,0 +1,21 @@
+{
+  "id": "attention-mechanism",
+  "title": "Attention Mechanism",
+  "type": "ai-workflows",
+  "category": "Architecture",
+  "description": "Query → Key → Value → Similarity Score → Softmax → Weighted Sum → Context Vector",
+  "slug": "attention-mechanism-diagram",
+  "url": "/ai-workflows/attention-mechanism-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Query",
+    "Key",
+    "Value",
+    "Similarity Score",
+    "Softmax",
+    "Weighted Sum",
+    "Context Vector"
+  ],
+  "advanced": null
+}

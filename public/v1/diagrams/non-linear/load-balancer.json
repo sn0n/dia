@@ -1,0 +1,19 @@
+{
+  "id": "load-balancer",
+  "title": "Load Balancer",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Requests → Distributor → Server 1/2/3 → Health Check → Response",
+  "slug": "load-balancer-diagram",
+  "url": "/non-linear/load-balancer-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Requests",
+    "Distributor",
+    "Server 1/2/3",
+    "Health Check",
+    "Response"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,18 @@
+{
+  "category": "LLM Pattern",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "rag-retrieval-augmented-generation",
+      "title": "RAG (Retrieval Augmented Generation)",
+      "type": "ai-workflows",
+      "category": "LLM Pattern",
+      "description": "Query → Retrieve Documents → Embed Context → Generate Response → LLM Output",
+      "slug": "rag-retrieval-augmented-generation-diagram",
+      "url": "/ai-workflows/rag-retrieval-augmented-generation-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

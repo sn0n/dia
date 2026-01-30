@@ -1,0 +1,18 @@
+{
+  "category": "Science",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "scientific-method",
+      "title": "Scientific Method",
+      "type": "linear",
+      "category": "Science",
+      "description": "Observe → Question → Hypothesize → Experiment → Analyze → Conclusion",
+      "slug": "scientific-method-diagram",
+      "url": "/linear/scientific-method-diagram",
+      "hasAdvanced": true,
+      "source": null
+    }
+  ]
+}

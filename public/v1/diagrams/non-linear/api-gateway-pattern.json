@@ -1,0 +1,20 @@
+{
+  "id": "api-gateway-pattern",
+  "title": "API Gateway Pattern",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Client → Gateway → Routing → Services → Response → Aggregate",
+  "slug": "api-gateway-pattern-diagram",
+  "url": "/non-linear/api-gateway-pattern-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Client",
+    "Gateway",
+    "Routing",
+    "Services",
+    "Response",
+    "Aggregate"
+  ],
+  "advanced": null
+}

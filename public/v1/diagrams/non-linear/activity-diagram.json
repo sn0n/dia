@@ -1,0 +1,20 @@
+{
+  "id": "activity-diagram",
+  "title": "Activity Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Start → Action → Decision → Fork/Join → Merge → End",
+  "slug": "activity-diagram-diagram",
+  "url": "/non-linear/activity-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Start",
+    "Action",
+    "Decision",
+    "Fork/Join",
+    "Merge",
+    "End"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "knowledge-distillation",
+  "title": "Knowledge Distillation",
+  "type": "ai-workflows",
+  "category": "Compression",
+  "description": "Teacher Model → Soft Labels → Student Model → Match Distributions → Compressed Model",
+  "slug": "knowledge-distillation-diagram",
+  "url": "/ai-workflows/knowledge-distillation-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Teacher Model",
+    "Soft Labels",
+    "Student Model",
+    "Match Distributions",
+    "Compressed Model"
+  ],
+  "advanced": null
+}

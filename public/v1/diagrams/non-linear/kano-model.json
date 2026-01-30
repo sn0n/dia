@@ -1,0 +1,17 @@
+{
+  "id": "kano-model",
+  "title": "Kano Model",
+  "type": "non-linear",
+  "category": "Strategy",
+  "description": "Basic Needs (Must) → Performance (Linear) → Delighters (Wow)",
+  "slug": "kano-model-diagram",
+  "url": "/non-linear/kano-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Basic Needs (Must)",
+    "Performance (Linear)",
+    "Delighters (Wow)"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "effectuation",
+  "title": "Effectuation",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Means → Affordable Loss → Contingencies → New Means → Loop",
+  "slug": "effectuation-diagram",
+  "url": "/non-linear/effectuation-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Means",
+    "Affordable Loss",
+    "Contingencies",
+    "New Means",
+    "Loop"
+  ],
+  "advanced": null
+}

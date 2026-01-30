@@ -1,0 +1,20 @@
+{
+  "id": "feature-comparison",
+  "title": "Feature Comparison",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Features → Product A → Product B → Product C → Rating → Decision",
+  "slug": "feature-comparison-diagram",
+  "url": "/non-linear/feature-comparison-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Features",
+    "Product A",
+    "Product B",
+    "Product C",
+    "Rating",
+    "Decision"
+  ],
+  "advanced": null
+}

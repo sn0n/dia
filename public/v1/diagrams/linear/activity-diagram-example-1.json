@@ -1,0 +1,19 @@
+{
+  "id": "activity-diagram-example-1",
+  "title": "Activity Diagram Example 1",
+  "type": "linear",
+  "category": "Activity Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "activity-diagram-example-1-diagram",
+  "url": "/linear/activity-diagram-example-1-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n:Hello world;\n:This is defined on\nseveral **lines**;\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

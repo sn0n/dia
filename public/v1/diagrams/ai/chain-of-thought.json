@@ -1,0 +1,24 @@
+{
+  "id": "chain-of-thought",
+  "title": "Chain of Thought",
+  "type": "ai-workflows",
+  "category": "Prompting",
+  "description": "Problem → Step 1 → Step 2 → ... → Step N → Final Answer",
+  "slug": "chain-of-thought-diagram",
+  "url": "/ai-workflows/chain-of-thought-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Problem",
+    "Step 1",
+    "Step 2",
+    "...",
+    "Step N",
+    "Final Answer"
+  ],
+  "advanced": {
+    "code": "graph LR\n    A[Complex Problem] --> B[Step 1: Break Down]\n    B --> C[Step 2: Analyze]\n    C --> D[Step 3: Calculate]\n    D --> E[Step 4: Verify]\n    E --> F[Final Answer]",
+    "source": "mermaid",
+    "root": null
+  }
+}

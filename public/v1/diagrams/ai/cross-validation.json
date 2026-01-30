@@ -1,0 +1,19 @@
+{
+  "id": "cross-validation",
+  "title": "Cross Validation",
+  "type": "ai-workflows",
+  "category": "Validation",
+  "description": "Split Data K-Folds → Train on K-1 → Validate on 1 → Rotate → Average Performance",
+  "slug": "cross-validation-diagram",
+  "url": "/ai-workflows/cross-validation-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Split Data K-Folds",
+    "Train on K-1",
+    "Validate on 1",
+    "Rotate",
+    "Average Performance"
+  ],
+  "advanced": null
+}

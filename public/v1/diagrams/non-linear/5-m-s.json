@@ -1,0 +1,20 @@
+{
+  "id": "5-m-s",
+  "title": "5 M's",
+  "type": "non-linear",
+  "category": "Risk",
+  "description": "Problem → Man? → Machine? → Material? → Method? → Management?",
+  "slug": "5-m-s-diagram",
+  "url": "/non-linear/5-m-s-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Problem",
+    "Man?",
+    "Machine?",
+    "Material?",
+    "Method?",
+    "Management?"
+  ],
+  "advanced": null
+}

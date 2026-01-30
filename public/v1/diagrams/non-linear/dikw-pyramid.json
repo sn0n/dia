@@ -1,0 +1,18 @@
+{
+  "id": "dikw-pyramid",
+  "title": "DIKW Pyramid",
+  "type": "non-linear",
+  "category": "Data",
+  "description": "Data → Information → Knowledge → Wisdom",
+  "slug": "dikw-pyramid-diagram",
+  "url": "/non-linear/dikw-pyramid-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Data",
+    "Information",
+    "Knowledge",
+    "Wisdom"
+  ],
+  "advanced": null
+}

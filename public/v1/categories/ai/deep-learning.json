@@ -1,0 +1,18 @@
+{
+  "category": "Deep Learning",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "neural-network-training",
+      "title": "Neural Network Training",
+      "type": "ai-workflows",
+      "category": "Deep Learning",
+      "description": "Initialize Weights → Forward Pass → Calculate Loss → Backward Pass (Backpropagation) → Update Weights → Repeat",
+      "slug": "neural-network-training-diagram",
+      "url": "/ai-workflows/neural-network-training-diagram",
+      "hasAdvanced": true,
+      "source": null
+    }
+  ]
+}

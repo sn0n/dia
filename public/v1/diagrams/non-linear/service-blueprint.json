@@ -1,0 +1,19 @@
+{
+  "id": "service-blueprint",
+  "title": "Service Blueprint",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Customer Actions → Frontstage → Backstage → Support → Evidence",
+  "slug": "service-blueprint-diagram",
+  "url": "/non-linear/service-blueprint-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Customer Actions",
+    "Frontstage",
+    "Backstage",
+    "Support",
+    "Evidence"
+  ],
+  "advanced": null
+}

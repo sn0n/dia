@@ -1,0 +1,19 @@
+{
+  "id": "use-case-diagram-example-3",
+  "title": "Use Case Diagram Example 3",
+  "type": "non-linear",
+  "category": "Use Case Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "use-case-diagram-example-3-diagram",
+  "url": "/non-linear/use-case-diagram-example-3-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n:User: --&gt; (Use)\n&#34;Main Admin&#34; as Admin\n&#34;Use the application&#34; as (Use)\nAdmin --&gt; (Admin the application)\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

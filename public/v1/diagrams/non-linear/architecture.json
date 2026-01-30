@@ -1,0 +1,15 @@
+{
+  "id": "architecture",
+  "title": "Architecture",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js architecture demo from official repository",
+  "slug": "architecture-diagram",
+  "url": "/non-linear/architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js architecture demo from official repository"
+  ],
+  "advanced": null
+}

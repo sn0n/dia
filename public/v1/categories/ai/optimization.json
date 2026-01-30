@@ -1,0 +1,40 @@
+{
+  "category": "Optimization",
+  "type": "ai",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "gradient-descent",
+      "title": "Gradient Descent",
+      "type": "ai-workflows",
+      "category": "Optimization",
+      "description": "Initialize Parameters → Calculate Gradient → Update Parameters → Check Convergence → Loop",
+      "slug": "gradient-descent-diagram",
+      "url": "/ai-workflows/gradient-descent-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "adam-optimizer",
+      "title": "Adam Optimizer",
+      "type": "ai-workflows",
+      "category": "Optimization",
+      "description": "Gradient → First Moment (Momentum) → Second Moment → Bias Correction → Parameter Update",
+      "slug": "adam-optimizer-diagram",
+      "url": "/ai-workflows/adam-optimizer-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "hyperparameter-tuning",
+      "title": "Hyperparameter Tuning",
+      "type": "ai-workflows",
+      "category": "Optimization",
+      "description": "Define Search Space → Random/Grid Search → Train → Evaluate → Select Best → Repeat",
+      "slug": "hyperparameter-tuning-diagram",
+      "url": "/ai-workflows/hyperparameter-tuning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

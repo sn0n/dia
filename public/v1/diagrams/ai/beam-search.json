@@ -1,0 +1,21 @@
+{
+  "id": "beam-search",
+  "title": "Beam Search",
+  "type": "ai-workflows",
+  "category": "Decoding",
+  "description": "Start Token → Generate K Candidates → Score → Keep Top K → Expand → Repeat → Best Path",
+  "slug": "beam-search-diagram",
+  "url": "/ai-workflows/beam-search-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Start Token",
+    "Generate K Candidates",
+    "Score",
+    "Keep Top K",
+    "Expand",
+    "Repeat",
+    "Best Path"
+  ],
+  "advanced": null
+}

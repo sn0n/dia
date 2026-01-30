@@ -1,0 +1,19 @@
+{
+  "id": "choice-between-options",
+  "title": "Choice Between Options",
+  "type": "linear",
+  "category": "Syntax Diagram",
+  "description": "Railroad diagram showing alternatives",
+  "slug": "choice-between-options-diagram",
+  "url": "/linear/choice-between-options-diagram",
+  "hasAdvanced": true,
+  "source": "railroad",
+  "steps": [
+    "Railroad diagram showing alternatives"
+  ],
+  "advanced": {
+    "code": "Diagram(Choice(0, \"foo\", \"bar\", \"baz\"))",
+    "source": "railroad",
+    "root": null
+  }
+}

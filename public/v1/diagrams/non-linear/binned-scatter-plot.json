@@ -1,0 +1,15 @@
+{
+  "id": "binned-scatter-plot",
+  "title": "Binned Scatter Plot",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Binned Scatter Plot",
+  "slug": "binned-scatter-plot-diagram",
+  "url": "/non-linear/binned-scatter-plot-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Binned Scatter Plot"
+  ],
+  "advanced": null
+}

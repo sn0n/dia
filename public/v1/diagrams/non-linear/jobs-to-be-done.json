@@ -1,0 +1,19 @@
+{
+  "id": "jobs-to-be-done",
+  "title": "Jobs-to-be-Done",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Job → Situation → Motivation → Outcome → Success Criteria",
+  "slug": "jobs-to-be-done-diagram",
+  "url": "/non-linear/jobs-to-be-done-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Job",
+    "Situation",
+    "Motivation",
+    "Outcome",
+    "Success Criteria"
+  ],
+  "advanced": null
+}

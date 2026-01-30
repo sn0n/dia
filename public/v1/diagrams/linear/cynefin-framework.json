@@ -1,0 +1,19 @@
+{
+  "id": "cynefin-framework",
+  "title": "Cynefin Framework",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Sense → Categorize → Respond (Simple) OR Sense → Analyze → Respond (Complicated)",
+  "slug": "cynefin-framework-diagram",
+  "url": "/linear/cynefin-framework-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Sense",
+    "Categorize",
+    "Respond (Simple) OR Sense",
+    "Analyze",
+    "Respond (Complicated)"
+  ],
+  "advanced": null
+}

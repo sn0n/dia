@@ -1,0 +1,20 @@
+{
+  "id": "fmea",
+  "title": "FMEA",
+  "type": "non-linear",
+  "category": "Risk",
+  "description": "Component → Failure Mode → Severity? → Occurrence? → Detection? → RPN Score",
+  "slug": "fmea-diagram",
+  "url": "/non-linear/fmea-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Component",
+    "Failure Mode",
+    "Severity?",
+    "Occurrence?",
+    "Detection?",
+    "RPN Score"
+  ],
+  "advanced": null
+}

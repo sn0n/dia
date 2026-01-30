@@ -1,0 +1,19 @@
+{
+  "id": "radar-chart",
+  "title": "Radar Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Axes → Values → Area → Comparison → Multi-dimensional",
+  "slug": "radar-chart-diagram",
+  "url": "/non-linear/radar-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Axes",
+    "Values",
+    "Area",
+    "Comparison",
+    "Multi-dimensional"
+  ],
+  "advanced": null
+}

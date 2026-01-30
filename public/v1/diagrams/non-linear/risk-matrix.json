@@ -1,0 +1,19 @@
+{
+  "id": "risk-matrix",
+  "title": "Risk Matrix",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Likelihood → Impact → Severity → Mitigation → Priority",
+  "slug": "risk-matrix-diagram",
+  "url": "/non-linear/risk-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Likelihood",
+    "Impact",
+    "Severity",
+    "Mitigation",
+    "Priority"
+  ],
+  "advanced": null
+}

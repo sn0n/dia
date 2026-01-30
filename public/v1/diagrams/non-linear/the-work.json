@@ -1,0 +1,19 @@
+{
+  "id": "the-work",
+  "title": "The Work",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Is it true? → Can you know? → Reaction? → Who without thought? → Turnaround",
+  "slug": "the-work-diagram",
+  "url": "/non-linear/the-work-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Is it true?",
+    "Can you know?",
+    "Reaction?",
+    "Who without thought?",
+    "Turnaround"
+  ],
+  "advanced": null
+}

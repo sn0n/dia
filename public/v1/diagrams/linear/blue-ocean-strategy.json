@@ -1,0 +1,18 @@
+{
+  "id": "blue-ocean-strategy",
+  "title": "Blue Ocean Strategy",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Eliminate Factors → Reduce Factors → Raise Factors → Create Factors (ERRC)",
+  "slug": "blue-ocean-strategy-diagram",
+  "url": "/linear/blue-ocean-strategy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Eliminate Factors",
+    "Reduce Factors",
+    "Raise Factors",
+    "Create Factors (ERRC)"
+  ],
+  "advanced": null
+}

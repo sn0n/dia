@@ -1,0 +1,20 @@
+{
+  "id": "thread-interaction",
+  "title": "Thread Interaction",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Thread 1 → Shared Resource → Lock → Thread 2 → Unlock → Synchronize",
+  "slug": "thread-interaction-diagram",
+  "url": "/non-linear/thread-interaction-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Thread 1",
+    "Shared Resource",
+    "Lock",
+    "Thread 2",
+    "Unlock",
+    "Synchronize"
+  ],
+  "advanced": null
+}

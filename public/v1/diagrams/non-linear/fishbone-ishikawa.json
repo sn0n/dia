@@ -1,0 +1,20 @@
+{
+  "id": "fishbone-ishikawa",
+  "title": "Fishbone (Ishikawa)",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Problem → Categories → Causes → Sub-causes → Root Cause → Action",
+  "slug": "fishbone-ishikawa-diagram",
+  "url": "/non-linear/fishbone-ishikawa-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Problem",
+    "Categories",
+    "Causes",
+    "Sub-causes",
+    "Root Cause",
+    "Action"
+  ],
+  "advanced": null
+}

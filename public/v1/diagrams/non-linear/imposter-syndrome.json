@@ -1,0 +1,20 @@
+{
+  "id": "imposter-syndrome",
+  "title": "Imposter Syndrome",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Task → Anxiety → Over-prep/Procrastinate → Success → Discount → Loop",
+  "slug": "imposter-syndrome-diagram",
+  "url": "/non-linear/imposter-syndrome-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Task",
+    "Anxiety",
+    "Over-prep/Procrastinate",
+    "Success",
+    "Discount",
+    "Loop"
+  ],
+  "advanced": null
+}

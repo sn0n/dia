@@ -1,0 +1,19 @@
+{
+  "id": "k-bler-ross-loop",
+  "title": "Kübler-Ross Loop",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Denial → Anger → Bargaining → Depression → Acceptance",
+  "slug": "k-bler-ross-loop-diagram",
+  "url": "/non-linear/k-bler-ross-loop-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Denial",
+    "Anger",
+    "Bargaining",
+    "Depression",
+    "Acceptance"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "adam-optimizer",
+  "title": "Adam Optimizer",
+  "type": "ai-workflows",
+  "category": "Optimization",
+  "description": "Gradient → First Moment (Momentum) → Second Moment → Bias Correction → Parameter Update",
+  "slug": "adam-optimizer-diagram",
+  "url": "/ai-workflows/adam-optimizer-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Gradient",
+    "First Moment (Momentum)",
+    "Second Moment",
+    "Bias Correction",
+    "Parameter Update"
+  ],
+  "advanced": null
+}

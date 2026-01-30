@@ -1,0 +1,19 @@
+{
+  "id": "machine-learning-pipeline",
+  "title": "Machine Learning Pipeline ⭐",
+  "type": "linear",
+  "category": "Machine Learning",
+  "description": "End-to-end ML pipeline from data ingestion to model serving",
+  "slug": "machine-learning-pipeline-diagram",
+  "url": "/linear/machine-learning-pipeline-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "End-to-end ML pipeline from data ingestion to model serving"
+  ],
+  "advanced": {
+    "code": "graph LR\n    A[Data Sources] --> B[Data Ingestion]\n    B --> C[Data Validation]\n    C --> D[Feature Engineering]\n    D --> E[Data Split]\n    E --> F[Model Training]\n    F --> G[Model Evaluation]\n    G --> H{Meets Threshold?}\n    H -->|No| I[Hyperparameter Tuning]\n    I --> F\n    H -->|Yes| J[Model Registry]\n    J --> K[Model Serving]\n    K --> L[Monitoring]\n    L --> M{Drift Detected?}\n    M -->|Yes| N[Trigger Retraining]\n    M -->|No| K\n    N --> B",
+    "source": "mermaid",
+    "root": null
+  }
+}

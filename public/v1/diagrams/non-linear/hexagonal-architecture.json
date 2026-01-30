@@ -1,0 +1,19 @@
+{
+  "id": "hexagonal-architecture",
+  "title": "Hexagonal Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Domain → Ports → Adapters → Infrastructure → Isolation",
+  "slug": "hexagonal-architecture-diagram",
+  "url": "/non-linear/hexagonal-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Domain",
+    "Ports",
+    "Adapters",
+    "Infrastructure",
+    "Isolation"
+  ],
+  "advanced": null
+}

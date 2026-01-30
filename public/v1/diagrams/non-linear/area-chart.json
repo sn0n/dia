@@ -1,0 +1,15 @@
+{
+  "id": "area-chart",
+  "title": "Area Chart",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Area Chart",
+  "slug": "area-chart-diagram",
+  "url": "/non-linear/area-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Area Chart"
+  ],
+  "advanced": null
+}

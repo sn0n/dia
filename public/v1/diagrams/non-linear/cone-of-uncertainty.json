@@ -1,0 +1,18 @@
+{
+  "id": "cone-of-uncertainty",
+  "title": "Cone of Uncertainty",
+  "type": "non-linear",
+  "category": "Strategy",
+  "description": "Today → Drivers → Future A / Future B / Future C → Strategies",
+  "slug": "cone-of-uncertainty-diagram",
+  "url": "/non-linear/cone-of-uncertainty-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Today",
+    "Drivers",
+    "Future A / Future B / Future C",
+    "Strategies"
+  ],
+  "advanced": null
+}

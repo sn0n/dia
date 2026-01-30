@@ -1,0 +1,18 @@
+{
+  "category": "Authentication",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "oauth-2-0-authorization-code-flow",
+      "title": "OAuth 2.0 Authorization Code Flow ⭐",
+      "type": "linear",
+      "category": "Authentication",
+      "description": "Complete OAuth 2.0 authorization code flow with PKCE",
+      "slug": "oauth-2-0-authorization-code-flow-diagram",
+      "url": "/linear/oauth-2-0-authorization-code-flow-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

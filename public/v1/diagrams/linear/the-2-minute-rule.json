@@ -1,0 +1,18 @@
+{
+  "id": "the-2-minute-rule",
+  "title": "The 2-Minute Rule",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Task < 2 mins? → Do Immediately → Task > 2 mins? → Defer/Delegate",
+  "slug": "the-2-minute-rule-diagram",
+  "url": "/linear/the-2-minute-rule-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Task < 2 mins?",
+    "Do Immediately",
+    "Task > 2 mins?",
+    "Defer/Delegate"
+  ],
+  "advanced": null
+}

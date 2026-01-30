@@ -1,0 +1,16 @@
+{
+  "id": "radical-candor",
+  "title": "Radical Candor",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Care Personally + Challenge Directly → Feedback",
+  "slug": "radical-candor-diagram",
+  "url": "/linear/radical-candor-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Care Personally + Challenge Directly",
+    "Feedback"
+  ],
+  "advanced": null
+}

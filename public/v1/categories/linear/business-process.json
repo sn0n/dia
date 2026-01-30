@@ -1,0 +1,117 @@
+{
+  "category": "Business Process",
+  "type": "linear",
+  "count": 10,
+  "diagrams": [
+    {
+      "id": "github",
+      "title": ".github",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 .github example from official bpmn-js repository",
+      "slug": "github-diagram",
+      "url": "/linear/github-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bpmn-properties",
+      "title": "Bpmn Properties",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Bpmn Properties example from official bpmn-js repository",
+      "slug": "bpmn-properties-diagram",
+      "url": "/linear/bpmn-properties-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bundling",
+      "title": "Bundling",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Bundling example from official bpmn-js repository",
+      "slug": "bundling-diagram",
+      "url": "/linear/bundling-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Colors example from official bpmn-js repository",
+      "slug": "colors-diagram",
+      "url": "/linear/colors-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "commenting",
+      "title": "Commenting",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Commenting example from official bpmn-js repository",
+      "slug": "commenting-diagram",
+      "url": "/linear/commenting-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "custom-bower-bundle",
+      "title": "Custom Bower Bundle",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Custom Bower Bundle example from official bpmn-js repository",
+      "slug": "custom-bower-bundle-diagram",
+      "url": "/linear/custom-bower-bundle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "custom-bundle",
+      "title": "Custom Bundle",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Custom Bundle example from official bpmn-js repository",
+      "slug": "custom-bundle-diagram",
+      "url": "/linear/custom-bundle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "custom-elements",
+      "title": "Custom Elements",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Custom Elements example from official bpmn-js repository",
+      "slug": "custom-elements-diagram",
+      "url": "/linear/custom-elements-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "custom-meta-model",
+      "title": "Custom Meta Model",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Custom Meta Model example from official bpmn-js repository",
+      "slug": "custom-meta-model-diagram",
+      "url": "/linear/custom-meta-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "custom-modeling-rules",
+      "title": "Custom Modeling Rules",
+      "type": "linear",
+      "category": "Business Process",
+      "description": "BPMN 2.0 Custom Modeling Rules example from official bpmn-js repository",
+      "slug": "custom-modeling-rules-diagram",
+      "url": "/linear/custom-modeling-rules-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

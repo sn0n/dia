@@ -1,0 +1,106 @@
+{
+  "category": "Sequence Diagram",
+  "type": "linear",
+  "count": 9,
+  "diagrams": [
+    {
+      "id": "simple-sequence",
+      "title": "Simple Sequence",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Basic sequence diagram with notes",
+      "slug": "simple-sequence-diagram",
+      "url": "/linear/simple-sequence-diagram",
+      "hasAdvanced": true,
+      "source": "railroad"
+    },
+    {
+      "id": "authentication-flow",
+      "title": "Authentication Flow",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Authentication sequence with activation boxes",
+      "slug": "authentication-flow-diagram",
+      "url": "/linear/authentication-flow-diagram",
+      "hasAdvanced": true,
+      "source": "js-sequence-diagrams"
+    },
+    {
+      "id": "api-call-sequence",
+      "title": "API Call Sequence",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "API request flow with caching",
+      "slug": "api-call-sequence-diagram",
+      "url": "/linear/api-call-sequence-diagram",
+      "hasAdvanced": true,
+      "source": "js-sequence-diagrams"
+    },
+    {
+      "id": "error-handling",
+      "title": "Error Handling",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Error handling sequence",
+      "slug": "error-handling-diagram",
+      "url": "/linear/error-handling-diagram",
+      "hasAdvanced": true,
+      "source": "js-sequence-diagrams"
+    },
+    {
+      "id": "async-process",
+      "title": "Async Process",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Asynchronous processing flow",
+      "slug": "async-process-diagram",
+      "url": "/linear/async-process-diagram",
+      "hasAdvanced": true,
+      "source": "js-sequence-diagrams"
+    },
+    {
+      "id": "seqdiag-example",
+      "title": "SeqDiag Example",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Sequence Diagram via Kroki unified API",
+      "slug": "seqdiag-example-diagram",
+      "url": "/linear/seqdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    },
+    {
+      "id": "sequence-diagram-example-1",
+      "title": "Sequence Diagram Example 1",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "sequence-diagram-example-1-diagram",
+      "url": "/linear/sequence-diagram-example-1-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "sequence-diagram-example-2",
+      "title": "Sequence Diagram Example 2",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "sequence-diagram-example-2-diagram",
+      "url": "/linear/sequence-diagram-example-2-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "sequence-diagram-example-3",
+      "title": "Sequence Diagram Example 3",
+      "type": "linear",
+      "category": "Sequence Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "sequence-diagram-example-3-diagram",
+      "url": "/linear/sequence-diagram-example-3-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    }
+  ]
+}

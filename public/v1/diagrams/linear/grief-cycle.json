@@ -1,0 +1,19 @@
+{
+  "id": "grief-cycle",
+  "title": "Grief Cycle",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Denial → Anger → Bargaining → Depression → Acceptance",
+  "slug": "grief-cycle-diagram",
+  "url": "/linear/grief-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Denial",
+    "Anger",
+    "Bargaining",
+    "Depression",
+    "Acceptance"
+  ],
+  "advanced": null
+}

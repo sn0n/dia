@@ -1,0 +1,20 @@
+{
+  "id": "memory-map",
+  "title": "Memory Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Stack → Heap → Code → Data → BSS → Memory Layout",
+  "slug": "memory-map-diagram",
+  "url": "/non-linear/memory-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Stack",
+    "Heap",
+    "Code",
+    "Data",
+    "BSS",
+    "Memory Layout"
+  ],
+  "advanced": null
+}

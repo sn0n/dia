@@ -1,0 +1,18 @@
+{
+  "id": "meta-learning",
+  "title": "Meta-Learning",
+  "type": "ai-workflows",
+  "category": "Advanced",
+  "description": "Learn to Learn → Inner Loop (Task) → Outer Loop (Meta) → Fast Adaptation",
+  "slug": "meta-learning-diagram",
+  "url": "/ai-workflows/meta-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Learn to Learn",
+    "Inner Loop (Task)",
+    "Outer Loop (Meta)",
+    "Fast Adaptation"
+  ],
+  "advanced": null
+}

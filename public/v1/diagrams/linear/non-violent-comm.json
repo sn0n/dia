@@ -1,0 +1,18 @@
+{
+  "id": "non-violent-comm",
+  "title": "Non-Violent Comm.",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Observe (No Judgment) → Identify Feeling → Identify Need → Make Request",
+  "slug": "non-violent-comm-diagram",
+  "url": "/linear/non-violent-comm-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Observe (No Judgment)",
+    "Identify Feeling",
+    "Identify Need",
+    "Make Request"
+  ],
+  "advanced": null
+}

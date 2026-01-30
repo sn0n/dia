@@ -1,0 +1,19 @@
+{
+  "id": "parse-tree",
+  "title": "Parse Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Root → Non-terminals → Terminals → Grammar → Derivation",
+  "slug": "parse-tree-diagram",
+  "url": "/non-linear/parse-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Root",
+    "Non-terminals",
+    "Terminals",
+    "Grammar",
+    "Derivation"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pareto-analysis-80-20",
+  "title": "Pareto Analysis (80/20)",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "List Inputs → Identify Top 20% → Focus Solely on Top 20%",
+  "slug": "pareto-analysis-80-20-diagram",
+  "url": "/linear/pareto-analysis-80-20-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Inputs",
+    "Identify Top 20%",
+    "Focus Solely on Top 20%"
+  ],
+  "advanced": null
+}

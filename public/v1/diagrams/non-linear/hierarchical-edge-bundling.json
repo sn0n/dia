@@ -1,0 +1,15 @@
+{
+  "id": "hierarchical-edge-bundling",
+  "title": "Hierarchical Edge Bundling",
+  "type": "non-linear",
+  "category": "Hierarchy",
+  "description": "Shows relationships in hierarchical data from D3 Gallery",
+  "slug": "hierarchical-edge-bundling-diagram",
+  "url": "/non-linear/hierarchical-edge-bundling-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Shows relationships in hierarchical data from D3 Gallery"
+  ],
+  "advanced": null
+}

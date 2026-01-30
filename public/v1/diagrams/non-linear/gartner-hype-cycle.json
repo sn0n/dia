@@ -1,0 +1,19 @@
+{
+  "id": "gartner-hype-cycle",
+  "title": "Gartner Hype Cycle",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Trigger → Peak Expectations → Trough Disillusionment → Slope Enlightenment → Plateau",
+  "slug": "gartner-hype-cycle-diagram",
+  "url": "/non-linear/gartner-hype-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Trigger",
+    "Peak Expectations",
+    "Trough Disillusionment",
+    "Slope Enlightenment",
+    "Plateau"
+  ],
+  "advanced": null
+}

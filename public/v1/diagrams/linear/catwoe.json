@@ -1,0 +1,20 @@
+{
+  "id": "catwoe",
+  "title": "CATWOE",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Customers → Actors → Transformation → Worldview → Owners → Environment",
+  "slug": "catwoe-diagram",
+  "url": "/linear/catwoe-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Customers",
+    "Actors",
+    "Transformation",
+    "Worldview",
+    "Owners",
+    "Environment"
+  ],
+  "advanced": null
+}

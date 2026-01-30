@@ -1,0 +1,19 @@
+{
+  "id": "the-flywheel-effect",
+  "title": "The Flywheel Effect",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Applied Effort → Build Momentum → Breakthrough → Reduced Effort → Loop",
+  "slug": "the-flywheel-effect-diagram",
+  "url": "/non-linear/the-flywheel-effect-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Applied Effort",
+    "Build Momentum",
+    "Breakthrough",
+    "Reduced Effort",
+    "Loop"
+  ],
+  "advanced": null
+}

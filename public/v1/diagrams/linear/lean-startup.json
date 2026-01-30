@@ -1,0 +1,54 @@
+{
+  "id": "lean-startup",
+  "title": "Lean Startup",
+  "type": "linear",
+  "category": "Agile",
+  "description": "Build (MVP) → Measure (Data) → Learn (Pivot/Persevere)",
+  "slug": "lean-startup-diagram",
+  "url": "/linear/lean-startup-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Build (MVP)",
+    "Measure (Data)",
+    "Learn (Pivot/Persevere)"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Idea",
+      "type": "start",
+      "next": {
+        "label": "Build MVP",
+        "type": "action",
+        "next": {
+          "label": "Measure (Data)",
+          "type": "action",
+          "next": {
+            "label": "Learn",
+            "type": "decision",
+            "branches": [
+              {
+                "label": "Value Proven?",
+                "path": {
+                  "label": "Persevere (Scale)",
+                  "type": "end",
+                  "color": "emerald"
+                }
+              },
+              {
+                "label": "No Traction?",
+                "path": {
+                  "label": "Pivot (Change Strategy)",
+                  "type": "action",
+                  "loop": true
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

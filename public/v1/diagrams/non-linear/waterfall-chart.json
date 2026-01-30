@@ -1,0 +1,19 @@
+{
+  "id": "waterfall-chart",
+  "title": "Waterfall Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Starting Value → Increases → Decreases → Cumulative → Ending Value",
+  "slug": "waterfall-chart-diagram",
+  "url": "/non-linear/waterfall-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Starting Value",
+    "Increases",
+    "Decreases",
+    "Cumulative",
+    "Ending Value"
+  ],
+  "advanced": null
+}

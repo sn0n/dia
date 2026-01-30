@@ -1,0 +1,19 @@
+{
+  "id": "quantization",
+  "title": "Quantization",
+  "type": "ai-workflows",
+  "category": "Compression",
+  "description": "FP32 Weights → INT8 Conversion → Calibration → Quantized Model → Faster Inference",
+  "slug": "quantization-diagram",
+  "url": "/ai-workflows/quantization-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "FP32 Weights",
+    "INT8 Conversion",
+    "Calibration",
+    "Quantized Model",
+    "Faster Inference"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "intelligent-deployment-router",
+  "title": "Intelligent Deployment Router ⭐",
+  "type": "non-linear",
+  "category": "DevOps",
+  "description": "AI agent routes deployments based on risk assessment and canary analysis",
+  "slug": "intelligent-deployment-router-diagram",
+  "url": "/non-linear/intelligent-deployment-router-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "AI agent routes deployments based on risk assessment and canary analysis"
+  ],
+  "advanced": {
+    "code": "graph LR\n    A[New Version] --> B[AI Risk Assessment]\n    B --> C{Risk Level}\n    C -->|Low| D[Full Deploy]\n    C -->|Medium| E[Canary 10%]\n    C -->|High| F[Manual Review]\n    E --> G[AI Monitor Metrics]\n    G --> H{Success?}\n    H -->|Yes| I[Canary 50%]\n    H -->|No| J[Auto-Rollback]\n    I --> K[AI Monitor]\n    K --> L{Success?}\n    L -->|Yes| D\n    L -->|No| J\n    D --> M[Production]\n    J --> N[Alert + Report]",
+    "source": "mermaid",
+    "root": null
+  }
+}

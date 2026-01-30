@@ -1,0 +1,20 @@
+{
+  "id": "stock-and-flow",
+  "title": "Stock and Flow",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Stock → Inflow → Outflow → Accumulation → Depletion → Balance",
+  "slug": "stock-and-flow-diagram",
+  "url": "/non-linear/stock-and-flow-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Stock",
+    "Inflow",
+    "Outflow",
+    "Accumulation",
+    "Depletion",
+    "Balance"
+  ],
+  "advanced": null
+}

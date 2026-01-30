@@ -1,0 +1,20 @@
+{
+  "id": "sunburst-chart",
+  "title": "Sunburst Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Root → Ring 1 → Ring 2 → Ring 3 → Hierarchical → Angular",
+  "slug": "sunburst-chart-diagram",
+  "url": "/non-linear/sunburst-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Root",
+    "Ring 1",
+    "Ring 2",
+    "Ring 3",
+    "Hierarchical",
+    "Angular"
+  ],
+  "advanced": null
+}

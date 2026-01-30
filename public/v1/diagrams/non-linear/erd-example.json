@@ -1,0 +1,19 @@
+{
+  "id": "erd-example",
+  "title": "Erd Example",
+  "type": "non-linear",
+  "category": "ER Diagram",
+  "description": "ER Diagram via Kroki unified API",
+  "slug": "erd-example-diagram",
+  "url": "/non-linear/erd-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "ER Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "[Person] *--1 [Address]",
+    "source": "kroki",
+    "root": null
+  }
+}

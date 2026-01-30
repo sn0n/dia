@@ -1,0 +1,17 @@
+{
+  "id": "crazy-8s",
+  "title": "Crazy 8s",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Fold Paper 8x → Sketch 8 Ideas (8 mins) → Review",
+  "slug": "crazy-8s-diagram",
+  "url": "/linear/crazy-8s-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Fold Paper 8x",
+    "Sketch 8 Ideas (8 mins)",
+    "Review"
+  ],
+  "advanced": null
+}

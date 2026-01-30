@@ -1,0 +1,20 @@
+{
+  "id": "pestle-analysis",
+  "title": "PESTLE Analysis",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Political → Economic → Social → Technological → Legal → Environmental",
+  "slug": "pestle-analysis-diagram",
+  "url": "/linear/pestle-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Political",
+    "Economic",
+    "Social",
+    "Technological",
+    "Legal",
+    "Environmental"
+  ],
+  "advanced": null
+}

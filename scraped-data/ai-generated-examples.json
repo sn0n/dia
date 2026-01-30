@@ -1,0 +1,172 @@
+[
+  {
+    "title": "AI-Powered CI/CD with Auto-Healing ⭐",
+    "description": "Autonomous CI/CD pipeline with AI-driven testing and auto-healing capabilities",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Code Push] --> B[AI Code Review]\n    B --> C{Quality Check}\n    C -->|Pass| D[Build]\n    C -->|Fail| E[Auto-Fix Suggestions]\n    E --> A\n    D --> F[AI Test Generation]\n    F --> G[Run Tests]\n    G --> H{Tests Pass?}\n    H -->|No| I[AI Debug & Fix]\n    I --> D\n    H -->|Yes| J[Deploy]\n    J --> K[Monitor]\n    K --> L{Anomaly?}\n    L -->|Yes| M[Auto-Rollback]\n    L -->|No| N[Success]\n    M --> O[AI Root Cause]\n    O --> A",
+    "tags": [
+      "devops",
+      "ai",
+      "automation",
+      "ci-cd",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Self-Optimizing Infrastructure ⭐",
+    "description": "Infrastructure that autonomously optimizes based on load patterns",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Load Balancer] --> B[AI Load Predictor]\n    B --> C{Scale Needed?}\n    C -->|Up| D[Auto-Scale Up]\n    C -->|Down| E[Auto-Scale Down]\n    C -->|Optimal| F[Monitor]\n    D --> G[Provision Resources]\n    E --> H[Deallocate Resources]\n    G --> I[Cost Optimizer]\n    H --> I\n    I --> J[Performance Analyzer]\n    J --> K{Optimize?}\n    K -->|Yes| L[AI Configuration Tuning]\n    K -->|No| F\n    L --> F\n    F --> B",
+    "tags": [
+      "devops",
+      "ai",
+      "auto-scaling",
+      "optimization",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Intelligent Deployment Router ⭐",
+    "description": "AI agent routes deployments based on risk assessment and canary analysis",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph LR\n    A[New Version] --> B[AI Risk Assessment]\n    B --> C{Risk Level}\n    C -->|Low| D[Full Deploy]\n    C -->|Medium| E[Canary 10%]\n    C -->|High| F[Manual Review]\n    E --> G[AI Monitor Metrics]\n    G --> H{Success?}\n    H -->|Yes| I[Canary 50%]\n    H -->|No| J[Auto-Rollback]\n    I --> K[AI Monitor]\n    K --> L{Success?}\n    L -->|Yes| D\n    L -->|No| J\n    D --> M[Production]\n    J --> N[Alert + Report]",
+    "tags": [
+      "devops",
+      "ai",
+      "deployment",
+      "canary",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Autonomous Security Remediation ⭐",
+    "description": "Security system that detects and autonomously remediates vulnerabilities",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Security Scan] --> B[AI Threat Detection]\n    B --> C{Severity}\n    C -->|Critical| D[Auto-Patch]\n    C -->|High| E[AI Remediation Plan]\n    C -->|Medium| F[Schedule Fix]\n    C -->|Low| G[Log Only]\n    D --> H[Test Patch]\n    H --> I{Safe?}\n    I -->|Yes| J[Deploy Fix]\n    I -->|No| K[Escalate]\n    E --> L[Generate PR]\n    L --> M[AI Code Review]\n    M --> N[Auto-Merge]\n    N --> J\n    J --> O[Verify Fix]\n    O --> P[Update Documentation]",
+    "tags": [
+      "devops",
+      "security",
+      "ai",
+      "auto-remediation",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Multi-Agent Incident Response ⭐",
+    "description": "Coordinated AI agents handling incident detection, diagnosis, and resolution",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Alert] --> B[Triage Agent]\n    B --> C[Detection Agent]\n    C --> D{Incident Type}\n    D -->|Performance| E[Perf Agent]\n    D -->|Security| F[Security Agent]\n    D -->|Availability| G[HA Agent]\n    E --> H[Diagnose]\n    F --> H\n    G --> H\n    H --> I[Root Cause Agent]\n    I --> J{Can Auto-Fix?}\n    J -->|Yes| K[Remediation Agent]\n    J -->|No| L[Escalation Agent]\n    K --> M[Apply Fix]\n    M --> N[Validation Agent]\n    N --> O{Fixed?}\n    O -->|Yes| P[Documentation Agent]\n    O -->|No| L\n    L --> Q[Human Team]\n    P --> R[Post-Mortem Agent]",
+    "tags": [
+      "devops",
+      "ai",
+      "incident-response",
+      "multi-agent",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "OAuth 2.0 Authorization Code Flow ⭐",
+    "description": "Complete OAuth 2.0 authorization code flow with PKCE",
+    "source": "mermaid",
+    "category": "Authentication",
+    "type": "linear",
+    "code": "sequenceDiagram\n    participant User\n    participant Client\n    participant AuthServer\n    participant ResourceServer\n\n    User->>Client: Click Login\n    Client->>Client: Generate PKCE\n    Client->>AuthServer: Authorization Request + Code Challenge\n    AuthServer->>User: Login Page\n    User->>AuthServer: Credentials\n    AuthServer->>User: Authorization Code\n    User->>Client: Code\n    Client->>AuthServer: Token Request + Code Verifier\n    AuthServer->>Client: Access Token + Refresh Token\n    Client->>ResourceServer: Request + Access Token\n    ResourceServer->>Client: Protected Resource",
+    "tags": [
+      "authentication",
+      "oauth",
+      "security",
+      "pkce"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Event-Driven Saga Pattern ⭐",
+    "description": "Distributed transaction handling using saga pattern with compensating transactions",
+    "source": "mermaid",
+    "category": "Architecture",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Order Service] --> B{Create Order}\n    B -->|Success| C[Payment Service]\n    B -->|Fail| D[Order Failed]\n    C --> E{Process Payment}\n    E -->|Success| F[Inventory Service]\n    E -->|Fail| G[Compensate Order]\n    F --> H{Reserve Items}\n    H -->|Success| I[Shipping Service]\n    H -->|Fail| J[Compensate Payment]\n    I --> K{Create Shipment}\n    K -->|Success| L[Order Complete]\n    K -->|Fail| M[Compensate Inventory]\n    J --> G\n    M --> J\n    G --> D",
+    "tags": [
+      "saga",
+      "microservices",
+      "distributed",
+      "compensation"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Machine Learning Pipeline ⭐",
+    "description": "End-to-end ML pipeline from data ingestion to model serving",
+    "source": "mermaid",
+    "category": "Machine Learning",
+    "type": "linear",
+    "code": "graph LR\n    A[Data Sources] --> B[Data Ingestion]\n    B --> C[Data Validation]\n    C --> D[Feature Engineering]\n    D --> E[Data Split]\n    E --> F[Model Training]\n    F --> G[Model Evaluation]\n    G --> H{Meets Threshold?}\n    H -->|No| I[Hyperparameter Tuning]\n    I --> F\n    H -->|Yes| J[Model Registry]\n    J --> K[Model Serving]\n    K --> L[Monitoring]\n    L --> M{Drift Detected?}\n    M -->|Yes| N[Trigger Retraining]\n    M -->|No| K\n    N --> B",
+    "tags": [
+      "ml",
+      "mlops",
+      "pipeline",
+      "data-science"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "WebSocket Real-time Communication ⭐",
+    "description": "WebSocket connection lifecycle and message flow",
+    "source": "mermaid",
+    "category": "Communication",
+    "type": "linear",
+    "code": "sequenceDiagram\n    participant Client\n    participant Server\n    participant MessageQueue\n\n    Client->>Server: HTTP Upgrade Request\n    Server->>Client: 101 Switching Protocols\n    Note over Client,Server: WebSocket Connection Established\n\n    loop Message Exchange\n        Client->>Server: Send Message\n        Server->>MessageQueue: Process\n        MessageQueue->>Server: Response\n        Server->>Client: Push Update\n    end\n\n    alt Heartbeat\n        Client->>Server: Ping\n        Server->>Client: Pong\n    end\n\n    Client->>Server: Close Connection\n    Server->>Client: Close Acknowledgment",
+    "tags": [
+      "websocket",
+      "real-time",
+      "communication",
+      "protocol"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Cache Invalidation Strategy ⭐",
+    "description": "Multi-level cache with intelligent invalidation",
+    "source": "mermaid",
+    "category": "Caching",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Request] --> B{L1 Cache Hit?}\n    B -->|Yes| C[Return from L1]\n    B -->|No| D{L2 Cache Hit?}\n    D -->|Yes| E[Return from L2]\n    D -->|No| F{L3 Cache Hit?}\n    F -->|Yes| G[Return from L3]\n    F -->|No| H[Database Query]\n    H --> I[Update L3]\n    I --> J[Update L2]\n    J --> K[Update L1]\n    K --> L[Return Data]\n    E --> K\n    G --> J\n\n    M[Data Update] --> N[Invalidate L1]\n    N --> O[Invalidate L2]\n    O --> P[Invalidate L3]\n    P --> Q[Update DB]",
+    "tags": [
+      "caching",
+      "performance",
+      "invalidation",
+      "multi-level"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "GraphQL Resolver Chain ⭐",
+    "description": "GraphQL query resolution with dataloader batching",
+    "source": "mermaid",
+    "category": "API",
+    "type": "linear",
+    "code": "graph LR\n    A[GraphQL Query] --> B[Parse]\n    B --> C[Validate]\n    C --> D[Execute]\n    D --> E[Root Resolver]\n    E --> F[Field Resolvers]\n    F --> G{DataLoader}\n    G --> H[Batch Requests]\n    H --> I[Database]\n    I --> J[Cache Results]\n    J --> K[Resolve Fields]\n    K --> L[Format Response]\n    L --> M[Return JSON]",
+    "tags": [
+      "graphql",
+      "api",
+      "dataloader",
+      "resolver"
+    ],
+    "aiGenerated": true
+  }
+]

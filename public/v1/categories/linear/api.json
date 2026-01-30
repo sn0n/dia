@@ -1,0 +1,18 @@
+{
+  "category": "API",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "graphql-resolver-chain",
+      "title": "GraphQL Resolver Chain ⭐",
+      "type": "linear",
+      "category": "API",
+      "description": "GraphQL query resolution with dataloader batching",
+      "slug": "graphql-resolver-chain-diagram",
+      "url": "/linear/graphql-resolver-chain-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

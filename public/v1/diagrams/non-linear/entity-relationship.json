@@ -1,0 +1,19 @@
+{
+  "id": "entity-relationship",
+  "title": "Entity Relationship",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Define Entities → Identify Attributes → Define Relationships → Cardinality → Keys",
+  "slug": "entity-relationship-diagram",
+  "url": "/non-linear/entity-relationship-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Entities",
+    "Identify Attributes",
+    "Define Relationships",
+    "Cardinality",
+    "Keys"
+  ],
+  "advanced": null
+}

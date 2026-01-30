@@ -1,0 +1,17 @@
+{
+  "id": "lateral-thinking",
+  "title": "Lateral Thinking",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Select Focus → Generate Provocation → Move to New Idea",
+  "slug": "lateral-thinking-diagram",
+  "url": "/linear/lateral-thinking-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Select Focus",
+    "Generate Provocation",
+    "Move to New Idea"
+  ],
+  "advanced": null
+}

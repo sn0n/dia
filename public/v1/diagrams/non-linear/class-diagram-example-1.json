@@ -1,0 +1,19 @@
+{
+  "id": "class-diagram-example-1",
+  "title": "Class Diagram Example 1",
+  "type": "non-linear",
+  "category": "Class Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "class-diagram-example-1-diagram",
+  "url": "/non-linear/class-diagram-example-1-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\nabstract        abstract\nabstract class  &#34;abstract class&#34;\nannotation      annotation\ncircle          circle\n()              circle_short_form\nclass           class\nclass           class_stereo  &lt;&lt;stereotype&gt;&gt;\ndataclass       dataclass\ndiamond         diamond\n&lt;&gt;              diamond_short_form\nentity          entity\nenum            enum\nexception       exception\ninterface       interface\nmetaclass       metaclass\nprotocol        protocol\nrecord          record\nstereotype      stereotype\nstruct          struct\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

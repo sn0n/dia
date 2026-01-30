@@ -1,0 +1,19 @@
+{
+  "id": "contrastive-learning",
+  "title": "Contrastive Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Augment Sample → Positive Pairs → Negative Pairs → Contrastive Loss → Representations",
+  "slug": "contrastive-learning-diagram",
+  "url": "/ai-workflows/contrastive-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Augment Sample",
+    "Positive Pairs",
+    "Negative Pairs",
+    "Contrastive Loss",
+    "Representations"
+  ],
+  "advanced": null
+}

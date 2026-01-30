@@ -1,0 +1,29 @@
+{
+  "category": "Data",
+  "type": "non-linear",
+  "count": 2,
+  "diagrams": [
+    {
+      "id": "etl-process",
+      "title": "ETL Process",
+      "type": "non-linear",
+      "category": "Data",
+      "description": "Extract (Source) → Transform (Clean) → Load (Warehouse) → Analyze",
+      "slug": "etl-process-diagram",
+      "url": "/non-linear/etl-process-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "dikw-pyramid",
+      "title": "DIKW Pyramid",
+      "type": "non-linear",
+      "category": "Data",
+      "description": "Data → Information → Knowledge → Wisdom",
+      "slug": "dikw-pyramid-diagram",
+      "url": "/non-linear/dikw-pyramid-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

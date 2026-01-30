@@ -1,0 +1,19 @@
+{
+  "id": "gans-generative-adversarial-networks",
+  "title": "GANs (Generative Adversarial Networks)",
+  "type": "ai-workflows",
+  "category": "Generative AI",
+  "description": "Generator Creates → Discriminator Judges → Real/Fake Decision → Backprop Both → Adversarial Training",
+  "slug": "gans-generative-adversarial-networks-diagram",
+  "url": "/ai-workflows/gans-generative-adversarial-networks-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Generator Creates",
+    "Discriminator Judges",
+    "Real/Fake Decision",
+    "Backprop Both",
+    "Adversarial Training"
+  ],
+  "advanced": null
+}

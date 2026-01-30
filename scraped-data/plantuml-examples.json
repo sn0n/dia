@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Sequence Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nAlice -&gt; Bob: Authentication Request\nBob --&gt; Alice: Authentication Response\n\nAlice -&gt; Bob: Another authentication Request\nAlice &lt;-- Bob: Another authentication Response\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Sequence Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nparticipant Participant as Foo\nactor       Actor       as Foo1\nboundary    Boundary    as Foo2\ncontrol     Control     as Foo3\nentity      Entity      as Foo4\ndatabase    Database    as Foo5\ncollections Collections as Foo6\nqueue       Queue       as Foo7\nFoo -&gt; Foo1 : To actor \nFoo -&gt; Foo2 : To boundary\nFoo -&gt; Foo3 : To control\nFoo -&gt; Foo4 : To entity\nFoo -&gt; Foo5 : To database\nFoo -&gt; Foo6 : To collections\nFoo -&gt; Foo7: To queue\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Sequence Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nactor Bob #red\n&#39; The only difference between actor\n&#39;and participant is the drawing\nparticipant Alice\nparticipant &#34;I have a really\\nlong name&#34; as L #99FF99\n/&#39; You can also declare:\n   participant L as &#34;I have a really\\nlong name&#34;  #99FF99\n  &#39;/\n\nAlice-&gt;Bob: Authentication Request\nBob-&gt;Alice: Authentication Response\nBob-&gt;L: Log transaction\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n(First usecase)\n(Another usecase) as (UC2)\nusecase UC3\nusecase (Last\\nusecase) as UC4\n\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n:First Actor:\n:Another\\nactor: as Man2\nactor Woman3\nactor :Last actor: as Person1\n\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n:User: --&gt; (Use)\n&#34;Main Admin&#34; as Admin\n&#34;Use the application&#34; as (Use)\nAdmin --&gt; (Admin the application)\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nabstract        abstract\nabstract class  &#34;abstract class&#34;\nannotation      annotation\ncircle          circle\n()              circle_short_form\nclass           class\nclass           class_stereo  &lt;&lt;stereotype&gt;&gt;\ndataclass       dataclass\ndiamond         diamond\n&lt;&gt;              diamond_short_form\nentity          entity\nenum            enum\nexception       exception\ninterface       interface\nmetaclass       metaclass\nprotocol        protocol\nrecord          record\nstereotype      stereotype\nstruct          struct\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nClass01 &lt;|-- Class02\nClass03 *-- Class04\nClass05 o-- Class06\nClass07 .. Class08\nClass09 -- Class10\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nClass11 &lt;|.. Class12\nClass13 --&gt; Class14\nClass15 ..&gt; Class16\nClass17 ..|&gt; Class18\nClass19 &lt;--* Class20\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n:Hello world;\n:This is defined on\nseveral **lines**;\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n- Action 1\n- Action 2\n- Action 3\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n* Action 1\n* Action 2\n* Action 3\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n[First component]\n[Another component] as Comp2\ncomponent Comp3\ncomponent [Last\\ncomponent] as Comp4\n\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\ncomponent [$C1]\ncomponent [$C2] $C2\ncomponent [$C2] as dollarC2\nremove $C1\nremove $C2\nremove dollarC2\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n() &#34;First Interface&#34;\n() &#34;Another interface&#34; as Interf2\ninterface Interf3\ninterface &#34;Last\\ninterface&#34; as Interf4\n\n[component]\nfooter //Adding &#34;component&#34; to force diagram to be a **component diagram**//\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  }
+]

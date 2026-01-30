@@ -1,0 +1,20 @@
+{
+  "id": "root-cause-tree",
+  "title": "Root Cause Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Problem → Why? → Cause → Why? → Root Cause → Action",
+  "slug": "root-cause-tree-diagram",
+  "url": "/non-linear/root-cause-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Problem",
+    "Why?",
+    "Cause",
+    "Why?",
+    "Root Cause",
+    "Action"
+  ],
+  "advanced": null
+}

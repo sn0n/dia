@@ -1,0 +1,161 @@
+{
+  "category": "Strategy",
+  "type": "linear",
+  "count": 14,
+  "diagrams": [
+    {
+      "id": "ooda-loop",
+      "title": "OODA Loop",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Observe → Orient → Decide → Act",
+      "slug": "ooda-loop-diagram",
+      "url": "/linear/ooda-loop-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "swot-analysis",
+      "title": "SWOT Analysis",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Analyze Internal (Strengths/Weaknesses) → Analyze External (Opportunities/Threats) → Match",
+      "slug": "swot-analysis-diagram",
+      "url": "/linear/swot-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "regret-minimization",
+      "title": "Regret Minimization",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Project to Age 80 → Ask 'Will I Regret This?' → Minimize Regret",
+      "slug": "regret-minimization-diagram",
+      "url": "/linear/regret-minimization-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "spade",
+      "title": "SPADE",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Setting → People → Alternatives → Decide → Explain",
+      "slug": "spade-diagram",
+      "url": "/linear/spade-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "wrap",
+      "title": "WRAP",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Widen Options → Reality Test → Attain Distance → Prepare to be Wrong",
+      "slug": "wrap-diagram",
+      "url": "/linear/wrap-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "blue-ocean-strategy",
+      "title": "Blue Ocean Strategy",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Eliminate Factors → Reduce Factors → Raise Factors → Create Factors (ERRC)",
+      "slug": "blue-ocean-strategy-diagram",
+      "url": "/linear/blue-ocean-strategy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "porter-s-five-forces",
+      "title": "Porter's Five Forces",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Supplier Power → Buyer Power → Rivalry → Substitution → New Entry",
+      "slug": "porter-s-five-forces-diagram",
+      "url": "/linear/porter-s-five-forces-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pestle-analysis",
+      "title": "PESTLE Analysis",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Political → Economic → Social → Technological → Legal → Environmental",
+      "slug": "pestle-analysis-diagram",
+      "url": "/linear/pestle-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "eisenhardt-s-options",
+      "title": "Eisenhardt's Options",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Develop Option A → Develop Option B → Develop Option C → Compare Trade-offs → Select",
+      "slug": "eisenhardt-s-options-diagram",
+      "url": "/linear/eisenhardt-s-options-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "rice-score",
+      "title": "RICE Score",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Calculate (Reach × Impact × Confidence) / Effort → Sort by Score",
+      "slug": "rice-score-diagram",
+      "url": "/linear/rice-score-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "scenario-planning",
+      "title": "Scenario Planning",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Identify Drivers → Create Uncertainties Matrix → Develop 4 Scenarios → Strategy for Each",
+      "slug": "scenario-planning-diagram",
+      "url": "/linear/scenario-planning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pre-mortem",
+      "title": "Pre-Mortem",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Assume Failure → Brainstorm Reasons → Create Prevention Plan → Execute",
+      "slug": "pre-mortem-diagram",
+      "url": "/linear/pre-mortem-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "batna",
+      "title": "BATNA",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "Determine Best Alternative → Set Reservation Price → Negotiate",
+      "slug": "batna-diagram",
+      "url": "/linear/batna-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cost-benefit-analysis",
+      "title": "Cost-Benefit Analysis",
+      "type": "linear",
+      "category": "Strategy",
+      "description": "List Costs → List Benefits → Assign Values → Calculate Net",
+      "slug": "cost-benefit-analysis-diagram",
+      "url": "/linear/cost-benefit-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

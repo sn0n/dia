@@ -1,0 +1,17 @@
+{
+  "id": "adversarial-training",
+  "title": "Adversarial Training",
+  "type": "ai-workflows",
+  "category": "Robustness",
+  "description": "Generate Adversarial Examples → Train on Both → Robust Model",
+  "slug": "adversarial-training-diagram",
+  "url": "/ai-workflows/adversarial-training-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Generate Adversarial Examples",
+    "Train on Both",
+    "Robust Model"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "graphql-resolver-chain",
+  "title": "GraphQL Resolver Chain ⭐",
+  "type": "linear",
+  "category": "API",
+  "description": "GraphQL query resolution with dataloader batching",
+  "slug": "graphql-resolver-chain-diagram",
+  "url": "/linear/graphql-resolver-chain-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "GraphQL query resolution with dataloader batching"
+  ],
+  "advanced": {
+    "code": "graph LR\n    A[GraphQL Query] --> B[Parse]\n    B --> C[Validate]\n    C --> D[Execute]\n    D --> E[Root Resolver]\n    E --> F[Field Resolvers]\n    F --> G{DataLoader}\n    G --> H[Batch Requests]\n    H --> I[Database]\n    I --> J[Cache Results]\n    J --> K[Resolve Fields]\n    K --> L[Format Response]\n    L --> M[Return JSON]",
+    "source": "mermaid",
+    "root": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "annual-temperature",
+  "title": "Annual Temperature",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Annual Temperature",
+  "slug": "annual-temperature-diagram",
+  "url": "/non-linear/annual-temperature-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Annual Temperature"
+  ],
+  "advanced": null
+}

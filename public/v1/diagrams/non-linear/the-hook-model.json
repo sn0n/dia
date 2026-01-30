@@ -1,0 +1,19 @@
+{
+  "id": "the-hook-model",
+  "title": "The Hook Model",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Trigger → Action → Variable Reward → Investment → Trigger (Loop)",
+  "slug": "the-hook-model-diagram",
+  "url": "/non-linear/the-hook-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Trigger",
+    "Action",
+    "Variable Reward",
+    "Investment",
+    "Trigger (Loop)"
+  ],
+  "advanced": null
+}

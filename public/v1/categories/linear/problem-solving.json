@@ -1,0 +1,150 @@
+{
+  "category": "Problem Solving",
+  "type": "linear",
+  "count": 13,
+  "diagrams": [
+    {
+      "id": "the-5-whys",
+      "title": "The 5 Whys",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "State Problem → Ask 'Why?' → Answer → Ask 'Why?' again → Repeat 5x → Root Cause",
+      "slug": "the-5-whys-diagram",
+      "url": "/linear/the-5-whys-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "fishbone-diagram",
+      "title": "Fishbone Diagram",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Define Effect → Draw Spine → Categorize Causes (Man/Machine/etc) → Brainstorm Sub-causes",
+      "slug": "fishbone-diagram-diagram",
+      "url": "/linear/fishbone-diagram-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "dmaic-six-sigma",
+      "title": "DMAIC (Six Sigma)",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Define → Measure → Analyze → Improve → Control",
+      "slug": "dmaic-six-sigma-diagram",
+      "url": "/linear/dmaic-six-sigma-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "8d-eight-disciplines",
+      "title": "8D (Eight Disciplines)",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Form Team → Describe Problem → Containment → Root Cause → Corrective Action → Validate → Prevent → Recognize",
+      "slug": "8d-eight-disciplines-diagram",
+      "url": "/linear/8d-eight-disciplines-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pdca-deming-cycle",
+      "title": "PDCA (Deming Cycle)",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Plan (Hypothesize) → Do (Test) → Check (Analyze) → Act (Implement)",
+      "slug": "pdca-deming-cycle-diagram",
+      "url": "/linear/pdca-deming-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "triz",
+      "title": "TRIZ",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Define Specific Problem → Match to General Problem → Find General Solution → Adapt to Specific",
+      "slug": "triz-diagram",
+      "url": "/linear/triz-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cynefin-framework",
+      "title": "Cynefin Framework",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Sense → Categorize → Respond (Simple) OR Sense → Analyze → Respond (Complicated)",
+      "slug": "cynefin-framework-diagram",
+      "url": "/linear/cynefin-framework-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "first-principles",
+      "title": "First Principles",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Deconstruct to Truths → Question Assumptions → Reconstruct Solution",
+      "slug": "first-principles-diagram",
+      "url": "/linear/first-principles-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "inversion",
+      "title": "Inversion",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Define Goal → Define Failure Mode → Avoid Failure Steps",
+      "slug": "inversion-diagram",
+      "url": "/linear/inversion-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "rubber-duck-debugging",
+      "title": "Rubber Duck Debugging",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Get Duck → Explain Code Line-by-Line → Self-Correct",
+      "slug": "rubber-duck-debugging-diagram",
+      "url": "/linear/rubber-duck-debugging-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "kepner-tregoe-matrix",
+      "title": "Kepner-Tregoe Matrix",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Situation Appraisal → Problem Analysis → Decision Analysis → Potential Problem Analysis",
+      "slug": "kepner-tregoe-matrix-diagram",
+      "url": "/linear/kepner-tregoe-matrix-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "a3-problem-solving",
+      "title": "A3 Problem Solving",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Background → Current Condition → Goal → Root Cause → Countermeasures → Confirmation → Follow-up",
+      "slug": "a3-problem-solving-diagram",
+      "url": "/linear/a3-problem-solving-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "catwoe",
+      "title": "CATWOE",
+      "type": "linear",
+      "category": "Problem Solving",
+      "description": "Customers → Actors → Transformation → Worldview → Owners → Environment",
+      "slug": "catwoe-diagram",
+      "url": "/linear/catwoe-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "flow-state-cycle",
+  "title": "Flow State Cycle",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Struggle (Load) → Release (Disengage) → Flow (Peak) → Recovery → Loop",
+  "slug": "flow-state-cycle-diagram",
+  "url": "/non-linear/flow-state-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Struggle (Load)",
+    "Release (Disengage)",
+    "Flow (Peak)",
+    "Recovery",
+    "Loop"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mapreduce",
+  "title": "MapReduce",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Map (Split/Parallel) → Shuffle (Sort) → Reduce (Aggregate)",
+  "slug": "mapreduce-diagram",
+  "url": "/non-linear/mapreduce-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Map (Split/Parallel)",
+    "Shuffle (Sort)",
+    "Reduce (Aggregate)"
+  ],
+  "advanced": null
+}

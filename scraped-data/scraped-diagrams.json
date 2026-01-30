@@ -1,0 +1,1510 @@
+[
+  {
+    "title": "AI-Powered CI/CD with Auto-Healing ⭐",
+    "description": "Autonomous CI/CD pipeline with AI-driven testing and auto-healing capabilities",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Code Push] --> B[AI Code Review]\n    B --> C{Quality Check}\n    C -->|Pass| D[Build]\n    C -->|Fail| E[Auto-Fix Suggestions]\n    E --> A\n    D --> F[AI Test Generation]\n    F --> G[Run Tests]\n    G --> H{Tests Pass?}\n    H -->|No| I[AI Debug & Fix]\n    I --> D\n    H -->|Yes| J[Deploy]\n    J --> K[Monitor]\n    K --> L{Anomaly?}\n    L -->|Yes| M[Auto-Rollback]\n    L -->|No| N[Success]\n    M --> O[AI Root Cause]\n    O --> A",
+    "tags": [
+      "devops",
+      "ai",
+      "automation",
+      "ci-cd",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Self-Optimizing Infrastructure ⭐",
+    "description": "Infrastructure that autonomously optimizes based on load patterns",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Load Balancer] --> B[AI Load Predictor]\n    B --> C{Scale Needed?}\n    C -->|Up| D[Auto-Scale Up]\n    C -->|Down| E[Auto-Scale Down]\n    C -->|Optimal| F[Monitor]\n    D --> G[Provision Resources]\n    E --> H[Deallocate Resources]\n    G --> I[Cost Optimizer]\n    H --> I\n    I --> J[Performance Analyzer]\n    J --> K{Optimize?}\n    K -->|Yes| L[AI Configuration Tuning]\n    K -->|No| F\n    L --> F\n    F --> B",
+    "tags": [
+      "devops",
+      "ai",
+      "auto-scaling",
+      "optimization",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Intelligent Deployment Router ⭐",
+    "description": "AI agent routes deployments based on risk assessment and canary analysis",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph LR\n    A[New Version] --> B[AI Risk Assessment]\n    B --> C{Risk Level}\n    C -->|Low| D[Full Deploy]\n    C -->|Medium| E[Canary 10%]\n    C -->|High| F[Manual Review]\n    E --> G[AI Monitor Metrics]\n    G --> H{Success?}\n    H -->|Yes| I[Canary 50%]\n    H -->|No| J[Auto-Rollback]\n    I --> K[AI Monitor]\n    K --> L{Success?}\n    L -->|Yes| D\n    L -->|No| J\n    D --> M[Production]\n    J --> N[Alert + Report]",
+    "tags": [
+      "devops",
+      "ai",
+      "deployment",
+      "canary",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Autonomous Security Remediation ⭐",
+    "description": "Security system that detects and autonomously remediates vulnerabilities",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Security Scan] --> B[AI Threat Detection]\n    B --> C{Severity}\n    C -->|Critical| D[Auto-Patch]\n    C -->|High| E[AI Remediation Plan]\n    C -->|Medium| F[Schedule Fix]\n    C -->|Low| G[Log Only]\n    D --> H[Test Patch]\n    H --> I{Safe?}\n    I -->|Yes| J[Deploy Fix]\n    I -->|No| K[Escalate]\n    E --> L[Generate PR]\n    L --> M[AI Code Review]\n    M --> N[Auto-Merge]\n    N --> J\n    J --> O[Verify Fix]\n    O --> P[Update Documentation]",
+    "tags": [
+      "devops",
+      "security",
+      "ai",
+      "auto-remediation",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Multi-Agent Incident Response ⭐",
+    "description": "Coordinated AI agents handling incident detection, diagnosis, and resolution",
+    "source": "mermaid",
+    "category": "DevOps",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Alert] --> B[Triage Agent]\n    B --> C[Detection Agent]\n    C --> D{Incident Type}\n    D -->|Performance| E[Perf Agent]\n    D -->|Security| F[Security Agent]\n    D -->|Availability| G[HA Agent]\n    E --> H[Diagnose]\n    F --> H\n    G --> H\n    H --> I[Root Cause Agent]\n    I --> J{Can Auto-Fix?}\n    J -->|Yes| K[Remediation Agent]\n    J -->|No| L[Escalation Agent]\n    K --> M[Apply Fix]\n    M --> N[Validation Agent]\n    N --> O{Fixed?}\n    O -->|Yes| P[Documentation Agent]\n    O -->|No| L\n    L --> Q[Human Team]\n    P --> R[Post-Mortem Agent]",
+    "tags": [
+      "devops",
+      "ai",
+      "incident-response",
+      "multi-agent",
+      "agentic"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "OAuth 2.0 Authorization Code Flow ⭐",
+    "description": "Complete OAuth 2.0 authorization code flow with PKCE",
+    "source": "mermaid",
+    "category": "Authentication",
+    "type": "linear",
+    "code": "sequenceDiagram\n    participant User\n    participant Client\n    participant AuthServer\n    participant ResourceServer\n\n    User->>Client: Click Login\n    Client->>Client: Generate PKCE\n    Client->>AuthServer: Authorization Request + Code Challenge\n    AuthServer->>User: Login Page\n    User->>AuthServer: Credentials\n    AuthServer->>User: Authorization Code\n    User->>Client: Code\n    Client->>AuthServer: Token Request + Code Verifier\n    AuthServer->>Client: Access Token + Refresh Token\n    Client->>ResourceServer: Request + Access Token\n    ResourceServer->>Client: Protected Resource",
+    "tags": [
+      "authentication",
+      "oauth",
+      "security",
+      "pkce"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Event-Driven Saga Pattern ⭐",
+    "description": "Distributed transaction handling using saga pattern with compensating transactions",
+    "source": "mermaid",
+    "category": "Architecture",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Order Service] --> B{Create Order}\n    B -->|Success| C[Payment Service]\n    B -->|Fail| D[Order Failed]\n    C --> E{Process Payment}\n    E -->|Success| F[Inventory Service]\n    E -->|Fail| G[Compensate Order]\n    F --> H{Reserve Items}\n    H -->|Success| I[Shipping Service]\n    H -->|Fail| J[Compensate Payment]\n    I --> K{Create Shipment}\n    K -->|Success| L[Order Complete]\n    K -->|Fail| M[Compensate Inventory]\n    J --> G\n    M --> J\n    G --> D",
+    "tags": [
+      "saga",
+      "microservices",
+      "distributed",
+      "compensation"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Machine Learning Pipeline ⭐",
+    "description": "End-to-end ML pipeline from data ingestion to model serving",
+    "source": "mermaid",
+    "category": "Machine Learning",
+    "type": "linear",
+    "code": "graph LR\n    A[Data Sources] --> B[Data Ingestion]\n    B --> C[Data Validation]\n    C --> D[Feature Engineering]\n    D --> E[Data Split]\n    E --> F[Model Training]\n    F --> G[Model Evaluation]\n    G --> H{Meets Threshold?}\n    H -->|No| I[Hyperparameter Tuning]\n    I --> F\n    H -->|Yes| J[Model Registry]\n    J --> K[Model Serving]\n    K --> L[Monitoring]\n    L --> M{Drift Detected?}\n    M -->|Yes| N[Trigger Retraining]\n    M -->|No| K\n    N --> B",
+    "tags": [
+      "ml",
+      "mlops",
+      "pipeline",
+      "data-science"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "WebSocket Real-time Communication ⭐",
+    "description": "WebSocket connection lifecycle and message flow",
+    "source": "mermaid",
+    "category": "Communication",
+    "type": "linear",
+    "code": "sequenceDiagram\n    participant Client\n    participant Server\n    participant MessageQueue\n\n    Client->>Server: HTTP Upgrade Request\n    Server->>Client: 101 Switching Protocols\n    Note over Client,Server: WebSocket Connection Established\n\n    loop Message Exchange\n        Client->>Server: Send Message\n        Server->>MessageQueue: Process\n        MessageQueue->>Server: Response\n        Server->>Client: Push Update\n    end\n\n    alt Heartbeat\n        Client->>Server: Ping\n        Server->>Client: Pong\n    end\n\n    Client->>Server: Close Connection\n    Server->>Client: Close Acknowledgment",
+    "tags": [
+      "websocket",
+      "real-time",
+      "communication",
+      "protocol"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "Cache Invalidation Strategy ⭐",
+    "description": "Multi-level cache with intelligent invalidation",
+    "source": "mermaid",
+    "category": "Caching",
+    "type": "nonlinear",
+    "code": "graph TB\n    A[Request] --> B{L1 Cache Hit?}\n    B -->|Yes| C[Return from L1]\n    B -->|No| D{L2 Cache Hit?}\n    D -->|Yes| E[Return from L2]\n    D -->|No| F{L3 Cache Hit?}\n    F -->|Yes| G[Return from L3]\n    F -->|No| H[Database Query]\n    H --> I[Update L3]\n    I --> J[Update L2]\n    J --> K[Update L1]\n    K --> L[Return Data]\n    E --> K\n    G --> J\n\n    M[Data Update] --> N[Invalidate L1]\n    N --> O[Invalidate L2]\n    O --> P[Invalidate L3]\n    P --> Q[Update DB]",
+    "tags": [
+      "caching",
+      "performance",
+      "invalidation",
+      "multi-level"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": "GraphQL Resolver Chain ⭐",
+    "description": "GraphQL query resolution with dataloader batching",
+    "source": "mermaid",
+    "category": "API",
+    "type": "linear",
+    "code": "graph LR\n    A[GraphQL Query] --> B[Parse]\n    B --> C[Validate]\n    C --> D[Execute]\n    D --> E[Root Resolver]\n    E --> F[Field Resolvers]\n    F --> G{DataLoader}\n    G --> H[Batch Requests]\n    H --> I[Database]\n    I --> J[Cache Results]\n    J --> K[Resolve Fields]\n    K --> L[Format Response]\n    L --> M[Return JSON]",
+    "tags": [
+      "graphql",
+      "api",
+      "dataloader",
+      "resolver"
+    ],
+    "aiGenerated": true
+  },
+  {
+    "title": ".github",
+    "description": "BPMN 2.0 .github example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/.github",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      ".github",
+      "official"
+    ]
+  },
+  {
+    "title": "Bpmn Properties",
+    "description": "BPMN 2.0 Bpmn Properties example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/bpmn-properties",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "bpmn-properties",
+      "official"
+    ]
+  },
+  {
+    "title": "Bundling",
+    "description": "BPMN 2.0 Bundling example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/bundling",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "bundling",
+      "official"
+    ]
+  },
+  {
+    "title": "Colors",
+    "description": "BPMN 2.0 Colors example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/colors",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "colors",
+      "official"
+    ]
+  },
+  {
+    "title": "Commenting",
+    "description": "BPMN 2.0 Commenting example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/commenting",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "commenting",
+      "official"
+    ]
+  },
+  {
+    "title": "Custom Bower Bundle",
+    "description": "BPMN 2.0 Custom Bower Bundle example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/custom-bower-bundle",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "custom-bower-bundle",
+      "official"
+    ]
+  },
+  {
+    "title": "Custom Bundle",
+    "description": "BPMN 2.0 Custom Bundle example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/custom-bundle",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "custom-bundle",
+      "official"
+    ]
+  },
+  {
+    "title": "Custom Elements",
+    "description": "BPMN 2.0 Custom Elements example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/custom-elements",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "custom-elements",
+      "official"
+    ]
+  },
+  {
+    "title": "Custom Meta Model",
+    "description": "BPMN 2.0 Custom Meta Model example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/custom-meta-model",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "custom-meta-model",
+      "official"
+    ]
+  },
+  {
+    "title": "Custom Modeling Rules",
+    "description": "BPMN 2.0 Custom Modeling Rules example from official bpmn-js repository",
+    "source": "bpmn",
+    "category": "Business Process",
+    "type": "linear",
+    "imageUrl": "https://github.com/bpmn-io/bpmn-js-examples/tree/master/custom-modeling-rules",
+    "tags": [
+      "bpmn",
+      "business-process",
+      "workflow",
+      "custom-modeling-rules",
+      "official"
+    ]
+  },
+  {
+    "title": "6000 Elements",
+    "description": "Cytoscape.js 6000-elements demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/6000-elements",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "6000-elements"
+    ]
+  },
+  {
+    "title": "Animated Bfs",
+    "description": "Cytoscape.js animated-bfs demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/animated-bfs",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "animated-bfs"
+    ]
+  },
+  {
+    "title": "Architecture",
+    "description": "Cytoscape.js architecture demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/architecture",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "architecture"
+    ]
+  },
+  {
+    "title": "Background Image Containment",
+    "description": "Cytoscape.js background-image-containment demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/background-image-containment",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "background-image-containment"
+    ]
+  },
+  {
+    "title": "Circle Layout",
+    "description": "Cytoscape.js circle-layout demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/circle-layout",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "circle-layout"
+    ]
+  },
+  {
+    "title": "Colajs Graph",
+    "description": "Cytoscape.js colajs-graph demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/colajs-graph",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "colajs-graph"
+    ]
+  },
+  {
+    "title": "Compound Nodes",
+    "description": "Cytoscape.js compound-nodes demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/compound-nodes",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "compound-nodes"
+    ]
+  },
+  {
+    "title": "Concentric Layout",
+    "description": "Cytoscape.js concentric-layout demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/concentric-layout",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "concentric-layout"
+    ]
+  },
+  {
+    "title": "Force-Directed Graph",
+    "description": "Network visualization using force simulation from D3 Gallery",
+    "source": "d3",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/force-directed-graph",
+    "tags": [
+      "d3",
+      "observable",
+      "network graph",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Hierarchical Edge Bundling",
+    "description": "Shows relationships in hierarchical data from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/hierarchical-edge-bundling",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Chord Diagram",
+    "description": "Visualizes inter-relationships from D3 Gallery",
+    "source": "d3",
+    "category": "Flow Diagram",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/chord-diagram",
+    "tags": [
+      "d3",
+      "observable",
+      "flow diagram",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Sankey Diagram",
+    "description": "Flow visualization from D3 Gallery",
+    "source": "d3",
+    "category": "Flow Diagram",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/sankey",
+    "tags": [
+      "d3",
+      "observable",
+      "flow diagram",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Treemap",
+    "description": "Hierarchical data visualization from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/treemap",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Circle Packing",
+    "description": "Hierarchical circle layout from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/circle-packing",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Arc Diagram",
+    "description": "Network as arcs from D3 Gallery",
+    "source": "d3",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/arc-diagram",
+    "tags": [
+      "d3",
+      "observable",
+      "network graph",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Simple Graph",
+    "description": "Graphviz DOT language example",
+    "source": "graphviz",
+    "category": "Graph Diagram",
+    "type": "nonlinear",
+    "code": "graph G {\n  A -- B;\n  B -- C;\n  C -- A;\n}",
+    "tags": [
+      "graphviz",
+      "dot",
+      "graph"
+    ]
+  },
+  {
+    "title": "Directed Graph",
+    "description": "Graphviz DOT language example",
+    "source": "graphviz",
+    "category": "Graph Diagram",
+    "type": "nonlinear",
+    "code": "digraph G {\n  A -> B;\n  B -> C;\n  C -> A;\n}",
+    "tags": [
+      "graphviz",
+      "dot",
+      "graph"
+    ]
+  },
+  {
+    "title": "Cluster Example",
+    "description": "Graphviz DOT language example",
+    "source": "graphviz",
+    "category": "Graph Diagram",
+    "type": "nonlinear",
+    "code": "digraph G {\n  subgraph cluster_0 {\n    A -> B;\n  }\n  subgraph cluster_1 {\n    C -> D;\n  }\n}",
+    "tags": [
+      "graphviz",
+      "dot",
+      "graph"
+    ]
+  },
+  {
+    "title": "Simple Sequence",
+    "description": "Basic sequence diagram with notes",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Alice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Authentication Flow",
+    "description": "Authentication sequence with activation boxes",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "User->+Server: Login Request\nServer->+Database: Query User\nDatabase-->-Server: User Data\nServer-->-User: Login Response",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "API Call Sequence",
+    "description": "API request flow with caching",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Client->API: GET /users\nAPI->Cache: Check Cache\nCache-->API: Cache Miss\nAPI->Database: Query\nDatabase-->API: Results\nAPI-->Client: JSON Response",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Error Handling",
+    "description": "Error handling sequence",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "User->System: Submit Form\nSystem->Validator: Validate\nValidator-->System: Error\nSystem-->User: Show Error",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Async Process",
+    "description": "Asynchronous processing flow",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Client->Server: Start Process\nNote over Server: Processing...\nServer->Queue: Add Job\nQueue-->Worker: Execute\nWorker-->Client: Notify Complete",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "BlockDiag Example",
+    "description": "Block Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Block Diagram",
+    "type": "nonlinear",
+    "code": "blockdiag {\n  A -> B -> C;\n  B -> D;\n}",
+    "tags": [
+      "kroki",
+      "blockdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "SeqDiag Example",
+    "description": "Sequence Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "seqdiag {\n  browser -> webserver [label = \"GET /\"];\n  webserver -> database [label = \"SELECT\"];\n}",
+    "tags": [
+      "kroki",
+      "seqdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "ActDiag Example",
+    "description": "Activity Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "actdiag {\n  write -> convert -> image;\n}",
+    "tags": [
+      "kroki",
+      "actdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "NwDiag Example",
+    "description": "Network Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Network Diagram",
+    "type": "nonlinear",
+    "code": "nwdiag {\n  network dmz {\n    web01;\n    web02;\n  }\n}",
+    "tags": [
+      "kroki",
+      "nwdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "PacketDiag Example",
+    "description": "Packet Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Packet Diagram",
+    "type": "linear",
+    "code": "packetdiag {\n  0-15: Source Port\n  16-31: Destination Port\n}",
+    "tags": [
+      "kroki",
+      "packetdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "RackDiag Example",
+    "description": "Rack Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Rack Diagram",
+    "type": "linear",
+    "code": "rackdiag {\n  1: UPS;\n  2: Database;\n}",
+    "tags": [
+      "kroki",
+      "rackdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "Pikchr Example",
+    "description": "Pikchr Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Pikchr Diagram",
+    "type": "nonlinear",
+    "code": "box \"Hello\" \"World\"",
+    "tags": [
+      "kroki",
+      "pikchr",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "Erd Example",
+    "description": "ER Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "ER Diagram",
+    "type": "nonlinear",
+    "code": "[Person] *--1 [Address]",
+    "tags": [
+      "kroki",
+      "erd",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "Introduction to Block Diagrams",
+    "description": "Real example from Mermaid.js block documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "block\n  columns 3\n  Frontend blockArrowId6<[\" \"]>(right) Backend\n  space:2 down<[\" \"]>(down)\n  Disk left<[\" \"]>(left) Database[(\"Database\")]\n\n  classDef front fill:#696,stroke:#333;\n  classDef back fill:#969,stroke:#333;\n  class Frontend front\n  class Backend,Database back",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n%% This whole line is a comment classDiagram class Shape <<interface>>\nclass Shape{\n    <<interface>>\n    noOfVertices\n    draw()\n}",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n    note \"This is a general note\"\n    note for MyClass \"This is a note for a class\"\n    class MyClass{\n    }",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\nclass Shape\nlink Shape \"https://www.github.com\" \"This is a tooltip for a link\"\nclass Shape2\nclick Shape2 href \"https://www.github.com\" \"This is a tooltip for a link\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\nclass Shape\ncallback Shape \"callbackFunction\" \"This is a tooltip for a callback\"\nclass Shape2\nclick Shape2 call callbackFunction() \"This is a tooltip for a callback\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Syntax",
+    "description": "Real example from Mermaid.js classDiagram documentation",
+    "source": "mermaid",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "classDiagram\n    class Class01\n    class Class02\n    callback Class01 \"callbackFunction\" \"Callback tooltip\"\n    link Class02 \"https://www.github.com\" \"This is a link\"\n    class Class03\n    class Class04\n    click Class03 call callbackFunction() \"Callback tooltip\"\n    click Class04 href \"https://www.github.com\" \"This is a link\"",
+    "tags": [
+      "class diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart TD\n  %% My image with a constrained aspect ratio\n  A@{ img: \"https://mermaid.js.org/favicon.svg\", label: \"My example image label\", pos: \"t\", h: 60, constraint: \"on\" }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart TB\n    A --> C\n    A --> D\n    B --> C\n    B --> D",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@==> B\n  e1@{ animate: true }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B\n  e1@{ animation: fast }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n  A e1@--> B\n  classDef animate stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: dash 25s linear infinite;\n  class e1 animate",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n%% this is a comment A -- text --> B{node}\n   A -- text --> B -- text2 --> C",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A node (default)",
+    "description": "Real example from Mermaid.js flowchart documentation",
+    "source": "mermaid",
+    "category": "Diagram",
+    "type": "nonlinear",
+    "code": "flowchart LR\n    A e1@==> B\n    A e2@--> C\n    e1@{ curve: linear }\n    e2@{ curve: natural }",
+    "tags": [
+      "diagram",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "A note to users",
+    "description": "Real example from Mermaid.js gantt documentation",
+    "source": "mermaid",
+    "category": "Gantt Chart",
+    "type": "linear",
+    "code": "gantt\n    title A Gantt Diagram\n    %% This is a comment\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d",
+    "tags": [
+      "gantt chart",
+      "mermaid",
+      "official"
+    ]
+  },
+  {
+    "title": "Sequence Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nAlice -&gt; Bob: Authentication Request\nBob --&gt; Alice: Authentication Response\n\nAlice -&gt; Bob: Another authentication Request\nAlice &lt;-- Bob: Another authentication Response\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Sequence Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nparticipant Participant as Foo\nactor       Actor       as Foo1\nboundary    Boundary    as Foo2\ncontrol     Control     as Foo3\nentity      Entity      as Foo4\ndatabase    Database    as Foo5\ncollections Collections as Foo6\nqueue       Queue       as Foo7\nFoo -&gt; Foo1 : To actor \nFoo -&gt; Foo2 : To boundary\nFoo -&gt; Foo3 : To control\nFoo -&gt; Foo4 : To entity\nFoo -&gt; Foo5 : To database\nFoo -&gt; Foo6 : To collections\nFoo -&gt; Foo7: To queue\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Sequence Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "@startuml\nactor Bob #red\n&#39; The only difference between actor\n&#39;and participant is the drawing\nparticipant Alice\nparticipant &#34;I have a really\\nlong name&#34; as L #99FF99\n/&#39; You can also declare:\n   participant L as &#34;I have a really\\nlong name&#34;  #99FF99\n  &#39;/\n\nAlice-&gt;Bob: Authentication Request\nBob-&gt;Alice: Authentication Response\nBob-&gt;L: Log transaction\n@enduml",
+    "tags": [
+      "sequence diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n(First usecase)\n(Another usecase) as (UC2)\nusecase UC3\nusecase (Last\\nusecase) as UC4\n\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n:First Actor:\n:Another\\nactor: as Man2\nactor Woman3\nactor :Last actor: as Person1\n\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Use Case Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Use Case Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n:User: --&gt; (Use)\n&#34;Main Admin&#34; as Admin\n&#34;Use the application&#34; as (Use)\nAdmin --&gt; (Admin the application)\n@enduml",
+    "tags": [
+      "use case diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nabstract        abstract\nabstract class  &#34;abstract class&#34;\nannotation      annotation\ncircle          circle\n()              circle_short_form\nclass           class\nclass           class_stereo  &lt;&lt;stereotype&gt;&gt;\ndataclass       dataclass\ndiamond         diamond\n&lt;&gt;              diamond_short_form\nentity          entity\nenum            enum\nexception       exception\ninterface       interface\nmetaclass       metaclass\nprotocol        protocol\nrecord          record\nstereotype      stereotype\nstruct          struct\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nClass01 &lt;|-- Class02\nClass03 *-- Class04\nClass05 o-- Class06\nClass07 .. Class08\nClass09 -- Class10\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Class Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Class Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\nClass11 &lt;|.. Class12\nClass13 --&gt; Class14\nClass15 ..&gt; Class16\nClass17 ..|&gt; Class18\nClass19 &lt;--* Class20\n@enduml",
+    "tags": [
+      "class diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n:Hello world;\n:This is defined on\nseveral **lines**;\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n- Action 1\n- Action 2\n- Action 3\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Activity Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "@startuml\n* Action 1\n* Action 2\n* Action 3\n@enduml",
+    "tags": [
+      "activity diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 1",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n[First component]\n[Another component] as Comp2\ncomponent Comp3\ncomponent [Last\\ncomponent] as Comp4\n\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 2",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\ncomponent [$C1]\ncomponent [$C2] $C2\ncomponent [$C2] as dollarC2\nremove $C1\nremove $C2\nremove dollarC2\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Component Diagram Example 3",
+    "description": "Official example from PlantUML documentation",
+    "source": "plantuml",
+    "category": "Component Diagram",
+    "type": "nonlinear",
+    "code": "@startuml\n\n() &#34;First Interface&#34;\n() &#34;Another interface&#34; as Interf2\ninterface Interf3\ninterface &#34;Last\\ninterface&#34; as Interf4\n\n[component]\nfooter //Adding &#34;component&#34; to force diagram to be a **component diagram**//\n@enduml",
+    "tags": [
+      "component diagram",
+      "plantuml",
+      "uml",
+      "official"
+    ]
+  },
+  {
+    "title": "Simple Sequence",
+    "description": "Basic sequential railroad diagram",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Sequence(\"foo\", \"bar\", \"baz\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Choice Between Options",
+    "description": "Railroad diagram showing alternatives",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Choice(0, \"foo\", \"bar\", \"baz\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Optional Element",
+    "description": "Railroad diagram with optional path",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Optional(\"foo\", \"skip\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "One Or More",
+    "description": "Railroad diagram for repeated elements",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(OneOrMore(\"foo\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Zero Or More",
+    "description": "Railroad diagram for optional repetition",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(ZeroOrMore(\"foo\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Airport Connections",
+    "description": "Vega visualization: Airport Connections",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/airport-connections.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "airport-connections"
+    ]
+  },
+  {
+    "title": "Annual Precipitation",
+    "description": "Vega visualization: Annual Precipitation",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/annual-precipitation.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "annual-precipitation"
+    ]
+  },
+  {
+    "title": "Annual Temperature",
+    "description": "Vega visualization: Annual Temperature",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/annual-temperature.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "annual-temperature"
+    ]
+  },
+  {
+    "title": "Arc Diagram",
+    "description": "Vega visualization: Arc Diagram",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/arc-diagram.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "arc-diagram"
+    ]
+  },
+  {
+    "title": "Area Chart",
+    "description": "Vega visualization: Area Chart",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/area-chart.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "area-chart"
+    ]
+  },
+  {
+    "title": "Bar Chart",
+    "description": "Vega visualization: Bar Chart",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/bar-chart.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "bar-chart"
+    ]
+  },
+  {
+    "title": "Bar Line Toggle",
+    "description": "Vega visualization: Bar Line Toggle",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/bar-line-toggle.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "bar-line-toggle"
+    ]
+  },
+  {
+    "title": "Barley Trellis Plot",
+    "description": "Vega visualization: Barley Trellis Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/barley-trellis-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "barley-trellis-plot"
+    ]
+  },
+  {
+    "title": "Beeswarm Plot",
+    "description": "Vega visualization: Beeswarm Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/beeswarm-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "beeswarm-plot"
+    ]
+  },
+  {
+    "title": "Binned Scatter Plot",
+    "description": "Vega visualization: Binned Scatter Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/binned-scatter-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "binned-scatter-plot"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 1",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [{ name: \"Alfa\", wave: \"01.zx=ud.23.456789\" }] }",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 2",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"pclk\", wave: 'p.......' },\n  { name: \"Pclk\", wave: 'P.......' },\n  { name: \"nclk\", wave: 'n.......' },\n  { name: \"Nclk\", wave: 'N.......' },\n  {},\n  { name: 'clk0', wave: 'phnlPHNL' },\n  { name: 'clk1', wave: 'xhlhLHl.' },\n  { name: 'clk2', wave: 'hpHplnLn' },\n  { name: 'clk3', wave: 'nhNhplPl' },\n  { name: 'clk4', wave: 'xlh.L.Hx' },\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 3",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",  wave: \"P......\" },\n  { name: \"bus\",  wave: \"x.==.=x\", data: [\"head\", \"body\", \"tail\", \"data\"] },\n  { name: \"wire\", wave: \"0.1..0.\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 4",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",         wave: \"p.....|...\" },\n  { name: \"Data\",        wave: \"x.345x|=.x\", data: [\"head\", \"body\", \"tail\", \"data\"] },\n  { name: \"Request\",     wave: \"0.1..0|1.0\" },\n  {},\n  { name: \"Acknowledge\", wave: \"1.....|01.\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 5",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  {    name: 'clk',   wave: 'p..Pp..P'},\n  ['Master',\n    ['ctrl',\n      {name: 'write', wave: '01.0....'},\n      {name: 'read',  wave: '0...1..0'}\n    ],\n    {  name: 'addr',  wave: 'x3.x4..x', data: 'A1 A2'},\n    {  name: 'wdata', wave: 'x3.x....', data: 'D1'   },\n  ],\n  {},\n  ['Slave',\n    ['ctrl',\n      {name: 'ack',   wave: 'x01x0.1x'},\n    ],\n    {  name: 'rdata', wave: 'x.....4x', data: 'Q2'},\n  ]\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 6",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"CK\",   wave: \"P.......\",                                              period: 2  },\n  { name: \"CMD\",  wave: \"x.3x=x4x=x=x=x=x\", data: \"RAS NOP CAS NOP NOP NOP NOP\", phase: 0.5 },\n  { name: \"ADDR\", wave: \"x.=x..=x........\", data: \"ROW COL\",                     phase: 0.5 },\n  { name: \"DQS\",  wave: \"z.......0.1010z.\" },\n  { name: \"DQ\",   wave: \"z.........5555z.\", data: \"D0 D1 D2 D3\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 7",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",     wave: \"p....\" },\n  { name: \"Data\",    wave: \"x345x\",  data: [\"head\", \"body\", \"tail\"] },\n  { name: \"Request\", wave: \"01..0\" }\n  ],\n  config: { hscale: 1 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 8",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ \"signal\" : [\n  { \"name\": \"clk\",         \"wave\": \"p....\" },\n  { \"name\": \"Data\",        \"wave\": \"x345x\", \"data\": [\"head\", \"body\", \"tail\"] },\n  { \"name\": \"Request\",     \"wave\": \"01..0\" }\n],\n  \"config\" : { \"hscale\" : 2 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 9",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ \"signal\" : [\n  { \"name\": \"clk\",         \"wave\": \"p....\" },\n  { \"name\": \"Data\",        \"wave\": \"x345x\", \"data\": [\"head\", \"body\", \"tail\"] },\n  { \"name\": \"Request\",     \"wave\": \"01..0\" }\n],\n  \"config\" : { \"hscale\" : 3 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 10",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{signal: [\n  {name:'clk',         wave: 'p....' },\n  {name:'Data',        wave: 'x345x', data: 'a b c' },\n  {name:'Request',     wave: '01..0' }\n],\n head:{\n   text:'WaveDrom example',\n   tick:0,\n   every:2\n },\n foot:{\n   text:'Figure 100',\n   tock:9\n },\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "triple-loop-learning",
+  "title": "Triple-Loop Learning",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Result → Action (Single) → Assumptions (Double) → Identity (Triple)",
+  "slug": "triple-loop-learning-diagram",
+  "url": "/non-linear/triple-loop-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Result",
+    "Action (Single)",
+    "Assumptions (Double)",
+    "Identity (Triple)"
+  ],
+  "advanced": null
+}

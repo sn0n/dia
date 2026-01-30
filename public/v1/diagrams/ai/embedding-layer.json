@@ -1,0 +1,19 @@
+{
+  "id": "embedding-layer",
+  "title": "Embedding Layer",
+  "type": "ai-workflows",
+  "category": "Representation",
+  "description": "Token ID → Lookup Table → Dense Vector → Positional Encoding → Model Input",
+  "slug": "embedding-layer-diagram",
+  "url": "/ai-workflows/embedding-layer-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Token ID",
+    "Lookup Table",
+    "Dense Vector",
+    "Positional Encoding",
+    "Model Input"
+  ],
+  "advanced": null
+}

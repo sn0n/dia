@@ -1,0 +1,18 @@
+{
+  "id": "kepner-tregoe-matrix",
+  "title": "Kepner-Tregoe Matrix",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Situation Appraisal → Problem Analysis → Decision Analysis → Potential Problem Analysis",
+  "slug": "kepner-tregoe-matrix-diagram",
+  "url": "/linear/kepner-tregoe-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Situation Appraisal",
+    "Problem Analysis",
+    "Decision Analysis",
+    "Potential Problem Analysis"
+  ],
+  "advanced": null
+}

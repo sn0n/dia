@@ -1,0 +1,19 @@
+{
+  "id": "chaos-engineering",
+  "title": "Chaos Engineering",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "Steady State → Introduce Turbulence → Observe System → Improve → Loop",
+  "slug": "chaos-engineering-diagram",
+  "url": "/non-linear/chaos-engineering-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Steady State",
+    "Introduce Turbulence",
+    "Observe System",
+    "Improve",
+    "Loop"
+  ],
+  "advanced": null
+}

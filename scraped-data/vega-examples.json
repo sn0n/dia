@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Airport Connections",
+    "description": "Vega visualization: Airport Connections",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/airport-connections.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "airport-connections"
+    ]
+  },
+  {
+    "title": "Annual Precipitation",
+    "description": "Vega visualization: Annual Precipitation",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/annual-precipitation.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "annual-precipitation"
+    ]
+  },
+  {
+    "title": "Annual Temperature",
+    "description": "Vega visualization: Annual Temperature",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/annual-temperature.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "annual-temperature"
+    ]
+  },
+  {
+    "title": "Arc Diagram",
+    "description": "Vega visualization: Arc Diagram",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/arc-diagram.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "arc-diagram"
+    ]
+  },
+  {
+    "title": "Area Chart",
+    "description": "Vega visualization: Area Chart",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/area-chart.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "area-chart"
+    ]
+  },
+  {
+    "title": "Bar Chart",
+    "description": "Vega visualization: Bar Chart",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/bar-chart.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "bar-chart"
+    ]
+  },
+  {
+    "title": "Bar Line Toggle",
+    "description": "Vega visualization: Bar Line Toggle",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/bar-line-toggle.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "bar-line-toggle"
+    ]
+  },
+  {
+    "title": "Barley Trellis Plot",
+    "description": "Vega visualization: Barley Trellis Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/barley-trellis-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "barley-trellis-plot"
+    ]
+  },
+  {
+    "title": "Beeswarm Plot",
+    "description": "Vega visualization: Beeswarm Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/beeswarm-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "beeswarm-plot"
+    ]
+  },
+  {
+    "title": "Binned Scatter Plot",
+    "description": "Vega visualization: Binned Scatter Plot",
+    "source": "vega",
+    "category": "Data Visualization",
+    "type": "nonlinear",
+    "imageUrl": "https://raw.githubusercontent.com/vega/vega/main/docs/examples/binned-scatter-plot.vg.json",
+    "tags": [
+      "vega",
+      "visualization",
+      "data",
+      "binned-scatter-plot"
+    ]
+  }
+]

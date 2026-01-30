@@ -1,0 +1,73 @@
+{
+  "category": "Learning",
+  "type": "linear",
+  "count": 6,
+  "diagrams": [
+    {
+      "id": "feynman-technique",
+      "title": "Feynman Technique",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Choose Concept → Teach to Child → Identify Gaps → Review Source → Simplify",
+      "slug": "feynman-technique-diagram",
+      "url": "/linear/feynman-technique-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "sq3r",
+      "title": "SQ3R",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Survey → Question → Read → Recite → Review",
+      "slug": "sq3r-diagram",
+      "url": "/linear/sq3r-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "spaced-repetition",
+      "title": "Spaced Repetition",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Learn → Review (1 day) → Review (3 days) → Review (1 week) → Review (1 month)",
+      "slug": "spaced-repetition-diagram",
+      "url": "/linear/spaced-repetition-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bloom-s-taxonomy",
+      "title": "Bloom's Taxonomy",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Remember → Understand → Apply → Analyze → Evaluate → Create",
+      "slug": "bloom-s-taxonomy-diagram",
+      "url": "/linear/bloom-s-taxonomy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "double-loop-learning",
+      "title": "Double-Loop Learning",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Action → Result → Mismatch? → Question Assumptions → New Action",
+      "slug": "double-loop-learning-diagram",
+      "url": "/linear/double-loop-learning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "zettelkasten",
+      "title": "Zettelkasten",
+      "type": "linear",
+      "category": "Learning",
+      "description": "Fleeting Notes → Permanent Notes (One Idea) → Link to Existing → Review Connections",
+      "slug": "zettelkasten-diagram",
+      "url": "/linear/zettelkasten-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

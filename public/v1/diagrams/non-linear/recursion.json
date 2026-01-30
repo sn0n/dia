@@ -1,0 +1,16 @@
+{
+  "id": "recursion",
+  "title": "Recursion",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Function Call → Base Case Met? (Return) : Loop Deeper (Call Self)",
+  "slug": "recursion-diagram",
+  "url": "/non-linear/recursion-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Function Call",
+    "Base Case Met? (Return) : Loop Deeper (Call Self)"
+  ],
+  "advanced": null
+}

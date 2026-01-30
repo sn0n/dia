@@ -1,0 +1,20 @@
+{
+  "id": "persona-canvas",
+  "title": "Persona Canvas",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Demographics → Goals → Frustrations → Motivations → Behaviors → Needs",
+  "slug": "persona-canvas-diagram",
+  "url": "/non-linear/persona-canvas-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Demographics",
+    "Goals",
+    "Frustrations",
+    "Motivations",
+    "Behaviors",
+    "Needs"
+  ],
+  "advanced": null
+}

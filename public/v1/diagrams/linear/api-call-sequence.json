@@ -1,0 +1,19 @@
+{
+  "id": "api-call-sequence",
+  "title": "API Call Sequence",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "API request flow with caching",
+  "slug": "api-call-sequence-diagram",
+  "url": "/linear/api-call-sequence-diagram",
+  "hasAdvanced": true,
+  "source": "js-sequence-diagrams",
+  "steps": [
+    "API request flow with caching"
+  ],
+  "advanced": {
+    "code": "Client->API: GET /users\nAPI->Cache: Check Cache\nCache-->API: Cache Miss\nAPI->Database: Query\nDatabase-->API: Results\nAPI-->Client: JSON Response",
+    "source": "js-sequence-diagrams",
+    "root": null
+  }
+}

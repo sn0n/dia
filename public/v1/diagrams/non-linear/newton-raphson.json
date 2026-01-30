@@ -1,0 +1,19 @@
+{
+  "id": "newton-raphson",
+  "title": "Newton-Raphson",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Guess Root → Calculate Tangent → Find Intercept → New Guess → Loop",
+  "slug": "newton-raphson-diagram",
+  "url": "/non-linear/newton-raphson-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Guess Root",
+    "Calculate Tangent",
+    "Find Intercept",
+    "New Guess",
+    "Loop"
+  ],
+  "advanced": null
+}

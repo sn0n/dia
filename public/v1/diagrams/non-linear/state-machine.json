@@ -1,0 +1,20 @@
+{
+  "id": "state-machine",
+  "title": "State Machine",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Initial State → Event → Transition → New State → Guard Condition → Final State",
+  "slug": "state-machine-diagram",
+  "url": "/non-linear/state-machine-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Initial State",
+    "Event",
+    "Transition",
+    "New State",
+    "Guard Condition",
+    "Final State"
+  ],
+  "advanced": null
+}

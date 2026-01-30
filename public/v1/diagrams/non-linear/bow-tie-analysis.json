@@ -1,0 +1,17 @@
+{
+  "id": "bow-tie-analysis",
+  "title": "Bow Tie Analysis",
+  "type": "non-linear",
+  "category": "Risk",
+  "description": "Fault Tree (Cause) → Event (Knot) → Event Tree (Consequence)",
+  "slug": "bow-tie-analysis-diagram",
+  "url": "/non-linear/bow-tie-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Fault Tree (Cause)",
+    "Event (Knot)",
+    "Event Tree (Consequence)"
+  ],
+  "advanced": null
+}

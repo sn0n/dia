@@ -1,0 +1,15 @@
+{
+  "id": "custom-bower-bundle",
+  "title": "Custom Bower Bundle",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Custom Bower Bundle example from official bpmn-js repository",
+  "slug": "custom-bower-bundle-diagram",
+  "url": "/linear/custom-bower-bundle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Custom Bower Bundle example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

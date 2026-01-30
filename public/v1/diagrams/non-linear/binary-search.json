@@ -1,0 +1,17 @@
+{
+  "id": "binary-search",
+  "title": "Binary Search",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Sort List → Pick Middle → Target < Middle? (Left) : Target > Middle? (Right)",
+  "slug": "binary-search-diagram",
+  "url": "/non-linear/binary-search-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Sort List",
+    "Pick Middle",
+    "Target < Middle? (Left) : Target > Middle? (Right)"
+  ],
+  "advanced": null
+}

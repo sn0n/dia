@@ -1,0 +1,19 @@
+{
+  "id": "spade",
+  "title": "SPADE",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Setting → People → Alternatives → Decide → Explain",
+  "slug": "spade-diagram",
+  "url": "/linear/spade-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Setting",
+    "People",
+    "Alternatives",
+    "Decide",
+    "Explain"
+  ],
+  "advanced": null
+}

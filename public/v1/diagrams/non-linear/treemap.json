@@ -1,0 +1,15 @@
+{
+  "id": "treemap",
+  "title": "Treemap",
+  "type": "non-linear",
+  "category": "Hierarchy",
+  "description": "Hierarchical data visualization from D3 Gallery",
+  "slug": "treemap-diagram",
+  "url": "/non-linear/treemap-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Hierarchical data visualization from D3 Gallery"
+  ],
+  "advanced": null
+}

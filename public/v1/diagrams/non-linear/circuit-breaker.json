@@ -1,0 +1,90 @@
+{
+  "id": "circuit-breaker",
+  "title": "Circuit Breaker",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "Request → Failures > Threshold? → Open Circuit (Block) → Timeout → Half-Open (Test)",
+  "slug": "circuit-breaker-diagram",
+  "url": "/non-linear/circuit-breaker-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Request",
+    "Failures > Threshold?",
+    "Open Circuit (Block)",
+    "Timeout",
+    "Half-Open (Test)"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Service Request",
+      "type": "start",
+      "next": {
+        "label": "State is Open?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "Yes (Broken)",
+            "path": {
+              "label": "Fast Fail / Fallback",
+              "type": "end",
+              "color": "red"
+            }
+          },
+          {
+            "label": "No (Closed)",
+            "path": {
+              "label": "Call Service",
+              "type": "action",
+              "next": {
+                "label": "Success?",
+                "type": "decision",
+                "branches": [
+                  {
+                    "label": "Yes",
+                    "path": {
+                      "label": "Return Data",
+                      "type": "end",
+                      "color": "emerald"
+                    }
+                  },
+                  {
+                    "label": "No",
+                    "path": {
+                      "label": "Increment Fail Count",
+                      "type": "action",
+                      "next": {
+                        "label": "Threshold Met?",
+                        "type": "decision",
+                        "branches": [
+                          {
+                            "label": "Yes",
+                            "path": {
+                              "label": "Trip Breaker (Open)",
+                              "type": "end",
+                              "color": "red"
+                            }
+                          },
+                          {
+                            "label": "No",
+                            "path": {
+                              "label": "Return Error",
+                              "type": "end",
+                              "color": "amber"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

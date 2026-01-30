@@ -1,0 +1,20 @@
+{
+  "id": "event-chain",
+  "title": "Event Chain",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Trigger → Event 1 → Event 2 → Event 3 → Outcome → Prevent",
+  "slug": "event-chain-diagram",
+  "url": "/non-linear/event-chain-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Trigger",
+    "Event 1",
+    "Event 2",
+    "Event 3",
+    "Outcome",
+    "Prevent"
+  ],
+  "advanced": null
+}

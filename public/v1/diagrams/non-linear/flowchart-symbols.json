@@ -1,0 +1,20 @@
+{
+  "id": "flowchart-symbols",
+  "title": "Flowchart Symbols",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Process → Decision → Data → Terminal → Connector → Document",
+  "slug": "flowchart-symbols-diagram",
+  "url": "/non-linear/flowchart-symbols-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Process",
+    "Decision",
+    "Data",
+    "Terminal",
+    "Connector",
+    "Document"
+  ],
+  "advanced": null
+}

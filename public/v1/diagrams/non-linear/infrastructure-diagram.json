@@ -1,0 +1,20 @@
+{
+  "id": "infrastructure-diagram",
+  "title": "Infrastructure Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Servers → Network → Storage → Security → Monitoring → Backup",
+  "slug": "infrastructure-diagram-diagram",
+  "url": "/non-linear/infrastructure-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Servers",
+    "Network",
+    "Storage",
+    "Security",
+    "Monitoring",
+    "Backup"
+  ],
+  "advanced": null
+}

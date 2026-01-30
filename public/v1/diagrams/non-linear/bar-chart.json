@@ -1,0 +1,15 @@
+{
+  "id": "bar-chart",
+  "title": "Bar Chart",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Bar Chart",
+  "slug": "bar-chart-diagram",
+  "url": "/non-linear/bar-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Bar Chart"
+  ],
+  "advanced": null
+}

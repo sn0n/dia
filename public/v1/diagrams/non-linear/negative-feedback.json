@@ -1,0 +1,18 @@
+{
+  "id": "negative-feedback",
+  "title": "Negative Feedback",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Event A → Produces B → Reduces A → Stability",
+  "slug": "negative-feedback-diagram",
+  "url": "/non-linear/negative-feedback-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Event A",
+    "Produces B",
+    "Reduces A",
+    "Stability"
+  ],
+  "advanced": null
+}

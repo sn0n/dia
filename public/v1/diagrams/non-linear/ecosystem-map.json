@@ -1,0 +1,19 @@
+{
+  "id": "ecosystem-map",
+  "title": "Ecosystem Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Actors → Value Exchanges → Relationships → Network → Dynamics",
+  "slug": "ecosystem-map-diagram",
+  "url": "/non-linear/ecosystem-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Actors",
+    "Value Exchanges",
+    "Relationships",
+    "Network",
+    "Dynamics"
+  ],
+  "advanced": null
+}

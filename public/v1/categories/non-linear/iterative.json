@@ -1,0 +1,128 @@
+{
+  "category": "Iterative",
+  "type": "non-linear",
+  "count": 11,
+  "diagrams": [
+    {
+      "id": "spiral-model",
+      "title": "Spiral Model",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Objectives → Risks → Develop/Test → Plan Next → Loop (Expand)",
+      "slug": "spiral-model-diagram",
+      "url": "/non-linear/spiral-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "hermeneutic-circle",
+      "title": "Hermeneutic Circle",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Understand Part → Understand Whole → Re-interpret Part → Re-interpret Whole → Loop",
+      "slug": "hermeneutic-circle-diagram",
+      "url": "/non-linear/hermeneutic-circle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bayesian-updating",
+      "title": "Bayesian Updating",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Prior Belief → New Evidence → Likelihood → Posterior Belief (New Prior) → Loop",
+      "slug": "bayesian-updating-diagram",
+      "url": "/non-linear/bayesian-updating-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "design-sprint",
+      "title": "Design Sprint",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Map (Mon) → Sketch (Tue) → Decide (Wed) → Prototype (Thu) → Test (Fri)",
+      "slug": "design-sprint-diagram",
+      "url": "/non-linear/design-sprint-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "gartner-hype-cycle",
+      "title": "Gartner Hype Cycle",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Trigger → Peak Expectations → Trough Disillusionment → Slope Enlightenment → Plateau",
+      "slug": "gartner-hype-cycle-diagram",
+      "url": "/non-linear/gartner-hype-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "product-life-cycle",
+      "title": "Product Life Cycle",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Intro → Growth → Maturity → Saturation → Decline → Extension/Death",
+      "slug": "product-life-cycle-diagram",
+      "url": "/non-linear/product-life-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "transtheoretical-model",
+      "title": "Transtheoretical Model",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Pre-contemplation → Contemplation → Preparation → Action → Maintenance → Relapse (Loop)",
+      "slug": "transtheoretical-model-diagram",
+      "url": "/non-linear/transtheoretical-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "kolb-s-learning",
+      "title": "Kolb's Learning",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Experience → Reflection → Conceptualization → Experimentation → Loop",
+      "slug": "kolb-s-learning-diagram",
+      "url": "/non-linear/kolb-s-learning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "gibbs-cycle",
+      "title": "Gibbs' Cycle",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Description → Feelings → Evaluation → Analysis → Action Plan → Loop",
+      "slug": "gibbs-cycle-diagram",
+      "url": "/non-linear/gibbs-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "newton-raphson",
+      "title": "Newton-Raphson",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Guess Root → Calculate Tangent → Find Intercept → New Guess → Loop",
+      "slug": "newton-raphson-diagram",
+      "url": "/non-linear/newton-raphson-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "growth-hacking",
+      "title": "Growth Hacking",
+      "type": "non-linear",
+      "category": "Iterative",
+      "description": "Analyze Data → Ideate → Prioritize (ICE) → Test → Analyze → Loop",
+      "slug": "growth-hacking-diagram",
+      "url": "/non-linear/growth-hacking-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

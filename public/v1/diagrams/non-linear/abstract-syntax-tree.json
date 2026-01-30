@@ -1,0 +1,19 @@
+{
+  "id": "abstract-syntax-tree",
+  "title": "Abstract Syntax Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Program → Declarations → Statements → Expressions → Leaves",
+  "slug": "abstract-syntax-tree-diagram",
+  "url": "/non-linear/abstract-syntax-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Program",
+    "Declarations",
+    "Statements",
+    "Expressions",
+    "Leaves"
+  ],
+  "advanced": null
+}

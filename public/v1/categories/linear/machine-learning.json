@@ -1,0 +1,18 @@
+{
+  "category": "Machine Learning",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "machine-learning-pipeline",
+      "title": "Machine Learning Pipeline ⭐",
+      "type": "linear",
+      "category": "Machine Learning",
+      "description": "End-to-end ML pipeline from data ingestion to model serving",
+      "slug": "machine-learning-pipeline-diagram",
+      "url": "/linear/machine-learning-pipeline-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

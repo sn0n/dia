@@ -1,0 +1,19 @@
+{
+  "id": "wavedrom-timing-diagram-2",
+  "title": "WaveDrom Timing Diagram 2",
+  "type": "linear",
+  "category": "Timing Diagram",
+  "description": "Digital timing diagram from WaveDrom official tutorial",
+  "slug": "wavedrom-timing-diagram-2-diagram",
+  "url": "/linear/wavedrom-timing-diagram-2-diagram",
+  "hasAdvanced": true,
+  "source": "wavedrom",
+  "steps": [
+    "Digital timing diagram from WaveDrom official tutorial"
+  ],
+  "advanced": {
+    "code": "{ signal: [\n  { name: \"pclk\", wave: 'p.......' },\n  { name: \"Pclk\", wave: 'P.......' },\n  { name: \"nclk\", wave: 'n.......' },\n  { name: \"Nclk\", wave: 'N.......' },\n  {},\n  { name: 'clk0', wave: 'phnlPHNL' },\n  { name: 'clk1', wave: 'xhlhLHl.' },\n  { name: 'clk2', wave: 'hpHplnLn' },\n  { name: 'clk3', wave: 'nhNhplPl' },\n  { name: 'clk4', wave: 'xlh.L.Hx' },\n]}",
+    "source": "wavedrom",
+    "root": null
+  }
+}

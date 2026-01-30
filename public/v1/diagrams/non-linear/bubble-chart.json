@@ -1,0 +1,20 @@
+{
+  "id": "bubble-chart",
+  "title": "Bubble Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "X-Axis → Y-Axis → Size → Color → Quadrants → Trends",
+  "slug": "bubble-chart-diagram",
+  "url": "/non-linear/bubble-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "X-Axis",
+    "Y-Axis",
+    "Size",
+    "Color",
+    "Quadrants",
+    "Trends"
+  ],
+  "advanced": null
+}

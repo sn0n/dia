@@ -1,0 +1,19 @@
+{
+  "id": "kolb-s-learning",
+  "title": "Kolb's Learning",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Experience → Reflection → Conceptualization → Experimentation → Loop",
+  "slug": "kolb-s-learning-diagram",
+  "url": "/non-linear/kolb-s-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Experience",
+    "Reflection",
+    "Conceptualization",
+    "Experimentation",
+    "Loop"
+  ],
+  "advanced": null
+}

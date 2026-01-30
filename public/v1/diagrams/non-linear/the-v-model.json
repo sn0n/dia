@@ -1,0 +1,19 @@
+{
+  "id": "the-v-model",
+  "title": "The 'V' Model",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Reqs (Down) → Design (Down) → Code → Unit Test (Up) → System Test (Up)",
+  "slug": "the-v-model-diagram",
+  "url": "/non-linear/the-v-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Reqs (Down)",
+    "Design (Down)",
+    "Code",
+    "Unit Test (Up)",
+    "System Test (Up)"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "c4-container",
+  "title": "C4 Container",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Containers → Technology → Interactions → Database → APIs",
+  "slug": "c4-container-diagram",
+  "url": "/non-linear/c4-container-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Containers",
+    "Technology",
+    "Interactions",
+    "Database",
+    "APIs"
+  ],
+  "advanced": null
+}

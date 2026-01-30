@@ -1,0 +1,19 @@
+{
+  "id": "actdiag-example",
+  "title": "ActDiag Example",
+  "type": "linear",
+  "category": "Activity Diagram",
+  "description": "Activity Diagram via Kroki unified API",
+  "slug": "actdiag-example-diagram",
+  "url": "/linear/actdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Activity Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "actdiag {\n  write -> convert -> image;\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

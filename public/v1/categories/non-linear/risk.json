@@ -1,0 +1,51 @@
+{
+  "category": "Risk",
+  "type": "non-linear",
+  "count": 4,
+  "diagrams": [
+    {
+      "id": "5-m-s",
+      "title": "5 M's",
+      "type": "non-linear",
+      "category": "Risk",
+      "description": "Problem → Man? → Machine? → Material? → Method? → Management?",
+      "slug": "5-m-s-diagram",
+      "url": "/non-linear/5-m-s-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bow-tie-analysis",
+      "title": "Bow Tie Analysis",
+      "type": "non-linear",
+      "category": "Risk",
+      "description": "Fault Tree (Cause) → Event (Knot) → Event Tree (Consequence)",
+      "slug": "bow-tie-analysis-diagram",
+      "url": "/non-linear/bow-tie-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "fmea",
+      "title": "FMEA",
+      "type": "non-linear",
+      "category": "Risk",
+      "description": "Component → Failure Mode → Severity? → Occurrence? → Detection? → RPN Score",
+      "slug": "fmea-diagram",
+      "url": "/non-linear/fmea-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "o-ring-theory",
+      "title": "O-Ring Theory",
+      "type": "non-linear",
+      "category": "Risk",
+      "description": "Component A (1.0) × Component B (0.9) × Component C (0.9) = System (0.81)",
+      "slug": "o-ring-theory-diagram",
+      "url": "/non-linear/o-ring-theory-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

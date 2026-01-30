@@ -1,0 +1,40 @@
+{
+  "category": "Use Case Diagram",
+  "type": "non-linear",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "use-case-diagram-example-1",
+      "title": "Use Case Diagram Example 1",
+      "type": "non-linear",
+      "category": "Use Case Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "use-case-diagram-example-1-diagram",
+      "url": "/non-linear/use-case-diagram-example-1-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "use-case-diagram-example-2",
+      "title": "Use Case Diagram Example 2",
+      "type": "non-linear",
+      "category": "Use Case Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "use-case-diagram-example-2-diagram",
+      "url": "/non-linear/use-case-diagram-example-2-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "use-case-diagram-example-3",
+      "title": "Use Case Diagram Example 3",
+      "type": "non-linear",
+      "category": "Use Case Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "use-case-diagram-example-3-diagram",
+      "url": "/non-linear/use-case-diagram-example-3-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    }
+  ]
+}

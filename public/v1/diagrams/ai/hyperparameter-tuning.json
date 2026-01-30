@@ -1,0 +1,20 @@
+{
+  "id": "hyperparameter-tuning",
+  "title": "Hyperparameter Tuning",
+  "type": "ai-workflows",
+  "category": "Optimization",
+  "description": "Define Search Space → Random/Grid Search → Train → Evaluate → Select Best → Repeat",
+  "slug": "hyperparameter-tuning-diagram",
+  "url": "/ai-workflows/hyperparameter-tuning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Search Space",
+    "Random/Grid Search",
+    "Train",
+    "Evaluate",
+    "Select Best",
+    "Repeat"
+  ],
+  "advanced": null
+}

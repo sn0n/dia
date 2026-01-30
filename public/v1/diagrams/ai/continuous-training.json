@@ -1,0 +1,21 @@
+{
+  "id": "continuous-training",
+  "title": "Continuous Training",
+  "type": "ai-workflows",
+  "category": "MLOps",
+  "description": "New Data → Trigger → Retrain → Validate → Deploy → Monitor → Loop",
+  "slug": "continuous-training-diagram",
+  "url": "/ai-workflows/continuous-training-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "New Data",
+    "Trigger",
+    "Retrain",
+    "Validate",
+    "Deploy",
+    "Monitor",
+    "Loop"
+  ],
+  "advanced": null
+}

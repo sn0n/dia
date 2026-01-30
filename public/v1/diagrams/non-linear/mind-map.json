@@ -1,0 +1,20 @@
+{
+  "id": "mind-map",
+  "title": "Mind Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Central Idea → Branch → Sub-branch → Leaf → Connect → Organize",
+  "slug": "mind-map-diagram",
+  "url": "/non-linear/mind-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Central Idea",
+    "Branch",
+    "Sub-branch",
+    "Leaf",
+    "Connect",
+    "Organize"
+  ],
+  "advanced": null
+}

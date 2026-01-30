@@ -1,0 +1,20 @@
+{
+  "id": "gitops-workflow",
+  "title": "GitOps Workflow",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Git Commit → Automation → Sync → Deploy → Observe → Reconcile",
+  "slug": "gitops-workflow-diagram",
+  "url": "/non-linear/gitops-workflow-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Git Commit",
+    "Automation",
+    "Sync",
+    "Deploy",
+    "Observe",
+    "Reconcile"
+  ],
+  "advanced": null
+}

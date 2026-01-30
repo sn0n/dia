@@ -1,0 +1,18 @@
+{
+  "id": "clip-vision-language",
+  "title": "CLIP (Vision-Language)",
+  "type": "ai-workflows",
+  "category": "Multimodal",
+  "description": "Image Encoder → Text Encoder → Contrastive Learning → Shared Embedding Space",
+  "slug": "clip-vision-language-diagram",
+  "url": "/ai-workflows/clip-vision-language-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Image Encoder",
+    "Text Encoder",
+    "Contrastive Learning",
+    "Shared Embedding Space"
+  ],
+  "advanced": null
+}

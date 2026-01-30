@@ -1,0 +1,15 @@
+{
+  "id": "background-image-containment",
+  "title": "Background Image Containment",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js background-image-containment demo from official repository",
+  "slug": "background-image-containment-diagram",
+  "url": "/non-linear/background-image-containment-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js background-image-containment demo from official repository"
+  ],
+  "advanced": null
+}

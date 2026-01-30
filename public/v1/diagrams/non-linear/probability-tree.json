@@ -1,0 +1,19 @@
+{
+  "id": "probability-tree",
+  "title": "Probability Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Event → Outcomes → Probabilities → Branches → Calculate",
+  "slug": "probability-tree-diagram",
+  "url": "/non-linear/probability-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Event",
+    "Outcomes",
+    "Probabilities",
+    "Branches",
+    "Calculate"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "optional-element",
+  "title": "Optional Element",
+  "type": "linear",
+  "category": "Syntax Diagram",
+  "description": "Railroad diagram with optional path",
+  "slug": "optional-element-diagram",
+  "url": "/linear/optional-element-diagram",
+  "hasAdvanced": true,
+  "source": "railroad",
+  "steps": [
+    "Railroad diagram with optional path"
+  ],
+  "advanced": {
+    "code": "Diagram(Optional(\"foo\", \"skip\"))",
+    "source": "railroad",
+    "root": null
+  }
+}

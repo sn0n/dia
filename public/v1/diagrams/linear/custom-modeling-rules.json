@@ -1,0 +1,15 @@
+{
+  "id": "custom-modeling-rules",
+  "title": "Custom Modeling Rules",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Custom Modeling Rules example from official bpmn-js repository",
+  "slug": "custom-modeling-rules-diagram",
+  "url": "/linear/custom-modeling-rules-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Custom Modeling Rules example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

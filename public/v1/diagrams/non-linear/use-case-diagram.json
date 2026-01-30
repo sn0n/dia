@@ -1,0 +1,19 @@
+{
+  "id": "use-case-diagram",
+  "title": "Use Case Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Actor → Use Case → System Boundary → Include/Extend → Relationships",
+  "slug": "use-case-diagram-diagram",
+  "url": "/non-linear/use-case-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Actor",
+    "Use Case",
+    "System Boundary",
+    "Include/Extend",
+    "Relationships"
+  ],
+  "advanced": null
+}

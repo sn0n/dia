@@ -1,0 +1,19 @@
+{
+  "id": "zero-or-more",
+  "title": "Zero Or More",
+  "type": "linear",
+  "category": "Syntax Diagram",
+  "description": "Railroad diagram for optional repetition",
+  "slug": "zero-or-more-diagram",
+  "url": "/linear/zero-or-more-diagram",
+  "hasAdvanced": true,
+  "source": "railroad",
+  "steps": [
+    "Railroad diagram for optional repetition"
+  ],
+  "advanced": {
+    "code": "Diagram(ZeroOrMore(\"foo\"))",
+    "source": "railroad",
+    "root": null
+  }
+}

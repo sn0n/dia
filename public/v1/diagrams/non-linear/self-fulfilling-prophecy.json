@@ -1,0 +1,20 @@
+{
+  "id": "self-fulfilling-prophecy",
+  "title": "Self-Fulfilling Prophecy",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Belief → Action → Impact Others → Others' Belief → Others' Action → Reinforce",
+  "slug": "self-fulfilling-prophecy-diagram",
+  "url": "/non-linear/self-fulfilling-prophecy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Belief",
+    "Action",
+    "Impact Others",
+    "Others' Belief",
+    "Others' Action",
+    "Reinforce"
+  ],
+  "advanced": null
+}

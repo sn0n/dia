@@ -1,0 +1,15 @@
+{
+  "id": "custom-elements",
+  "title": "Custom Elements",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Custom Elements example from official bpmn-js repository",
+  "slug": "custom-elements-diagram",
+  "url": "/linear/custom-elements-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Custom Elements example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

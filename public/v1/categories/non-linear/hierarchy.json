@@ -1,0 +1,40 @@
+{
+  "category": "Hierarchy",
+  "type": "non-linear",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "hierarchical-edge-bundling",
+      "title": "Hierarchical Edge Bundling",
+      "type": "non-linear",
+      "category": "Hierarchy",
+      "description": "Shows relationships in hierarchical data from D3 Gallery",
+      "slug": "hierarchical-edge-bundling-diagram",
+      "url": "/non-linear/hierarchical-edge-bundling-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "treemap",
+      "title": "Treemap",
+      "type": "non-linear",
+      "category": "Hierarchy",
+      "description": "Hierarchical data visualization from D3 Gallery",
+      "slug": "treemap-diagram",
+      "url": "/non-linear/treemap-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "circle-packing",
+      "title": "Circle Packing",
+      "type": "non-linear",
+      "category": "Hierarchy",
+      "description": "Hierarchical circle layout from D3 Gallery",
+      "slug": "circle-packing-diagram",
+      "url": "/non-linear/circle-packing-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "data-augmentation-pipeline",
+  "title": "Data Augmentation Pipeline",
+  "type": "ai-workflows",
+  "category": "Data Processing",
+  "description": "Load Image → Random Crop → Random Flip → Color Jitter → Normalize → Batch → Train",
+  "slug": "data-augmentation-pipeline-diagram",
+  "url": "/ai-workflows/data-augmentation-pipeline-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Load Image",
+    "Random Crop",
+    "Random Flip",
+    "Color Jitter",
+    "Normalize",
+    "Batch",
+    "Train"
+  ],
+  "advanced": null
+}

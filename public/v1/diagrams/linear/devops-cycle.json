@@ -1,0 +1,22 @@
+{
+  "id": "devops-cycle",
+  "title": "DevOps Cycle",
+  "type": "linear",
+  "category": "Agile",
+  "description": "Plan → Code → Build → Test → Release → Deploy → Operate → Monitor",
+  "slug": "devops-cycle-diagram",
+  "url": "/linear/devops-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Plan",
+    "Code",
+    "Build",
+    "Test",
+    "Release",
+    "Deploy",
+    "Operate",
+    "Monitor"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,172 @@
+{
+  "category": "Productivity",
+  "type": "linear",
+  "count": 15,
+  "diagrams": [
+    {
+      "id": "getting-things-done-gtd",
+      "title": "Getting Things Done (GTD)",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Capture → Clarify → Organize → Reflect → Engage",
+      "slug": "getting-things-done-gtd-diagram",
+      "url": "/linear/getting-things-done-gtd-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "the-pomodoro-technique",
+      "title": "The Pomodoro Technique",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Set Goal → Work (25m) → Short Break (5m) → Repeat x4 → Long Break",
+      "slug": "the-pomodoro-technique-diagram",
+      "url": "/linear/the-pomodoro-technique-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "eisenhower-matrix",
+      "title": "Eisenhower Matrix",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Categorize Urgency/Importance → Do → Decide → Delegate → Delete",
+      "slug": "eisenhower-matrix-diagram",
+      "url": "/linear/eisenhower-matrix-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "eat-the-frog",
+      "title": "Eat The Frog",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Identify Hardest Task → Do First Thing → Move to Smaller Tasks",
+      "slug": "eat-the-frog-diagram",
+      "url": "/linear/eat-the-frog-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "time-blocking",
+      "title": "Time Blocking",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "List Tasks → Estimate Time → Assign Calendar Slots → Execute",
+      "slug": "time-blocking-diagram",
+      "url": "/linear/time-blocking-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "kanban",
+      "title": "Kanban",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Backlog → To Do → In Progress → Review → Done",
+      "slug": "kanban-diagram",
+      "url": "/linear/kanban-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "the-2-minute-rule",
+      "title": "The 2-Minute Rule",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Task < 2 mins? → Do Immediately → Task > 2 mins? → Defer/Delegate",
+      "slug": "the-2-minute-rule-diagram",
+      "url": "/linear/the-2-minute-rule-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "zero-based-scheduling",
+      "title": "Zero-Based Scheduling",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "List Available Hours → Assign Every Hour a Function → 0 Hours Remain",
+      "slug": "zero-based-scheduling-diagram",
+      "url": "/linear/zero-based-scheduling-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "biological-prime-time",
+      "title": "Biological Prime Time",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Track Energy 1 Week → Identify Peaks → Schedule Deep Work → Admin in Troughs",
+      "slug": "biological-prime-time-diagram",
+      "url": "/linear/biological-prime-time-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "batching",
+      "title": "Batching",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Group Similar Tasks → Schedule Block → Execute Consecutively",
+      "slug": "batching-diagram",
+      "url": "/linear/batching-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "must-should-want",
+      "title": "Must/Should/Want",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "List Tasks → Label 'Must' → Label 'Should' → Label 'Want'",
+      "slug": "must-should-want-diagram",
+      "url": "/linear/must-should-want-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "ivy-lee-method",
+      "title": "Ivy Lee Method",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "List 6 Tasks → Prioritize 1-6 → Start #1 → Work until Done → Repeat",
+      "slug": "ivy-lee-method-diagram",
+      "url": "/linear/ivy-lee-method-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "seinfeld-strategy",
+      "title": "Seinfeld Strategy",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Pick Habit → Complete Daily → Mark X on Calendar → Don't Break Chain",
+      "slug": "seinfeld-strategy-diagram",
+      "url": "/linear/seinfeld-strategy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "inbox-zero",
+      "title": "Inbox Zero",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "Process Item → Delete? → Delegate? → Respond (<2m)? → Defer?",
+      "slug": "inbox-zero-diagram",
+      "url": "/linear/inbox-zero-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pareto-analysis-80-20",
+      "title": "Pareto Analysis (80/20)",
+      "type": "linear",
+      "category": "Productivity",
+      "description": "List Inputs → Identify Top 20% → Focus Solely on Top 20%",
+      "slug": "pareto-analysis-80-20-diagram",
+      "url": "/linear/pareto-analysis-80-20-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

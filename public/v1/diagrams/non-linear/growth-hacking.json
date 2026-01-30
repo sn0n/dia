@@ -1,0 +1,20 @@
+{
+  "id": "growth-hacking",
+  "title": "Growth Hacking",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Analyze Data → Ideate → Prioritize (ICE) → Test → Analyze → Loop",
+  "slug": "growth-hacking-diagram",
+  "url": "/non-linear/growth-hacking-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Analyze Data",
+    "Ideate",
+    "Prioritize (ICE)",
+    "Test",
+    "Analyze",
+    "Loop"
+  ],
+  "advanced": null
+}

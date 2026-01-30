@@ -1,0 +1,18 @@
+{
+  "id": "balanced-scorecard",
+  "title": "Balanced Scorecard",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Financial ↔ Customer ↔ Internal Process ↔ Learning/Growth (Loop)",
+  "slug": "balanced-scorecard-diagram",
+  "url": "/non-linear/balanced-scorecard-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Financial",
+    "Customer",
+    "Internal Process",
+    "Learning/Growth (Loop)"
+  ],
+  "advanced": null
+}

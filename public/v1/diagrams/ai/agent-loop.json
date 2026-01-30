@@ -1,0 +1,23 @@
+{
+  "id": "agent-loop",
+  "title": "Agent Loop",
+  "type": "ai-workflows",
+  "category": "AI Agents",
+  "description": "Observe → Think (Reasoning) → Act (Tool Use) → Observe Result → Loop",
+  "slug": "agent-loop-diagram",
+  "url": "/ai-workflows/agent-loop-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Observe",
+    "Think (Reasoning)",
+    "Act (Tool Use)",
+    "Observe Result",
+    "Loop"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Task Input] --> B[Observe Environment]\n    B --> C[LLM Reasoning]\n    C --> D{Need Tool?}\n    D -->|Yes| E[Select Tool]\n    D -->|No| F[Direct Answer]\n    E --> G[Execute Tool]\n    G --> H[Observe Result]\n    H --> C\n    F --> I[Final Response]",
+    "source": "mermaid",
+    "root": null
+  }
+}

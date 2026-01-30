@@ -1,0 +1,19 @@
+{
+  "id": "story-mapping",
+  "title": "Story Mapping",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "User Activities → Tasks → Stories → Releases → Backbone",
+  "slug": "story-mapping-diagram",
+  "url": "/non-linear/story-mapping-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "User Activities",
+    "Tasks",
+    "Stories",
+    "Releases",
+    "Backbone"
+  ],
+  "advanced": null
+}

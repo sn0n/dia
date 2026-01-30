@@ -1,0 +1,17 @@
+{
+  "id": "disney-strategy",
+  "title": "Disney Strategy",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "The Dreamer → The Realist → The Critic",
+  "slug": "disney-strategy-diagram",
+  "url": "/linear/disney-strategy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "The Dreamer",
+    "The Realist",
+    "The Critic"
+  ],
+  "advanced": null
+}

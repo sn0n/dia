@@ -1,0 +1,18 @@
+{
+  "id": "etl-process",
+  "title": "ETL Process",
+  "type": "non-linear",
+  "category": "Data",
+  "description": "Extract (Source) → Transform (Clean) → Load (Warehouse) → Analyze",
+  "slug": "etl-process-diagram",
+  "url": "/non-linear/etl-process-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Extract (Source)",
+    "Transform (Clean)",
+    "Load (Warehouse)",
+    "Analyze"
+  ],
+  "advanced": null
+}

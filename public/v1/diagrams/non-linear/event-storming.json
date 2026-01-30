@@ -1,0 +1,19 @@
+{
+  "id": "event-storming",
+  "title": "Event Storming",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Domain Event → Command → Aggregate → Policy → Read Model",
+  "slug": "event-storming-diagram",
+  "url": "/non-linear/event-storming-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Domain Event",
+    "Command",
+    "Aggregate",
+    "Policy",
+    "Read Model"
+  ],
+  "advanced": null
+}

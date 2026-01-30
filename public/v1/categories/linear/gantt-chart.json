@@ -1,0 +1,18 @@
+{
+  "category": "Gantt Chart",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "a-note-to-users",
+      "title": "A note to users",
+      "type": "linear",
+      "category": "Gantt Chart",
+      "description": "Real example from Mermaid.js gantt documentation",
+      "slug": "a-note-to-users-diagram",
+      "url": "/linear/a-note-to-users-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

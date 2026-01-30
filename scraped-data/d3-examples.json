@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Force-Directed Graph",
+    "description": "Network visualization using force simulation from D3 Gallery",
+    "source": "d3",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/force-directed-graph",
+    "tags": [
+      "d3",
+      "observable",
+      "network graph",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Hierarchical Edge Bundling",
+    "description": "Shows relationships in hierarchical data from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/hierarchical-edge-bundling",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Chord Diagram",
+    "description": "Visualizes inter-relationships from D3 Gallery",
+    "source": "d3",
+    "category": "Flow Diagram",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/chord-diagram",
+    "tags": [
+      "d3",
+      "observable",
+      "flow diagram",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Sankey Diagram",
+    "description": "Flow visualization from D3 Gallery",
+    "source": "d3",
+    "category": "Flow Diagram",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/sankey",
+    "tags": [
+      "d3",
+      "observable",
+      "flow diagram",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Treemap",
+    "description": "Hierarchical data visualization from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/treemap",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Circle Packing",
+    "description": "Hierarchical circle layout from D3 Gallery",
+    "source": "d3",
+    "category": "Hierarchy",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/circle-packing",
+    "tags": [
+      "d3",
+      "observable",
+      "hierarchy",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Arc Diagram",
+    "description": "Network as arcs from D3 Gallery",
+    "source": "d3",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://observablehq.com/@d3/arc-diagram",
+    "tags": [
+      "d3",
+      "observable",
+      "network graph",
+      "interactive"
+    ]
+  }
+]

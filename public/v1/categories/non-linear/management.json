@@ -1,0 +1,139 @@
+{
+  "category": "Management",
+  "type": "non-linear",
+  "count": 12,
+  "diagrams": [
+    {
+      "id": "the-v-model",
+      "title": "The 'V' Model",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Reqs (Down) → Design (Down) → Code → Unit Test (Up) → System Test (Up)",
+      "slug": "the-v-model-diagram",
+      "url": "/non-linear/the-v-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "raci-matrix",
+      "title": "RACI Matrix",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Task → Responsible? → Accountable? → Consulted? → Informed?",
+      "slug": "raci-matrix-diagram",
+      "url": "/non-linear/raci-matrix-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "situational-leadership",
+      "title": "Situational Leadership",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Diagnose Level → Directing? → Coaching? → Supporting? → Delegating?",
+      "slug": "situational-leadership-diagram",
+      "url": "/non-linear/situational-leadership-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cynefin-logic",
+      "title": "Cynefin (Logic)",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Simple (Categorize) → Complicated (Analyze) → Complex (Probe) → Chaotic (Act)",
+      "slug": "cynefin-logic-diagram",
+      "url": "/non-linear/cynefin-logic-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "swiss-cheese-model",
+      "title": "Swiss Cheese Model",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Hazard → Layer 1 (Hole?) → Layer 2 (Hole?) → Layer 3 (Hole?) → Accident",
+      "slug": "swiss-cheese-model-diagram",
+      "url": "/non-linear/swiss-cheese-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "balanced-scorecard",
+      "title": "Balanced Scorecard",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Financial ↔ Customer ↔ Internal Process ↔ Learning/Growth (Loop)",
+      "slug": "balanced-scorecard-diagram",
+      "url": "/non-linear/balanced-scorecard-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "mckinsey-7s",
+      "title": "McKinsey 7S",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Strategy ↔ Structure ↔ Systems ↔ Shared Values ↔ Style ↔ Staff ↔ Skills",
+      "slug": "mckinsey-7s-diagram",
+      "url": "/non-linear/mckinsey-7s-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "critical-path-method",
+      "title": "Critical Path Method",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "List Tasks → Define Dependencies → Calculate Longest Path → Identify Float",
+      "slug": "critical-path-method-diagram",
+      "url": "/non-linear/critical-path-method-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pert",
+      "title": "PERT",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Task → (Optimistic + 4*Likely + Pessimistic) / 6 → Weighted Avg",
+      "slug": "pert-diagram",
+      "url": "/non-linear/pert-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "5s-system",
+      "title": "5S System",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Sort → Set in Order → Shine → Standardize → Sustain (Loop)",
+      "slug": "5s-system-diagram",
+      "url": "/non-linear/5s-system-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "mapreduce",
+      "title": "MapReduce",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Map (Split/Parallel) → Shuffle (Sort) → Reduce (Aggregate)",
+      "slug": "mapreduce-diagram",
+      "url": "/non-linear/mapreduce-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "git-flow",
+      "title": "Git Flow",
+      "type": "non-linear",
+      "category": "Management",
+      "description": "Main → Develop → Feature Branch (Loop) → Release → Merge Main",
+      "slug": "git-flow-diagram",
+      "url": "/non-linear/git-flow-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

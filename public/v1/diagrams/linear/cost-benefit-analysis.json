@@ -1,0 +1,18 @@
+{
+  "id": "cost-benefit-analysis",
+  "title": "Cost-Benefit Analysis",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "List Costs → List Benefits → Assign Values → Calculate Net",
+  "slug": "cost-benefit-analysis-diagram",
+  "url": "/linear/cost-benefit-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Costs",
+    "List Benefits",
+    "Assign Values",
+    "Calculate Net"
+  ],
+  "advanced": null
+}

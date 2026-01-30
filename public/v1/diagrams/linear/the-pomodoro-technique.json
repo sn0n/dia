@@ -1,0 +1,60 @@
+{
+  "id": "the-pomodoro-technique",
+  "title": "The Pomodoro Technique",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Set Goal → Work (25m) → Short Break (5m) → Repeat x4 → Long Break",
+  "slug": "the-pomodoro-technique-diagram",
+  "url": "/linear/the-pomodoro-technique-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Set Goal",
+    "Work (25m)",
+    "Short Break (5m)",
+    "Repeat x4",
+    "Long Break"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Pick a Task",
+      "type": "start",
+      "next": {
+        "label": "Set Timer 25m",
+        "type": "action",
+        "next": {
+          "label": "Work until ring",
+          "type": "action",
+          "next": {
+            "label": "Checkmark paper",
+            "type": "action",
+            "next": {
+              "label": "4 Checkmarks?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "Short Break (5m)",
+                    "type": "action",
+                    "loop": true
+                  }
+                },
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "Long Break (20-30m)",
+                    "type": "end",
+                    "color": "emerald"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

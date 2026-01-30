@@ -1,0 +1,21 @@
+{
+  "id": "box-plot",
+  "title": "Box Plot",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Min → Q1 → Median → Q3 → Max → Outliers → Distribution",
+  "slug": "box-plot-diagram",
+  "url": "/non-linear/box-plot-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Min",
+    "Q1",
+    "Median",
+    "Q3",
+    "Max",
+    "Outliers",
+    "Distribution"
+  ],
+  "advanced": null
+}

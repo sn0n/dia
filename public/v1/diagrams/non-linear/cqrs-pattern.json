@@ -1,0 +1,20 @@
+{
+  "id": "cqrs-pattern",
+  "title": "CQRS Pattern",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Command → Write Model → Event → Read Model → Query → View",
+  "slug": "cqrs-pattern-diagram",
+  "url": "/non-linear/cqrs-pattern-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Command",
+    "Write Model",
+    "Event",
+    "Read Model",
+    "Query",
+    "View"
+  ],
+  "advanced": null
+}

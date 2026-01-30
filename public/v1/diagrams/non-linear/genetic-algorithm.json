@@ -1,0 +1,20 @@
+{
+  "id": "genetic-algorithm",
+  "title": "Genetic Algorithm",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Init Pop → Evaluate Fitness → Select → Crossover/Mutate → New Gen → Loop",
+  "slug": "genetic-algorithm-diagram",
+  "url": "/non-linear/genetic-algorithm-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Init Pop",
+    "Evaluate Fitness",
+    "Select",
+    "Crossover/Mutate",
+    "New Gen",
+    "Loop"
+  ],
+  "advanced": null
+}

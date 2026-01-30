@@ -1,0 +1,81 @@
+{
+  "id": "decision-tree",
+  "title": "Decision Tree",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Node → Branch A (Prob X) / Branch B (Prob Y) → Outcome → Value",
+  "slug": "decision-tree-diagram",
+  "url": "/non-linear/decision-tree-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Node",
+    "Branch A (Prob X) / Branch B (Prob Y)",
+    "Outcome",
+    "Value"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Opportunity",
+      "type": "start",
+      "next": {
+        "label": "High Cost?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "Yes",
+            "path": {
+              "label": "High Reward?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "Strategic Bet",
+                    "type": "end",
+                    "color": "purple"
+                  }
+                },
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "Avoid",
+                    "type": "end",
+                    "color": "red"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "No",
+            "path": {
+              "label": "Quick Win?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "Do Immediately",
+                    "type": "end",
+                    "color": "emerald"
+                  }
+                },
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "Backlog",
+                    "type": "end",
+                    "color": "zinc"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "compound-nodes",
+  "title": "Compound Nodes",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js compound-nodes demo from official repository",
+  "slug": "compound-nodes-diagram",
+  "url": "/non-linear/compound-nodes-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js compound-nodes demo from official repository"
+  ],
+  "advanced": null
+}

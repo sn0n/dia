@@ -1,0 +1,19 @@
+{
+  "id": "packetdiag-example",
+  "title": "PacketDiag Example",
+  "type": "linear",
+  "category": "Packet Diagram",
+  "description": "Packet Diagram via Kroki unified API",
+  "slug": "packetdiag-example-diagram",
+  "url": "/linear/packetdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Packet Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "packetdiag {\n  0-15: Source Port\n  16-31: Destination Port\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

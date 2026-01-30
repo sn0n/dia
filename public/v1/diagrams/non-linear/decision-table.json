@@ -1,0 +1,19 @@
+{
+  "id": "decision-table",
+  "title": "Decision Table",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Conditions → Rules → Actions → Outcomes → Completeness",
+  "slug": "decision-table-diagram",
+  "url": "/non-linear/decision-table-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Conditions",
+    "Rules",
+    "Actions",
+    "Outcomes",
+    "Completeness"
+  ],
+  "advanced": null
+}

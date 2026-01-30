@@ -1,0 +1,18 @@
+{
+  "id": "diffusion-model",
+  "title": "Diffusion Model",
+  "type": "ai-workflows",
+  "category": "Generative AI",
+  "description": "Add Noise (Forward) → Learn Reverse → Denoise Step-by-Step → Generate Sample",
+  "slug": "diffusion-model-diagram",
+  "url": "/ai-workflows/diffusion-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Add Noise (Forward)",
+    "Learn Reverse",
+    "Denoise Step-by-Step",
+    "Generate Sample"
+  ],
+  "advanced": null
+}

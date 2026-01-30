@@ -1,0 +1,19 @@
+{
+  "id": "transfer-learning",
+  "title": "Transfer Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Pre-trained Model → Freeze Layers → Add Custom Head → Fine-tune Top Layers → Train on New Data",
+  "slug": "transfer-learning-diagram",
+  "url": "/ai-workflows/transfer-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Pre-trained Model",
+    "Freeze Layers",
+    "Add Custom Head",
+    "Fine-tune Top Layers",
+    "Train on New Data"
+  ],
+  "advanced": null
+}

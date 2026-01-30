@@ -1,0 +1,18 @@
+{
+  "category": "Architecture",
+  "type": "non-linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "event-driven-saga-pattern",
+      "title": "Event-Driven Saga Pattern ⭐",
+      "type": "non-linear",
+      "category": "Architecture",
+      "description": "Distributed transaction handling using saga pattern with compensating transactions",
+      "slug": "event-driven-saga-pattern-diagram",
+      "url": "/non-linear/event-driven-saga-pattern-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

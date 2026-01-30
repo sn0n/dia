@@ -1,0 +1,20 @@
+{
+  "id": "lstm-long-short-term-memory",
+  "title": "LSTM (Long Short-Term Memory)",
+  "type": "ai-workflows",
+  "category": "Architecture",
+  "description": "Input → Forget Gate → Input Gate → Cell State Update → Output Gate → Hidden State",
+  "slug": "lstm-long-short-term-memory-diagram",
+  "url": "/ai-workflows/lstm-long-short-term-memory-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input",
+    "Forget Gate",
+    "Input Gate",
+    "Cell State Update",
+    "Output Gate",
+    "Hidden State"
+  ],
+  "advanced": null
+}

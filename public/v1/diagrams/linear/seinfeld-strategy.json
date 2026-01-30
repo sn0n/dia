@@ -1,0 +1,18 @@
+{
+  "id": "seinfeld-strategy",
+  "title": "Seinfeld Strategy",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Pick Habit → Complete Daily → Mark X on Calendar → Don't Break Chain",
+  "slug": "seinfeld-strategy-diagram",
+  "url": "/linear/seinfeld-strategy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Pick Habit",
+    "Complete Daily",
+    "Mark X on Calendar",
+    "Don't Break Chain"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,29 @@
+{
+  "category": "Flow Diagram",
+  "type": "non-linear",
+  "count": 2,
+  "diagrams": [
+    {
+      "id": "chord-diagram",
+      "title": "Chord Diagram",
+      "type": "non-linear",
+      "category": "Flow Diagram",
+      "description": "Visualizes inter-relationships from D3 Gallery",
+      "slug": "chord-diagram-diagram",
+      "url": "/non-linear/chord-diagram-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "sankey-diagram",
+      "title": "Sankey Diagram",
+      "type": "non-linear",
+      "category": "Flow Diagram",
+      "description": "Flow visualization from D3 Gallery",
+      "slug": "sankey-diagram-diagram",
+      "url": "/non-linear/sankey-diagram-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

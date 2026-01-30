@@ -1,0 +1,19 @@
+{
+  "id": "feynman-technique",
+  "title": "Feynman Technique",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Choose Concept → Teach to Child → Identify Gaps → Review Source → Simplify",
+  "slug": "feynman-technique-diagram",
+  "url": "/linear/feynman-technique-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Choose Concept",
+    "Teach to Child",
+    "Identify Gaps",
+    "Review Source",
+    "Simplify"
+  ],
+  "advanced": null
+}

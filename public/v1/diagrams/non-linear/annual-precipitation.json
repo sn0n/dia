@@ -1,0 +1,15 @@
+{
+  "id": "annual-precipitation",
+  "title": "Annual Precipitation",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Annual Precipitation",
+  "slug": "annual-precipitation-diagram",
+  "url": "/non-linear/annual-precipitation-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Annual Precipitation"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "minimax-algorithm",
+  "title": "Minimax Algorithm",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Look Ahead → Maximize My Gain → Minimize Opponent Gain → Select",
+  "slug": "minimax-algorithm-diagram",
+  "url": "/non-linear/minimax-algorithm-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Look Ahead",
+    "Maximize My Gain",
+    "Minimize Opponent Gain",
+    "Select"
+  ],
+  "advanced": null
+}

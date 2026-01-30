@@ -1,0 +1,19 @@
+{
+  "id": "feature-store",
+  "title": "Feature Store",
+  "type": "ai-workflows",
+  "category": "MLOps",
+  "description": "Raw Data → Feature Engineering → Store → Serve (Train/Inference) → Version Control",
+  "slug": "feature-store-diagram",
+  "url": "/ai-workflows/feature-store-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Raw Data",
+    "Feature Engineering",
+    "Store",
+    "Serve (Train/Inference)",
+    "Version Control"
+  ],
+  "advanced": null
+}

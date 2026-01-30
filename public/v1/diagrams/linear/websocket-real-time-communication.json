@@ -1,0 +1,19 @@
+{
+  "id": "websocket-real-time-communication",
+  "title": "WebSocket Real-time Communication ⭐",
+  "type": "linear",
+  "category": "Communication",
+  "description": "WebSocket connection lifecycle and message flow",
+  "slug": "websocket-real-time-communication-diagram",
+  "url": "/linear/websocket-real-time-communication-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "WebSocket connection lifecycle and message flow"
+  ],
+  "advanced": {
+    "code": "sequenceDiagram\n    participant Client\n    participant Server\n    participant MessageQueue\n\n    Client->>Server: HTTP Upgrade Request\n    Server->>Client: 101 Switching Protocols\n    Note over Client,Server: WebSocket Connection Established\n\n    loop Message Exchange\n        Client->>Server: Send Message\n        Server->>MessageQueue: Process\n        MessageQueue->>Server: Response\n        Server->>Client: Push Update\n    end\n\n    alt Heartbeat\n        Client->>Server: Ping\n        Server->>Client: Pong\n    end\n\n    Client->>Server: Close Connection\n    Server->>Client: Close Acknowledgment",
+    "source": "mermaid",
+    "root": null
+  }
+}

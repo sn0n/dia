@@ -1,0 +1,19 @@
+{
+  "id": "early-stopping",
+  "title": "Early Stopping",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Train Model → Monitor Validation Loss → Patience Counter → Stop if No Improvement → Best Model",
+  "slug": "early-stopping-diagram",
+  "url": "/ai-workflows/early-stopping-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Train Model",
+    "Monitor Validation Loss",
+    "Patience Counter",
+    "Stop if No Improvement",
+    "Best Model"
+  ],
+  "advanced": null
+}

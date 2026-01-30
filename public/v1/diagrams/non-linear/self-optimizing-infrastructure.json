@@ -1,0 +1,19 @@
+{
+  "id": "self-optimizing-infrastructure",
+  "title": "Self-Optimizing Infrastructure ⭐",
+  "type": "non-linear",
+  "category": "DevOps",
+  "description": "Infrastructure that autonomously optimizes based on load patterns",
+  "slug": "self-optimizing-infrastructure-diagram",
+  "url": "/non-linear/self-optimizing-infrastructure-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Infrastructure that autonomously optimizes based on load patterns"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Load Balancer] --> B[AI Load Predictor]\n    B --> C{Scale Needed?}\n    C -->|Up| D[Auto-Scale Up]\n    C -->|Down| E[Auto-Scale Down]\n    C -->|Optimal| F[Monitor]\n    D --> G[Provision Resources]\n    E --> H[Deallocate Resources]\n    G --> I[Cost Optimizer]\n    H --> I\n    I --> J[Performance Analyzer]\n    J --> K{Optimize?}\n    K -->|Yes| L[AI Configuration Tuning]\n    K -->|No| F\n    L --> F\n    F --> B",
+    "source": "mermaid",
+    "root": null
+  }
+}

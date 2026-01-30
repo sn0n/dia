@@ -1,0 +1,19 @@
+{
+  "id": "theory-of-constraints",
+  "title": "Theory of Constraints",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Identify Constraint → Exploit → Subordinate → Elevate → Loop",
+  "slug": "theory-of-constraints-diagram",
+  "url": "/non-linear/theory-of-constraints-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Identify Constraint",
+    "Exploit",
+    "Subordinate",
+    "Elevate",
+    "Loop"
+  ],
+  "advanced": null
+}

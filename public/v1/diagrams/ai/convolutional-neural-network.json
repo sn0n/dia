@@ -1,0 +1,22 @@
+{
+  "id": "convolutional-neural-network",
+  "title": "Convolutional Neural Network",
+  "type": "ai-workflows",
+  "category": "Computer Vision",
+  "description": "Input Image → Conv Layer → ReLU → Pooling → Flatten → Dense → Softmax → Classification",
+  "slug": "convolutional-neural-network-diagram",
+  "url": "/ai-workflows/convolutional-neural-network-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input Image",
+    "Conv Layer",
+    "ReLU",
+    "Pooling",
+    "Flatten",
+    "Dense",
+    "Softmax",
+    "Classification"
+  ],
+  "advanced": null
+}

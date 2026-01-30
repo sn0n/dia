@@ -1,0 +1,19 @@
+{
+  "id": "spaced-repetition",
+  "title": "Spaced Repetition",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Learn → Review (1 day) → Review (3 days) → Review (1 week) → Review (1 month)",
+  "slug": "spaced-repetition-diagram",
+  "url": "/linear/spaced-repetition-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Learn",
+    "Review (1 day)",
+    "Review (3 days)",
+    "Review (1 week)",
+    "Review (1 month)"
+  ],
+  "advanced": null
+}

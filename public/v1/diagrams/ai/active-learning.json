@@ -1,0 +1,20 @@
+{
+  "id": "active-learning",
+  "title": "Active Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Label Small Sample → Train Model → Find Uncertain Examples → Human Labels → Retrain → Loop",
+  "slug": "active-learning-diagram",
+  "url": "/ai-workflows/active-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Label Small Sample",
+    "Train Model",
+    "Find Uncertain Examples",
+    "Human Labels",
+    "Retrain",
+    "Loop"
+  ],
+  "advanced": null
+}

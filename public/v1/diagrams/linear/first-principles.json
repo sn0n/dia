@@ -1,0 +1,17 @@
+{
+  "id": "first-principles",
+  "title": "First Principles",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Deconstruct to Truths → Question Assumptions → Reconstruct Solution",
+  "slug": "first-principles-diagram",
+  "url": "/linear/first-principles-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Deconstruct to Truths",
+    "Question Assumptions",
+    "Reconstruct Solution"
+  ],
+  "advanced": null
+}

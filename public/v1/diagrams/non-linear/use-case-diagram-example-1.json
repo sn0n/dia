@@ -1,0 +1,19 @@
+{
+  "id": "use-case-diagram-example-1",
+  "title": "Use Case Diagram Example 1",
+  "type": "non-linear",
+  "category": "Use Case Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "use-case-diagram-example-1-diagram",
+  "url": "/non-linear/use-case-diagram-example-1-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n\n(First usecase)\n(Another usecase) as (UC2)\nusecase UC3\nusecase (Last\\nusecase) as UC4\n\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

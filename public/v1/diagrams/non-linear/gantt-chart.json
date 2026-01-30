@@ -1,0 +1,20 @@
+{
+  "id": "gantt-chart",
+  "title": "Gantt Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Tasks → Dependencies → Start Date → Duration → Progress → Resources",
+  "slug": "gantt-chart-diagram",
+  "url": "/non-linear/gantt-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Tasks",
+    "Dependencies",
+    "Start Date",
+    "Duration",
+    "Progress",
+    "Resources"
+  ],
+  "advanced": null
+}

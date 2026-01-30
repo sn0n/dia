@@ -1,0 +1,18 @@
+{
+  "id": "red-green-refactor",
+  "title": "Red-Green-Refactor",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "Write Red Test (Fail) → Write Code (Pass) → Refactor → Loop",
+  "slug": "red-green-refactor-diagram",
+  "url": "/non-linear/red-green-refactor-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Write Red Test (Fail)",
+    "Write Code (Pass)",
+    "Refactor",
+    "Loop"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "6000 Elements",
+    "description": "Cytoscape.js 6000-elements demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/6000-elements",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "6000-elements"
+    ]
+  },
+  {
+    "title": "Animated Bfs",
+    "description": "Cytoscape.js animated-bfs demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/animated-bfs",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "animated-bfs"
+    ]
+  },
+  {
+    "title": "Architecture",
+    "description": "Cytoscape.js architecture demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/architecture",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "architecture"
+    ]
+  },
+  {
+    "title": "Background Image Containment",
+    "description": "Cytoscape.js background-image-containment demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/background-image-containment",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "background-image-containment"
+    ]
+  },
+  {
+    "title": "Circle Layout",
+    "description": "Cytoscape.js circle-layout demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/circle-layout",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "circle-layout"
+    ]
+  },
+  {
+    "title": "Colajs Graph",
+    "description": "Cytoscape.js colajs-graph demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/colajs-graph",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "colajs-graph"
+    ]
+  },
+  {
+    "title": "Compound Nodes",
+    "description": "Cytoscape.js compound-nodes demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/compound-nodes",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "compound-nodes"
+    ]
+  },
+  {
+    "title": "Concentric Layout",
+    "description": "Cytoscape.js concentric-layout demo from official repository",
+    "source": "cytoscape",
+    "category": "Network Graph",
+    "type": "nonlinear",
+    "imageUrl": "https://github.com/cytoscape/cytoscape.js/tree/master/documentation/demos/concentric-layout",
+    "tags": [
+      "cytoscape",
+      "network",
+      "graph",
+      "concentric-layout"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "custom-meta-model",
+  "title": "Custom Meta Model",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Custom Meta Model example from official bpmn-js repository",
+  "slug": "custom-meta-model-diagram",
+  "url": "/linear/custom-meta-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Custom Meta Model example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

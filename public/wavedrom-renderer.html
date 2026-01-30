@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WaveDrom Renderer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: white;
+      font-family: Arial, sans-serif;
+    }
+    #container {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  
+  <script type="module">
+    // Expose render function globally
+    window.renderWaveDrom = function(data) {
+      const container = document.getElementById('container');
+      container.innerHTML = '';
+      
+      try {
+        // Simple SVG generation based on WaveDrom data
+        const svg = generateWaveDromSVG(data);
+        container.innerHTML = svg;
+        return true;
+      } catch (e) {
+        console.error('Render error:', e);
+        return false;
+      }
+    }
+    
+    // Basic WaveDrom SVG generator
+    function generateWaveDromSVG(data) {
+      const signals = data.signal || [];
+      const config = data.config || {};
+      const hscale = config.hscale || 1;
+      
+      const width = 600 * hscale;
+      const height = signals.length * 30 + 40;
+      
+      let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">`;
+      svg += `<rect width="100%" height="100%" fill="white"/>`;
+      
+      signals.forEach((signal, idx) => {
+        if (!signal.name) return;
+        
+        const y = 30 + idx * 30;
+        svg += `<text x="10" y="${y}" font-size="12" fill="black">${signal.name}</text>`;
+        
+        if (signal.wave) {
+          const waveChars = signal.wave.split('');
+          const stepWidth = 40 * hscale;
+          
+          waveChars.forEach((char, i) => {
+            const x = 150 + i * stepWidth;
+            
+            // Draw based on wave character
+            if (char === '0') {
+              svg += `<line x1="${x}" y1="${y}" x2="${x + stepWidth}" y2="${y}" stroke="blue" stroke-width="2"/>`;
+            } else if (char === '1') {
+              svg += `<line x1="${x}" y1="${y - 10}" x2="${x + stepWidth}" y2="${y - 10}" stroke="blue" stroke-width="2"/>`;
+            } else if (char === 'p' || char === 'P' || char === 'n' || char === 'N') {
+              // Clock signal
+              svg += `<polyline points="${x},${y} ${x + stepWidth/2},${y - 10} ${x + stepWidth},${y}" fill="none" stroke="blue" stroke-width="2"/>`;
+            } else if (char === 'x') {
+              svg += `<line x1="${x}" y1="${y - 5 }" x2="${x + stepWidth}" y2="${y + 5}" stroke="red" stroke-width="1"/>`;
+              svg += `<line x1="${x}" y1="${y + 5}" x2="${x + stepWidth}" y2="${y - 5}" stroke="red" stroke-width="1"/>`;
+            }
+          });
+        }
+      });
+      
+      svg += `</svg>`;
+      return svg;
+    }
+  </script>
+</body>
+</html>

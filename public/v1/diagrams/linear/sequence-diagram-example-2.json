@@ -1,0 +1,19 @@
+{
+  "id": "sequence-diagram-example-2",
+  "title": "Sequence Diagram Example 2",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "sequence-diagram-example-2-diagram",
+  "url": "/linear/sequence-diagram-example-2-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\nparticipant Participant as Foo\nactor       Actor       as Foo1\nboundary    Boundary    as Foo2\ncontrol     Control     as Foo3\nentity      Entity      as Foo4\ndatabase    Database    as Foo5\ncollections Collections as Foo6\nqueue       Queue       as Foo7\nFoo -&gt; Foo1 : To actor \nFoo -&gt; Foo2 : To boundary\nFoo -&gt; Foo3 : To control\nFoo -&gt; Foo4 : To entity\nFoo -&gt; Foo5 : To database\nFoo -&gt; Foo6 : To collections\nFoo -&gt; Foo7: To queue\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

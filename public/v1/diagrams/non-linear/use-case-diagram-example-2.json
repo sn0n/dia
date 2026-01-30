@@ -1,0 +1,19 @@
+{
+  "id": "use-case-diagram-example-2",
+  "title": "Use Case Diagram Example 2",
+  "type": "non-linear",
+  "category": "Use Case Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "use-case-diagram-example-2-diagram",
+  "url": "/non-linear/use-case-diagram-example-2-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n\n:First Actor:\n:Another\\nactor: as Man2\nactor Woman3\nactor :Last actor: as Person1\n\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

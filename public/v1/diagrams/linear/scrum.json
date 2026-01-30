@@ -1,0 +1,19 @@
+{
+  "id": "scrum",
+  "title": "Scrum",
+  "type": "linear",
+  "category": "Agile",
+  "description": "Backlog → Sprint Planning → Sprint (Standups) → Review → Retrospective",
+  "slug": "scrum-diagram",
+  "url": "/linear/scrum-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Backlog",
+    "Sprint Planning",
+    "Sprint (Standups)",
+    "Review",
+    "Retrospective"
+  ],
+  "advanced": null
+}

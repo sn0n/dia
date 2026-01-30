@@ -1,0 +1,18 @@
+{
+  "category": "Normalization",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "batch-normalization",
+      "title": "Batch Normalization",
+      "type": "ai-workflows",
+      "category": "Normalization",
+      "description": "Batch Input → Calculate Mean/Variance → Normalize → Scale & Shift → Output",
+      "slug": "batch-normalization-diagram",
+      "url": "/ai-workflows/batch-normalization-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

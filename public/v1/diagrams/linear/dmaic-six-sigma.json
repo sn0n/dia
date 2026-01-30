@@ -1,0 +1,19 @@
+{
+  "id": "dmaic-six-sigma",
+  "title": "DMAIC (Six Sigma)",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Define → Measure → Analyze → Improve → Control",
+  "slug": "dmaic-six-sigma-diagram",
+  "url": "/linear/dmaic-six-sigma-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define",
+    "Measure",
+    "Analyze",
+    "Improve",
+    "Control"
+  ],
+  "advanced": null
+}

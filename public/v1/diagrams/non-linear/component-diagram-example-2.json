@@ -1,0 +1,19 @@
+{
+  "id": "component-diagram-example-2",
+  "title": "Component Diagram Example 2",
+  "type": "non-linear",
+  "category": "Component Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "component-diagram-example-2-diagram",
+  "url": "/non-linear/component-diagram-example-2-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\ncomponent [$C1]\ncomponent [$C2] $C2\ncomponent [$C2] as dollarC2\nremove $C1\nremove $C2\nremove dollarC2\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

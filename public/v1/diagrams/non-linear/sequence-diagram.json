@@ -1,0 +1,20 @@
+{
+  "id": "sequence-diagram",
+  "title": "Sequence Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Actor A → Message → Actor B → Response → Actor A → Complete",
+  "slug": "sequence-diagram-diagram",
+  "url": "/non-linear/sequence-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Actor A",
+    "Message",
+    "Actor B",
+    "Response",
+    "Actor A",
+    "Complete"
+  ],
+  "advanced": null
+}

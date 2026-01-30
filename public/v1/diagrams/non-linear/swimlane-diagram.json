@@ -1,0 +1,20 @@
+{
+  "id": "swimlane-diagram",
+  "title": "Swimlane Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Actors → Lanes → Process Steps → Handoffs → Flow → Responsibilities",
+  "slug": "swimlane-diagram-diagram",
+  "url": "/non-linear/swimlane-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Actors",
+    "Lanes",
+    "Process Steps",
+    "Handoffs",
+    "Flow",
+    "Responsibilities"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,95 @@
+{
+  "category": "Emotional",
+  "type": "linear",
+  "count": 8,
+  "diagrams": [
+    {
+      "id": "non-violent-comm",
+      "title": "Non-Violent Comm.",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Observe (No Judgment) → Identify Feeling → Identify Need → Make Request",
+      "slug": "non-violent-comm-diagram",
+      "url": "/linear/non-violent-comm-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cbt-cycle",
+      "title": "CBT Cycle",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Trigger → Automatic Thought → Emotion → Behavior → Challenge Thought",
+      "slug": "cbt-cycle-diagram",
+      "url": "/linear/cbt-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "crucial-conversations",
+      "title": "Crucial Conversations",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Start with Heart → Learn to Look → Make it Safe → State Path → Explore Others",
+      "slug": "crucial-conversations-diagram",
+      "url": "/linear/crucial-conversations-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "grief-cycle",
+      "title": "Grief Cycle",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Denial → Anger → Bargaining → Depression → Acceptance",
+      "slug": "grief-cycle-diagram",
+      "url": "/linear/grief-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "transactional-analysis",
+      "title": "Transactional Analysis",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Identify Ego State (Parent/Adult/Child) → Identify Transaction → Shift to Adult",
+      "slug": "transactional-analysis-diagram",
+      "url": "/linear/transactional-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "active-listening",
+      "title": "Active Listening",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Listen → Pause → Paraphrase → Confirm Understanding",
+      "slug": "active-listening-diagram",
+      "url": "/linear/active-listening-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "radical-candor",
+      "title": "Radical Candor",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Care Personally + Challenge Directly → Feedback",
+      "slug": "radical-candor-diagram",
+      "url": "/linear/radical-candor-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "win-win-negotiation",
+      "title": "Win-Win Negotiation",
+      "type": "linear",
+      "category": "Emotional",
+      "description": "Separate People from Problem → Focus on Interests → Invent Options → Use Objective Criteria",
+      "slug": "win-win-negotiation-diagram",
+      "url": "/linear/win-win-negotiation-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

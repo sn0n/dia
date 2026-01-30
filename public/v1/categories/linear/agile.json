@@ -1,0 +1,62 @@
+{
+  "category": "Agile",
+  "type": "linear",
+  "count": 5,
+  "diagrams": [
+    {
+      "id": "scrum",
+      "title": "Scrum",
+      "type": "linear",
+      "category": "Agile",
+      "description": "Backlog → Sprint Planning → Sprint (Standups) → Review → Retrospective",
+      "slug": "scrum-diagram",
+      "url": "/linear/scrum-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "waterfall",
+      "title": "Waterfall",
+      "type": "linear",
+      "category": "Agile",
+      "description": "Requirements → Design → Implementation → Verification → Maintenance",
+      "slug": "waterfall-diagram",
+      "url": "/linear/waterfall-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "tdd",
+      "title": "TDD",
+      "type": "linear",
+      "category": "Agile",
+      "description": "Write Fail Test → Write Code → Pass Test → Refactor",
+      "slug": "tdd-diagram",
+      "url": "/linear/tdd-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "devops-cycle",
+      "title": "DevOps Cycle",
+      "type": "linear",
+      "category": "Agile",
+      "description": "Plan → Code → Build → Test → Release → Deploy → Operate → Monitor",
+      "slug": "devops-cycle-diagram",
+      "url": "/linear/devops-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "lean-startup",
+      "title": "Lean Startup",
+      "type": "linear",
+      "category": "Agile",
+      "description": "Build (MVP) → Measure (Data) → Learn (Pivot/Persevere)",
+      "slug": "lean-startup-diagram",
+      "url": "/linear/lean-startup-diagram",
+      "hasAdvanced": true,
+      "source": null
+    }
+  ]
+}

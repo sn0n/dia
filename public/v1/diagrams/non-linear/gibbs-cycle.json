@@ -1,0 +1,20 @@
+{
+  "id": "gibbs-cycle",
+  "title": "Gibbs' Cycle",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Description → Feelings → Evaluation → Analysis → Action Plan → Loop",
+  "slug": "gibbs-cycle-diagram",
+  "url": "/non-linear/gibbs-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Description",
+    "Feelings",
+    "Evaluation",
+    "Analysis",
+    "Action Plan",
+    "Loop"
+  ],
+  "advanced": null
+}

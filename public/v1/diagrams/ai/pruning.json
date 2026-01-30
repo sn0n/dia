@@ -1,0 +1,19 @@
+{
+  "id": "pruning",
+  "title": "Pruning",
+  "type": "ai-workflows",
+  "category": "Compression",
+  "description": "Train Full Model → Identify Important Weights → Remove Low-Magnitude → Fine-tune → Smaller Model",
+  "slug": "pruning-diagram",
+  "url": "/ai-workflows/pruning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Train Full Model",
+    "Identify Important Weights",
+    "Remove Low-Magnitude",
+    "Fine-tune",
+    "Smaller Model"
+  ],
+  "advanced": null
+}

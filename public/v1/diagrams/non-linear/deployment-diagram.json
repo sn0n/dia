@@ -1,0 +1,19 @@
+{
+  "id": "deployment-diagram",
+  "title": "Deployment Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Nodes → Artifacts → Deploy → Communication Paths → Protocols",
+  "slug": "deployment-diagram-diagram",
+  "url": "/non-linear/deployment-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Nodes",
+    "Artifacts",
+    "Deploy",
+    "Communication Paths",
+    "Protocols"
+  ],
+  "advanced": null
+}

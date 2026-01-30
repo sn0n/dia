@@ -1,0 +1,20 @@
+{
+  "id": "event-driven-architecture",
+  "title": "Event-Driven Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Event → Producer → Broker → Consumer → Process → Store",
+  "slug": "event-driven-architecture-diagram",
+  "url": "/non-linear/event-driven-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Event",
+    "Producer",
+    "Broker",
+    "Consumer",
+    "Process",
+    "Store"
+  ],
+  "advanced": null
+}

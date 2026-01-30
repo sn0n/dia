@@ -1,0 +1,15 @@
+{
+  "id": "circle-layout",
+  "title": "Circle Layout",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js circle-layout demo from official repository",
+  "slug": "circle-layout-diagram",
+  "url": "/non-linear/circle-layout-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js circle-layout demo from official repository"
+  ],
+  "advanced": null
+}

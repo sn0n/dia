@@ -1,0 +1,98 @@
+{
+  "id": "start-triage",
+  "title": "START Triage",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Walking? (Green) → Breathing? (No=Black/Yes=Red) → Pulse? (Red) → Cap Refill?",
+  "slug": "start-triage-diagram",
+  "url": "/non-linear/start-triage-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Walking? (Green)",
+    "Breathing? (No=Black/Yes=Red)",
+    "Pulse? (Red)",
+    "Cap Refill?"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Patient Entry",
+      "type": "start",
+      "next": {
+        "label": "Able to Walk?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "Yes",
+            "path": {
+              "label": "MINOR (Green)",
+              "type": "end",
+              "color": "emerald"
+            }
+          },
+          {
+            "label": "No",
+            "path": {
+              "label": "Breathing?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "Position Airway. Breathing?",
+                    "type": "decision",
+                    "branches": [
+                      {
+                        "label": "No",
+                        "path": {
+                          "label": "DECEASED (Black)",
+                          "type": "end",
+                          "color": "zinc"
+                        }
+                      },
+                      {
+                        "label": "Yes",
+                        "path": {
+                          "label": "IMMEDIATE (Red)",
+                          "type": "end",
+                          "color": "red"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "Resp Rate > 30?",
+                    "type": "decision",
+                    "branches": [
+                      {
+                        "label": "Yes",
+                        "path": {
+                          "label": "IMMEDIATE (Red)",
+                          "type": "end",
+                          "color": "red"
+                        }
+                      },
+                      {
+                        "label": "No",
+                        "path": {
+                          "label": "DELAYED (Yellow)",
+                          "type": "end",
+                          "color": "amber"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

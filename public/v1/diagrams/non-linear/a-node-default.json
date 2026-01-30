@@ -1,0 +1,19 @@
+{
+  "id": "a-node-default",
+  "title": "A node (default)",
+  "type": "non-linear",
+  "category": "Diagram",
+  "description": "Real example from Mermaid.js flowchart documentation",
+  "slug": "a-node-default-diagram",
+  "url": "/non-linear/a-node-default-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Real example from Mermaid.js flowchart documentation"
+  ],
+  "advanced": {
+    "code": "flowchart LR\n    A e1@==> B\n    A e2@--> C\n    e1@{ curve: linear }\n    e2@{ curve: natural }",
+    "source": "mermaid",
+    "root": null
+  }
+}

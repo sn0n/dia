@@ -1,0 +1,20 @@
+{
+  "id": "kubernetes-architecture",
+  "title": "Kubernetes Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Cluster → Nodes → Pods → Services → Ingress → Volumes",
+  "slug": "kubernetes-architecture-diagram",
+  "url": "/non-linear/kubernetes-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cluster",
+    "Nodes",
+    "Pods",
+    "Services",
+    "Ingress",
+    "Volumes"
+  ],
+  "advanced": null
+}

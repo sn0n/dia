@@ -1,0 +1,15 @@
+{
+  "id": "colors",
+  "title": "Colors",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Colors example from official bpmn-js repository",
+  "slug": "colors-diagram",
+  "url": "/linear/colors-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Colors example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

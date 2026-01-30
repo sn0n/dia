@@ -1,0 +1,95 @@
+{
+  "category": "Class Diagram",
+  "type": "non-linear",
+  "count": 8,
+  "diagrams": [
+    {
+      "id": "syntax",
+      "title": "Syntax",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Real example from Mermaid.js classDiagram documentation",
+      "slug": "syntax-diagram",
+      "url": "/non-linear/syntax-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "syntax",
+      "title": "Syntax",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Real example from Mermaid.js classDiagram documentation",
+      "slug": "syntax-diagram",
+      "url": "/non-linear/syntax-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "syntax",
+      "title": "Syntax",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Real example from Mermaid.js classDiagram documentation",
+      "slug": "syntax-diagram",
+      "url": "/non-linear/syntax-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "syntax",
+      "title": "Syntax",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Real example from Mermaid.js classDiagram documentation",
+      "slug": "syntax-diagram",
+      "url": "/non-linear/syntax-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "syntax",
+      "title": "Syntax",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Real example from Mermaid.js classDiagram documentation",
+      "slug": "syntax-diagram",
+      "url": "/non-linear/syntax-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "class-diagram-example-1",
+      "title": "Class Diagram Example 1",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "class-diagram-example-1-diagram",
+      "url": "/non-linear/class-diagram-example-1-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "class-diagram-example-2",
+      "title": "Class Diagram Example 2",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "class-diagram-example-2-diagram",
+      "url": "/non-linear/class-diagram-example-2-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "class-diagram-example-3",
+      "title": "Class Diagram Example 3",
+      "type": "non-linear",
+      "category": "Class Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "class-diagram-example-3-diagram",
+      "url": "/non-linear/class-diagram-example-3-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    }
+  ]
+}

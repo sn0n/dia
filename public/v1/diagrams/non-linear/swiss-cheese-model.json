@@ -1,0 +1,19 @@
+{
+  "id": "swiss-cheese-model",
+  "title": "Swiss Cheese Model",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Hazard → Layer 1 (Hole?) → Layer 2 (Hole?) → Layer 3 (Hole?) → Accident",
+  "slug": "swiss-cheese-model-diagram",
+  "url": "/non-linear/swiss-cheese-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Hazard",
+    "Layer 1 (Hole?)",
+    "Layer 2 (Hole?)",
+    "Layer 3 (Hole?)",
+    "Accident"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,15 @@
+{
+  "id": "o-ring-theory",
+  "title": "O-Ring Theory",
+  "type": "non-linear",
+  "category": "Risk",
+  "description": "Component A (1.0) × Component B (0.9) × Component C (0.9) = System (0.81)",
+  "slug": "o-ring-theory-diagram",
+  "url": "/non-linear/o-ring-theory-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Component A (1.0) × Component B (0.9) × Component C (0.9) = System (0.81)"
+  ],
+  "advanced": null
+}

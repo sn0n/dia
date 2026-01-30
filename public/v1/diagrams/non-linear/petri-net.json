@@ -1,0 +1,20 @@
+{
+  "id": "petri-net",
+  "title": "Petri Net",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Places → Transitions → Tokens → Arcs → Fire → Marking",
+  "slug": "petri-net-diagram",
+  "url": "/non-linear/petri-net-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Places",
+    "Transitions",
+    "Tokens",
+    "Arcs",
+    "Fire",
+    "Marking"
+  ],
+  "advanced": null
+}

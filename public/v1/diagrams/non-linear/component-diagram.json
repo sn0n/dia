@@ -1,0 +1,19 @@
+{
+  "id": "component-diagram",
+  "title": "Component Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Components → Interfaces → Dependencies → Ports → Connectors",
+  "slug": "component-diagram-diagram",
+  "url": "/non-linear/component-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Components",
+    "Interfaces",
+    "Dependencies",
+    "Ports",
+    "Connectors"
+  ],
+  "advanced": null
+}

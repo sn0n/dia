@@ -1,0 +1,19 @@
+{
+  "id": "design-thinking",
+  "title": "Design Thinking",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Empathize → Define → Ideate → Prototype → Test",
+  "slug": "design-thinking-diagram",
+  "url": "/linear/design-thinking-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Empathize",
+    "Define",
+    "Ideate",
+    "Prototype",
+    "Test"
+  ],
+  "advanced": null
+}

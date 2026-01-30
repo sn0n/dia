@@ -1,0 +1,18 @@
+{
+  "id": "active-listening",
+  "title": "Active Listening",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Listen → Pause → Paraphrase → Confirm Understanding",
+  "slug": "active-listening-diagram",
+  "url": "/linear/active-listening-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Listen",
+    "Pause",
+    "Paraphrase",
+    "Confirm Understanding"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "abcde-model",
+  "title": "ABCDE Model",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Activating Event → Belief → Consequence → Disputation → Effect",
+  "slug": "abcde-model-diagram",
+  "url": "/non-linear/abcde-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Activating Event",
+    "Belief",
+    "Consequence",
+    "Disputation",
+    "Effect"
+  ],
+  "advanced": null
+}

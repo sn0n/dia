@@ -1,0 +1,17 @@
+{
+  "id": "transactional-analysis",
+  "title": "Transactional Analysis",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Identify Ego State (Parent/Adult/Child) → Identify Transaction → Shift to Adult",
+  "slug": "transactional-analysis-diagram",
+  "url": "/linear/transactional-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Identify Ego State (Parent/Adult/Child)",
+    "Identify Transaction",
+    "Shift to Adult"
+  ],
+  "advanced": null
+}

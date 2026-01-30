@@ -1,0 +1,20 @@
+{
+  "id": "timeline",
+  "title": "Timeline",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Events → Chronological → Milestones → Duration → Spans → Now",
+  "slug": "timeline-diagram",
+  "url": "/non-linear/timeline-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Events",
+    "Chronological",
+    "Milestones",
+    "Duration",
+    "Spans",
+    "Now"
+  ],
+  "advanced": null
+}

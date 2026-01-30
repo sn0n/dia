@@ -1,0 +1,19 @@
+{
+  "id": "simple-sequence",
+  "title": "Simple Sequence",
+  "type": "linear",
+  "category": "Syntax Diagram",
+  "description": "Basic sequential railroad diagram",
+  "slug": "simple-sequence-diagram",
+  "url": "/linear/simple-sequence-diagram",
+  "hasAdvanced": true,
+  "source": "railroad",
+  "steps": [
+    "Basic sequential railroad diagram"
+  ],
+  "advanced": {
+    "code": "Diagram(Sequence(\"foo\", \"bar\", \"baz\"))",
+    "source": "railroad",
+    "root": null
+  }
+}

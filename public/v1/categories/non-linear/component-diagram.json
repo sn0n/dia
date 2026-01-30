@@ -1,0 +1,40 @@
+{
+  "category": "Component Diagram",
+  "type": "non-linear",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "component-diagram-example-1",
+      "title": "Component Diagram Example 1",
+      "type": "non-linear",
+      "category": "Component Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "component-diagram-example-1-diagram",
+      "url": "/non-linear/component-diagram-example-1-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "component-diagram-example-2",
+      "title": "Component Diagram Example 2",
+      "type": "non-linear",
+      "category": "Component Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "component-diagram-example-2-diagram",
+      "url": "/non-linear/component-diagram-example-2-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "component-diagram-example-3",
+      "title": "Component Diagram Example 3",
+      "type": "non-linear",
+      "category": "Component Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "component-diagram-example-3-diagram",
+      "url": "/non-linear/component-diagram-example-3-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    }
+  ]
+}

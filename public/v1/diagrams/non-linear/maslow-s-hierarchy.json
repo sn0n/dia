@@ -1,0 +1,19 @@
+{
+  "id": "maslow-s-hierarchy",
+  "title": "Maslow's Hierarchy",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Physio Met? → Safety Met? → Love Met? → Esteem Met? → Self-Act",
+  "slug": "maslow-s-hierarchy-diagram",
+  "url": "/non-linear/maslow-s-hierarchy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Physio Met?",
+    "Safety Met?",
+    "Love Met?",
+    "Esteem Met?",
+    "Self-Act"
+  ],
+  "advanced": null
+}

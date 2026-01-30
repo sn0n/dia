@@ -1,0 +1,18 @@
+{
+  "id": "biological-prime-time",
+  "title": "Biological Prime Time",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Track Energy 1 Week → Identify Peaks → Schedule Deep Work → Admin in Troughs",
+  "slug": "biological-prime-time-diagram",
+  "url": "/linear/biological-prime-time-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Track Energy 1 Week",
+    "Identify Peaks",
+    "Schedule Deep Work",
+    "Admin in Troughs"
+  ],
+  "advanced": null
+}

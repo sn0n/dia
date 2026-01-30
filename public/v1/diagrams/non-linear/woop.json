@@ -1,0 +1,18 @@
+{
+  "id": "woop",
+  "title": "WOOP",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Wish → Outcome → Obstacle → Plan (If Obstacle -> Then Action)",
+  "slug": "woop-diagram",
+  "url": "/non-linear/woop-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Wish",
+    "Outcome",
+    "Obstacle",
+    "Plan (If Obstacle -> Then Action)"
+  ],
+  "advanced": null
+}

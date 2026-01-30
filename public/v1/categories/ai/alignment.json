@@ -1,0 +1,18 @@
+{
+  "category": "Alignment",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "rlhf-reinforcement-learning-from-human-feedback",
+      "title": "RLHF (Reinforcement Learning from Human Feedback)",
+      "type": "ai-workflows",
+      "category": "Alignment",
+      "description": "Generate → Human Ranks → Train Reward Model → PPO Training → Aligned Model",
+      "slug": "rlhf-reinforcement-learning-from-human-feedback-diagram",
+      "url": "/ai-workflows/rlhf-reinforcement-learning-from-human-feedback-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

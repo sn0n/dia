@@ -1,0 +1,117 @@
+{
+  "category": "Network Graph",
+  "type": "non-linear",
+  "count": 10,
+  "diagrams": [
+    {
+      "id": "6000-elements",
+      "title": "6000 Elements",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js 6000-elements demo from official repository",
+      "slug": "6000-elements-diagram",
+      "url": "/non-linear/6000-elements-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "animated-bfs",
+      "title": "Animated Bfs",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js animated-bfs demo from official repository",
+      "slug": "animated-bfs-diagram",
+      "url": "/non-linear/animated-bfs-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js architecture demo from official repository",
+      "slug": "architecture-diagram",
+      "url": "/non-linear/architecture-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "background-image-containment",
+      "title": "Background Image Containment",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js background-image-containment demo from official repository",
+      "slug": "background-image-containment-diagram",
+      "url": "/non-linear/background-image-containment-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "circle-layout",
+      "title": "Circle Layout",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js circle-layout demo from official repository",
+      "slug": "circle-layout-diagram",
+      "url": "/non-linear/circle-layout-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "colajs-graph",
+      "title": "Colajs Graph",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js colajs-graph demo from official repository",
+      "slug": "colajs-graph-diagram",
+      "url": "/non-linear/colajs-graph-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "compound-nodes",
+      "title": "Compound Nodes",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js compound-nodes demo from official repository",
+      "slug": "compound-nodes-diagram",
+      "url": "/non-linear/compound-nodes-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "concentric-layout",
+      "title": "Concentric Layout",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Cytoscape.js concentric-layout demo from official repository",
+      "slug": "concentric-layout-diagram",
+      "url": "/non-linear/concentric-layout-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "force-directed-graph",
+      "title": "Force-Directed Graph",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Network visualization using force simulation from D3 Gallery",
+      "slug": "force-directed-graph-diagram",
+      "url": "/non-linear/force-directed-graph-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "arc-diagram",
+      "title": "Arc Diagram",
+      "type": "non-linear",
+      "category": "Network Graph",
+      "description": "Network as arcs from D3 Gallery",
+      "slug": "arc-diagram-diagram",
+      "url": "/non-linear/arc-diagram-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

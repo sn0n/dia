@@ -1,0 +1,18 @@
+{
+  "id": "double-diamond",
+  "title": "Double Diamond",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Discover (Diverge) → Define (Converge) → Develop (Diverge) → Deliver (Converge)",
+  "slug": "double-diamond-diagram",
+  "url": "/linear/double-diamond-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Discover (Diverge)",
+    "Define (Converge)",
+    "Develop (Diverge)",
+    "Deliver (Converge)"
+  ],
+  "advanced": null
+}

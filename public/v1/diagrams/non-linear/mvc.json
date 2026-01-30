@@ -1,0 +1,19 @@
+{
+  "id": "mvc",
+  "title": "MVC",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "User Action → Controller → Model Update → View Update → User",
+  "slug": "mvc-diagram",
+  "url": "/non-linear/mvc-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "User Action",
+    "Controller",
+    "Model Update",
+    "View Update",
+    "User"
+  ],
+  "advanced": null
+}

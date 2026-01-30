@@ -1,0 +1,20 @@
+{
+  "id": "venn-diagram",
+  "title": "Venn Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Set A → Set B → Intersection → Union → Complement → Visualize",
+  "slug": "venn-diagram-diagram",
+  "url": "/non-linear/venn-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Set A",
+    "Set B",
+    "Intersection",
+    "Union",
+    "Complement",
+    "Visualize"
+  ],
+  "advanced": null
+}

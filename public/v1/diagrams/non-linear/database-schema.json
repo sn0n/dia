@@ -1,0 +1,20 @@
+{
+  "id": "database-schema",
+  "title": "Database Schema",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Tables → Columns → Types → Constraints → Indexes → Foreign Keys",
+  "slug": "database-schema-diagram",
+  "url": "/non-linear/database-schema-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Tables",
+    "Columns",
+    "Types",
+    "Constraints",
+    "Indexes",
+    "Foreign Keys"
+  ],
+  "advanced": null
+}

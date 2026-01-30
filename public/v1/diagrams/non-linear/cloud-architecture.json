@@ -1,0 +1,21 @@
+{
+  "id": "cloud-architecture",
+  "title": "Cloud Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Region → VPC → Subnets → EC2 → RDS → S3 → CloudFront",
+  "slug": "cloud-architecture-diagram",
+  "url": "/non-linear/cloud-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Region",
+    "VPC",
+    "Subnets",
+    "EC2",
+    "RDS",
+    "S3",
+    "CloudFront"
+  ],
+  "advanced": null
+}

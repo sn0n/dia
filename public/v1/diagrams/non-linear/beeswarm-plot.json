@@ -1,0 +1,15 @@
+{
+  "id": "beeswarm-plot",
+  "title": "Beeswarm Plot",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Beeswarm Plot",
+  "slug": "beeswarm-plot-diagram",
+  "url": "/non-linear/beeswarm-plot-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Beeswarm Plot"
+  ],
+  "advanced": null
+}

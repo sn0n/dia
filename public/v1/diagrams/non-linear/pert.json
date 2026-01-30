@@ -1,0 +1,17 @@
+{
+  "id": "pert",
+  "title": "PERT",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Task → (Optimistic + 4*Likely + Pessimistic) / 6 → Weighted Avg",
+  "slug": "pert-diagram",
+  "url": "/non-linear/pert-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Task",
+    "(Optimistic + 4*Likely + Pessimistic) / 6",
+    "Weighted Avg"
+  ],
+  "advanced": null
+}

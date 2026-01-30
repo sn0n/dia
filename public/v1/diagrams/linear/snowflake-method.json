@@ -1,0 +1,19 @@
+{
+  "id": "snowflake-method",
+  "title": "Snowflake Method",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "One Sentence → One Paragraph → Character Sheets → Scene List → First Draft",
+  "slug": "snowflake-method-diagram",
+  "url": "/linear/snowflake-method-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "One Sentence",
+    "One Paragraph",
+    "Character Sheets",
+    "Scene List",
+    "First Draft"
+  ],
+  "advanced": null
+}

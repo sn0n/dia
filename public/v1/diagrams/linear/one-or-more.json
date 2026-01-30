@@ -1,0 +1,19 @@
+{
+  "id": "one-or-more",
+  "title": "One Or More",
+  "type": "linear",
+  "category": "Syntax Diagram",
+  "description": "Railroad diagram for repeated elements",
+  "slug": "one-or-more-diagram",
+  "url": "/linear/one-or-more-diagram",
+  "hasAdvanced": true,
+  "source": "railroad",
+  "steps": [
+    "Railroad diagram for repeated elements"
+  ],
+  "advanced": {
+    "code": "Diagram(OneOrMore(\"foo\"))",
+    "source": "railroad",
+    "root": null
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "category": "Systems",
+  "type": "non-linear",
+  "count": 11,
+  "diagrams": [
+    {
+      "id": "pid-controller",
+      "title": "PID Controller",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Measure → Calculate Error → Apply Correction → Loop",
+      "slug": "pid-controller-diagram",
+      "url": "/non-linear/pid-controller-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "theory-of-constraints",
+      "title": "Theory of Constraints",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Identify Constraint → Exploit → Subordinate → Elevate → Loop",
+      "slug": "theory-of-constraints-diagram",
+      "url": "/non-linear/theory-of-constraints-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "the-flywheel-effect",
+      "title": "The Flywheel Effect",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Applied Effort → Build Momentum → Breakthrough → Reduced Effort → Loop",
+      "slug": "the-flywheel-effect-diagram",
+      "url": "/non-linear/the-flywheel-effect-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "kaizen",
+      "title": "Kaizen",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Standardize → Measure → Compare → Innovate → Standardize (Loop)",
+      "slug": "kaizen-diagram",
+      "url": "/non-linear/kaizen-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "the-habit-loop",
+      "title": "The Habit Loop",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Cue (Trigger) → Routine (Behavior) → Reward → Craving (Loop)",
+      "slug": "the-habit-loop-diagram",
+      "url": "/non-linear/the-habit-loop-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "positive-feedback",
+      "title": "Positive Feedback",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Event A → Produces B → Amplifies A → Exponential Growth",
+      "slug": "positive-feedback-diagram",
+      "url": "/non-linear/positive-feedback-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "negative-feedback",
+      "title": "Negative Feedback",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Event A → Produces B → Reduces A → Stability",
+      "slug": "negative-feedback-diagram",
+      "url": "/non-linear/negative-feedback-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "the-hook-model",
+      "title": "The Hook Model",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Trigger → Action → Variable Reward → Investment → Trigger (Loop)",
+      "slug": "the-hook-model-diagram",
+      "url": "/non-linear/the-hook-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "boyd-s-e-m-theory",
+      "title": "Boyd's E-M Theory",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Energy State → Trade for Position/Speed → Regain Energy → Loop",
+      "slug": "boyd-s-e-m-theory-diagram",
+      "url": "/non-linear/boyd-s-e-m-theory-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "triple-loop-learning",
+      "title": "Triple-Loop Learning",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Result → Action (Single) → Assumptions (Double) → Identity (Triple)",
+      "slug": "triple-loop-learning-diagram",
+      "url": "/non-linear/triple-loop-learning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "effectuation",
+      "title": "Effectuation",
+      "type": "non-linear",
+      "category": "Systems",
+      "description": "Means → Affordable Loss → Contingencies → New Means → Loop",
+      "slug": "effectuation-diagram",
+      "url": "/non-linear/effectuation-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

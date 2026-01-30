@@ -1,0 +1,19 @@
+{
+  "id": "wardley-map",
+  "title": "Wardley Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Components → Evolution → Value Chain → Movement → Strategy",
+  "slug": "wardley-map-diagram",
+  "url": "/non-linear/wardley-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Components",
+    "Evolution",
+    "Value Chain",
+    "Movement",
+    "Strategy"
+  ],
+  "advanced": null
+}

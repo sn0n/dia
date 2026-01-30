@@ -1,0 +1,20 @@
+{
+  "id": "decision-matrix",
+  "title": "Decision Matrix",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Options → Criteria → Weights → Scores → Total → Rank",
+  "slug": "decision-matrix-diagram",
+  "url": "/non-linear/decision-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Options",
+    "Criteria",
+    "Weights",
+    "Scores",
+    "Total",
+    "Rank"
+  ],
+  "advanced": null
+}

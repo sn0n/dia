@@ -1,0 +1,19 @@
+{
+  "id": "multi-agent-incident-response",
+  "title": "Multi-Agent Incident Response ⭐",
+  "type": "non-linear",
+  "category": "DevOps",
+  "description": "Coordinated AI agents handling incident detection, diagnosis, and resolution",
+  "slug": "multi-agent-incident-response-diagram",
+  "url": "/non-linear/multi-agent-incident-response-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Coordinated AI agents handling incident detection, diagnosis, and resolution"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Alert] --> B[Triage Agent]\n    B --> C[Detection Agent]\n    C --> D{Incident Type}\n    D -->|Performance| E[Perf Agent]\n    D -->|Security| F[Security Agent]\n    D -->|Availability| G[HA Agent]\n    E --> H[Diagnose]\n    F --> H\n    G --> H\n    H --> I[Root Cause Agent]\n    I --> J{Can Auto-Fix?}\n    J -->|Yes| K[Remediation Agent]\n    J -->|No| L[Escalation Agent]\n    K --> M[Apply Fix]\n    M --> N[Validation Agent]\n    N --> O{Fixed?}\n    O -->|Yes| P[Documentation Agent]\n    O -->|No| L\n    L --> Q[Human Team]\n    P --> R[Post-Mortem Agent]",
+    "source": "mermaid",
+    "root": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "monte-carlo-sim",
+  "title": "Monte Carlo Sim",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Define Domain → Generate Random Inputs → Loop x10k → Aggregate → Probability",
+  "slug": "monte-carlo-sim-diagram",
+  "url": "/non-linear/monte-carlo-sim-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Domain",
+    "Generate Random Inputs",
+    "Loop x10k",
+    "Aggregate",
+    "Probability"
+  ],
+  "advanced": null
+}

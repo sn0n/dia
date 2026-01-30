@@ -1,0 +1,15 @@
+{
+  "id": "custom-bundle",
+  "title": "Custom Bundle",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Custom Bundle example from official bpmn-js repository",
+  "slug": "custom-bundle-diagram",
+  "url": "/linear/custom-bundle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Custom Bundle example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "value-stream",
+  "title": "Value Stream",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Supplier → Process → Value Add → Wait → Customer → Lead Time",
+  "slug": "value-stream-diagram",
+  "url": "/non-linear/value-stream-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Supplier",
+    "Process",
+    "Value Add",
+    "Wait",
+    "Customer",
+    "Lead Time"
+  ],
+  "advanced": null
+}

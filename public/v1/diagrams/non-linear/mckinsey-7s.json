@@ -1,0 +1,21 @@
+{
+  "id": "mckinsey-7s",
+  "title": "McKinsey 7S",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Strategy ↔ Structure ↔ Systems ↔ Shared Values ↔ Style ↔ Staff ↔ Skills",
+  "slug": "mckinsey-7s-diagram",
+  "url": "/non-linear/mckinsey-7s-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Strategy",
+    "Structure",
+    "Systems",
+    "Shared Values",
+    "Style",
+    "Staff",
+    "Skills"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "six-thinking-hats",
+  "title": "Six Thinking Hats",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "White (Data) → Red (Emotion) → Black (Caution) → Yellow (Optimism) → Green (Creative) → Blue (Control)",
+  "slug": "six-thinking-hats-diagram",
+  "url": "/linear/six-thinking-hats-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "White (Data)",
+    "Red (Emotion)",
+    "Black (Caution)",
+    "Yellow (Optimism)",
+    "Green (Creative)",
+    "Blue (Control)"
+  ],
+  "advanced": null
+}

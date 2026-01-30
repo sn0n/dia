@@ -1,0 +1,62 @@
+{
+  "category": "Strategy",
+  "type": "non-linear",
+  "count": 5,
+  "diagrams": [
+    {
+      "id": "kano-model",
+      "title": "Kano Model",
+      "type": "non-linear",
+      "category": "Strategy",
+      "description": "Basic Needs (Must) → Performance (Linear) → Delighters (Wow)",
+      "slug": "kano-model-diagram",
+      "url": "/non-linear/kano-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "value-stream-mapping",
+      "title": "Value Stream Mapping",
+      "type": "non-linear",
+      "category": "Strategy",
+      "description": "Current State → Identify Waste → Future State → Plan",
+      "slug": "value-stream-mapping-diagram",
+      "url": "/non-linear/value-stream-mapping-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "theory-of-change",
+      "title": "Theory of Change",
+      "type": "non-linear",
+      "category": "Strategy",
+      "description": "Long-term Goal → Preconditions → Interventions → Indicators",
+      "slug": "theory-of-change-diagram",
+      "url": "/non-linear/theory-of-change-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "cone-of-uncertainty",
+      "title": "Cone of Uncertainty",
+      "type": "non-linear",
+      "category": "Strategy",
+      "description": "Today → Drivers → Future A / Future B / Future C → Strategies",
+      "slug": "cone-of-uncertainty-diagram",
+      "url": "/non-linear/cone-of-uncertainty-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "blue-red-teaming",
+      "title": "Blue/Red Teaming",
+      "type": "non-linear",
+      "category": "Strategy",
+      "description": "Blue Team (Defend) ↔ Red Team (Attack) → Feedback Loop",
+      "slug": "blue-red-teaming-diagram",
+      "url": "/non-linear/blue-red-teaming-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

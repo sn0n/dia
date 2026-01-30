@@ -1,0 +1,51 @@
+{
+  "category": "MLOps",
+  "type": "ai",
+  "count": 4,
+  "diagrams": [
+    {
+      "id": "model-deployment",
+      "title": "Model Deployment",
+      "type": "ai-workflows",
+      "category": "MLOps",
+      "description": "Export Model → ONNX/TensorRT → Container → Load Balancer → Serve → Monitor",
+      "slug": "model-deployment-diagram",
+      "url": "/ai-workflows/model-deployment-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "feature-store",
+      "title": "Feature Store",
+      "type": "ai-workflows",
+      "category": "MLOps",
+      "description": "Raw Data → Feature Engineering → Store → Serve (Train/Inference) → Version Control",
+      "slug": "feature-store-diagram",
+      "url": "/ai-workflows/feature-store-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "model-monitoring",
+      "title": "Model Monitoring",
+      "type": "ai-workflows",
+      "category": "MLOps",
+      "description": "Production Model → Log Predictions → Detect Drift → Alert → Retrain Trigger",
+      "slug": "model-monitoring-diagram",
+      "url": "/ai-workflows/model-monitoring-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "continuous-training",
+      "title": "Continuous Training",
+      "type": "ai-workflows",
+      "category": "MLOps",
+      "description": "New Data → Trigger → Retrain → Validate → Deploy → Monitor → Loop",
+      "slug": "continuous-training-diagram",
+      "url": "/ai-workflows/continuous-training-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

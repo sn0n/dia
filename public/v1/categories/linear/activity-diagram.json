@@ -1,0 +1,51 @@
+{
+  "category": "Activity Diagram",
+  "type": "linear",
+  "count": 4,
+  "diagrams": [
+    {
+      "id": "actdiag-example",
+      "title": "ActDiag Example",
+      "type": "linear",
+      "category": "Activity Diagram",
+      "description": "Activity Diagram via Kroki unified API",
+      "slug": "actdiag-example-diagram",
+      "url": "/linear/actdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    },
+    {
+      "id": "activity-diagram-example-1",
+      "title": "Activity Diagram Example 1",
+      "type": "linear",
+      "category": "Activity Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "activity-diagram-example-1-diagram",
+      "url": "/linear/activity-diagram-example-1-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "activity-diagram-example-2",
+      "title": "Activity Diagram Example 2",
+      "type": "linear",
+      "category": "Activity Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "activity-diagram-example-2-diagram",
+      "url": "/linear/activity-diagram-example-2-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    },
+    {
+      "id": "activity-diagram-example-3",
+      "title": "Activity Diagram Example 3",
+      "type": "linear",
+      "category": "Activity Diagram",
+      "description": "Official example from PlantUML documentation",
+      "slug": "activity-diagram-example-3-diagram",
+      "url": "/linear/activity-diagram-example-3-diagram",
+      "hasAdvanced": true,
+      "source": "plantuml"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "tags": [
+    {
+      "name": "Strategy",
+      "count": 2
+    },
+    {
+      "name": "Architecture",
+      "count": 2
+    },
+    {
+      "name": "API",
+      "count": 1
+    },
+    {
+      "name": "Activity Diagram",
+      "count": 1
+    },
+    {
+      "name": "Agile",
+      "count": 1
+    },
+    {
+      "name": "Authentication",
+      "count": 1
+    },
+    {
+      "name": "Business Process",
+      "count": 1
+    },
+    {
+      "name": "Communication",
+      "count": 1
+    },
+    {
+      "name": "Creativity",
+      "count": 1
+    },
+    {
+      "name": "Emotional",
+      "count": 1
+    },
+    {
+      "name": "Gantt Chart",
+      "count": 1
+    },
+    {
+      "name": "Learning",
+      "count": 1
+    },
+    {
+      "name": "Machine Learning",
+      "count": 1
+    },
+    {
+      "name": "Packet Diagram",
+      "count": 1
+    },
+    {
+      "name": "Problem Solving",
+      "count": 1
+    },
+    {
+      "name": "Productivity",
+      "count": 1
+    },
+    {
+      "name": "Rack Diagram",
+      "count": 1
+    },
+    {
+      "name": "Science",
+      "count": 1
+    },
+    {
+      "name": "Sequence Diagram",
+      "count": 1
+    },
+    {
+      "name": "Syntax Diagram",
+      "count": 1
+    },
+    {
+      "name": "Thinking",
+      "count": 1
+    },
+    {
+      "name": "Timing Diagram",
+      "count": 1
+    },
+    {
+      "name": "Block Diagram",
+      "count": 1
+    },
+    {
+      "name": "Caching",
+      "count": 1
+    },
+    {
+      "name": "Class Diagram",
+      "count": 1
+    },
+    {
+      "name": "Component Diagram",
+      "count": 1
+    },
+    {
+      "name": "Data",
+      "count": 1
+    },
+    {
+      "name": "Data Visualization",
+      "count": 1
+    },
+    {
+      "name": "DevOps",
+      "count": 1
+    },
+    {
+      "name": "Diagram",
+      "count": 1
+    },
+    {
+      "name": "Diagrams",
+      "count": 1
+    },
+    {
+      "name": "ER Diagram",
+      "count": 1
+    },
+    {
+      "name": "Flow Diagram",
+      "count": 1
+    },
+    {
+      "name": "Graph Diagram",
+      "count": 1
+    },
+    {
+      "name": "Hierarchy",
+      "count": 1
+    },
+    {
+      "name": "Iterative",
+      "count": 1
+    },
+    {
+      "name": "Logic",
+      "count": 1
+    },
+    {
+      "name": "Management",
+      "count": 1
+    },
+    {
+      "name": "Network Diagram",
+      "count": 1
+    },
+    {
+      "name": "Network Graph",
+      "count": 1
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    },
+    {
+      "name": "Pikchr Diagram",
+      "count": 1
+    },
+    {
+      "name": "Risk",
+      "count": 1
+    },
+    {
+      "name": "Systems",
+      "count": 1
+    },
+    {
+      "name": "Tech",
+      "count": 1
+    },
+    {
+      "name": "Use Case Diagram",
+      "count": 1
+    },
+    {
+      "name": "AI Agents",
+      "count": 1
+    },
+    {
+      "name": "Advanced",
+      "count": 1
+    },
+    {
+      "name": "Alignment",
+      "count": 1
+    },
+    {
+      "name": "AutoML",
+      "count": 1
+    },
+    {
+      "name": "Compression",
+      "count": 1
+    },
+    {
+      "name": "Computer Vision",
+      "count": 1
+    },
+    {
+      "name": "Data Processing",
+      "count": 1
+    },
+    {
+      "name": "Decoding",
+      "count": 1
+    },
+    {
+      "name": "Deep Learning",
+      "count": 1
+    },
+    {
+      "name": "Deployment",
+      "count": 1
+    },
+    {
+      "name": "Ensemble",
+      "count": 1
+    },
+    {
+      "name": "Generative AI",
+      "count": 1
+    },
+    {
+      "name": "Interpretability",
+      "count": 1
+    },
+    {
+      "name": "LLM Pattern",
+      "count": 1
+    },
+    {
+      "name": "MLOps",
+      "count": 1
+    },
+    {
+      "name": "Multimodal",
+      "count": 1
+    },
+    {
+      "name": "Normalization",
+      "count": 1
+    },
+    {
+      "name": "Optimization",
+      "count": 1
+    },
+    {
+      "name": "Preprocessing",
+      "count": 1
+    },
+    {
+      "name": "Prompting",
+      "count": 1
+    },
+    {
+      "name": "Regularization",
+      "count": 1
+    },
+    {
+      "name": "Representation",
+      "count": 1
+    },
+    {
+      "name": "Robustness",
+      "count": 1
+    },
+    {
+      "name": "Safety",
+      "count": 1
+    },
+    {
+      "name": "Sequence Processing",
+      "count": 1
+    },
+    {
+      "name": "Sequence-to-Sequence",
+      "count": 1
+    },
+    {
+      "name": "Training",
+      "count": 1
+    },
+    {
+      "name": "Training Strategy",
+      "count": 1
+    },
+    {
+      "name": "Unsupervised Learning",
+      "count": 1
+    },
+    {
+      "name": "Validation",
+      "count": 1
+    }
+  ]
+}

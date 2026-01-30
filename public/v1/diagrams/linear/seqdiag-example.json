@@ -1,0 +1,19 @@
+{
+  "id": "seqdiag-example",
+  "title": "SeqDiag Example",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Sequence Diagram via Kroki unified API",
+  "slug": "seqdiag-example-diagram",
+  "url": "/linear/seqdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Sequence Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "seqdiag {\n  browser -> webserver [label = \"GET /\"];\n  webserver -> database [label = \"SELECT\"];\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

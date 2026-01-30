@@ -1,0 +1,19 @@
+{
+  "id": "blockdiag-example",
+  "title": "BlockDiag Example",
+  "type": "non-linear",
+  "category": "Block Diagram",
+  "description": "Block Diagram via Kroki unified API",
+  "slug": "blockdiag-example-diagram",
+  "url": "/non-linear/blockdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Block Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "blockdiag {\n  A -> B -> C;\n  B -> D;\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "category": "Network Diagram",
+  "type": "non-linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "nwdiag-example",
+      "title": "NwDiag Example",
+      "type": "non-linear",
+      "category": "Network Diagram",
+      "description": "Network Diagram via Kroki unified API",
+      "slug": "nwdiag-example-diagram",
+      "url": "/non-linear/nwdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    }
+  ]
+}

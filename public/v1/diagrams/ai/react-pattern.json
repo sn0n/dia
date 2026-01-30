@@ -1,0 +1,21 @@
+{
+  "id": "react-pattern",
+  "title": "ReAct Pattern",
+  "type": "ai-workflows",
+  "category": "AI Agents",
+  "description": "Thought → Action → Observation → Thought → Action → ... → Answer",
+  "slug": "react-pattern-diagram",
+  "url": "/ai-workflows/react-pattern-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Thought",
+    "Action",
+    "Observation",
+    "Thought",
+    "Action",
+    "...",
+    "Answer"
+  ],
+  "advanced": null
+}

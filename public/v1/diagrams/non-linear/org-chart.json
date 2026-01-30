@@ -1,0 +1,19 @@
+{
+  "id": "org-chart",
+  "title": "Org Chart",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "CEO → Departments → Teams → Managers → Individual Contributors",
+  "slug": "org-chart-diagram",
+  "url": "/non-linear/org-chart-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "CEO",
+    "Departments",
+    "Teams",
+    "Managers",
+    "Individual Contributors"
+  ],
+  "advanced": null
+}

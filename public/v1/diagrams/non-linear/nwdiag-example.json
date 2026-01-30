@@ -1,0 +1,19 @@
+{
+  "id": "nwdiag-example",
+  "title": "NwDiag Example",
+  "type": "non-linear",
+  "category": "Network Diagram",
+  "description": "Network Diagram via Kroki unified API",
+  "slug": "nwdiag-example-diagram",
+  "url": "/non-linear/nwdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Network Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "nwdiag {\n  network dmz {\n    web01;\n    web02;\n  }\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

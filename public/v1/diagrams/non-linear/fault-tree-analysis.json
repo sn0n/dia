@@ -1,0 +1,18 @@
+{
+  "id": "fault-tree-analysis",
+  "title": "Fault Tree Analysis",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Undesired Event → Logic Gate (OR/AND) → Lower Events → Root Causes",
+  "slug": "fault-tree-analysis-diagram",
+  "url": "/non-linear/fault-tree-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Undesired Event",
+    "Logic Gate (OR/AND)",
+    "Lower Events",
+    "Root Causes"
+  ],
+  "advanced": null
+}

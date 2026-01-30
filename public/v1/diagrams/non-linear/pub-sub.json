@@ -1,0 +1,18 @@
+{
+  "id": "pub-sub",
+  "title": "Pub/Sub",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "Publisher → Message → Topic → Subscriber A (Parallel) / Subscriber B (Parallel)",
+  "slug": "pub-sub-diagram",
+  "url": "/non-linear/pub-sub-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Publisher",
+    "Message",
+    "Topic",
+    "Subscriber A (Parallel) / Subscriber B (Parallel)"
+  ],
+  "advanced": null
+}

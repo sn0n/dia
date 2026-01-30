@@ -1,0 +1,19 @@
+{
+  "id": "inbox-zero",
+  "title": "Inbox Zero",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Process Item → Delete? → Delegate? → Respond (<2m)? → Defer?",
+  "slug": "inbox-zero-diagram",
+  "url": "/linear/inbox-zero-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Process Item",
+    "Delete?",
+    "Delegate?",
+    "Respond (<2m)?",
+    "Defer?"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "batching",
+  "title": "Batching",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Group Similar Tasks → Schedule Block → Execute Consecutively",
+  "slug": "batching-diagram",
+  "url": "/linear/batching-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Group Similar Tasks",
+    "Schedule Block",
+    "Execute Consecutively"
+  ],
+  "advanced": null
+}

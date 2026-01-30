@@ -1,0 +1,19 @@
+{
+  "id": "authentication-flow",
+  "title": "Authentication Flow",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Authentication sequence with activation boxes",
+  "slug": "authentication-flow-diagram",
+  "url": "/linear/authentication-flow-diagram",
+  "hasAdvanced": true,
+  "source": "js-sequence-diagrams",
+  "steps": [
+    "Authentication sequence with activation boxes"
+  ],
+  "advanced": {
+    "code": "User->+Server: Login Request\nServer->+Database: Query User\nDatabase-->-Server: User Data\nServer-->-User: Login Response",
+    "source": "js-sequence-diagrams",
+    "root": null
+  }
+}

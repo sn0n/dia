@@ -1,0 +1,19 @@
+{
+  "id": "git-flow",
+  "title": "Git Flow",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Main → Develop → Feature Branch (Loop) → Release → Merge Main",
+  "slug": "git-flow-diagram",
+  "url": "/non-linear/git-flow-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Main",
+    "Develop",
+    "Feature Branch (Loop)",
+    "Release",
+    "Merge Main"
+  ],
+  "advanced": null
+}

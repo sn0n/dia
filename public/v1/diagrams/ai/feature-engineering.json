@@ -1,0 +1,20 @@
+{
+  "id": "feature-engineering",
+  "title": "Feature Engineering",
+  "type": "ai-workflows",
+  "category": "Preprocessing",
+  "description": "Raw Data → Extract Features → Select Important → Transform → Normalize → Model Input",
+  "slug": "feature-engineering-diagram",
+  "url": "/ai-workflows/feature-engineering-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Raw Data",
+    "Extract Features",
+    "Select Important",
+    "Transform",
+    "Normalize",
+    "Model Input"
+  ],
+  "advanced": null
+}

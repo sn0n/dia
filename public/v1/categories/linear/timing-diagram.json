@@ -1,0 +1,29 @@
+{
+  "category": "Timing Diagram",
+  "type": "linear",
+  "count": 2,
+  "diagrams": [
+    {
+      "id": "wavedrom-timing-diagram-1",
+      "title": "WaveDrom Timing Diagram 1",
+      "type": "linear",
+      "category": "Timing Diagram",
+      "description": "Digital timing diagram from WaveDrom official tutorial",
+      "slug": "wavedrom-timing-diagram-1-diagram",
+      "url": "/linear/wavedrom-timing-diagram-1-diagram",
+      "hasAdvanced": true,
+      "source": "wavedrom"
+    },
+    {
+      "id": "wavedrom-timing-diagram-2",
+      "title": "WaveDrom Timing Diagram 2",
+      "type": "linear",
+      "category": "Timing Diagram",
+      "description": "Digital timing diagram from WaveDrom official tutorial",
+      "slug": "wavedrom-timing-diagram-2-diagram",
+      "url": "/linear/wavedrom-timing-diagram-2-diagram",
+      "hasAdvanced": true,
+      "source": "wavedrom"
+    }
+  ]
+}

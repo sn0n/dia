@@ -1,0 +1,40 @@
+{
+  "category": "Architecture",
+  "type": "ai",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "transformer-architecture",
+      "title": "Transformer Architecture",
+      "type": "ai-workflows",
+      "category": "Architecture",
+      "description": "Input Embedding → Positional Encoding → Multi-Head Attention → Add & Norm → Feed Forward → Add & Norm → Output",
+      "slug": "transformer-architecture-diagram",
+      "url": "/ai-workflows/transformer-architecture-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "attention-mechanism",
+      "title": "Attention Mechanism",
+      "type": "ai-workflows",
+      "category": "Architecture",
+      "description": "Query → Key → Value → Similarity Score → Softmax → Weighted Sum → Context Vector",
+      "slug": "attention-mechanism-diagram",
+      "url": "/ai-workflows/attention-mechanism-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "lstm-long-short-term-memory",
+      "title": "LSTM (Long Short-Term Memory)",
+      "type": "ai-workflows",
+      "category": "Architecture",
+      "description": "Input → Forget Gate → Input Gate → Cell State Update → Output Gate → Hidden State",
+      "slug": "lstm-long-short-term-memory-diagram",
+      "url": "/ai-workflows/lstm-long-short-term-memory-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

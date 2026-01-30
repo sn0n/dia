@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Simple Sequence",
+    "description": "Basic sequence diagram with notes",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Alice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Authentication Flow",
+    "description": "Authentication sequence with activation boxes",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "User->+Server: Login Request\nServer->+Database: Query User\nDatabase-->-Server: User Data\nServer-->-User: Login Response",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "API Call Sequence",
+    "description": "API request flow with caching",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Client->API: GET /users\nAPI->Cache: Check Cache\nCache-->API: Cache Miss\nAPI->Database: Query\nDatabase-->API: Results\nAPI-->Client: JSON Response",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Error Handling",
+    "description": "Error handling sequence",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "User->System: Submit Form\nSystem->Validator: Validate\nValidator-->System: Error\nSystem-->User: Show Error",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  },
+  {
+    "title": "Async Process",
+    "description": "Asynchronous processing flow",
+    "source": "js-sequence-diagrams",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "Client->Server: Start Process\nNote over Server: Processing...\nServer->Queue: Add Job\nQueue-->Worker: Execute\nWorker-->Client: Notify Complete",
+    "tags": [
+      "sequence",
+      "interaction",
+      "communication",
+      "api"
+    ]
+  }
+]

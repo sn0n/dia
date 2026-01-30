@@ -1,0 +1,18 @@
+{
+  "id": "hegelian-dialectic",
+  "title": "Hegelian Dialectic",
+  "type": "non-linear",
+  "category": "Philosophy",
+  "description": "Thesis → Antithesis (Conflict) → Synthesis (Resolution) → Loop",
+  "slug": "hegelian-dialectic-diagram",
+  "url": "/non-linear/hegelian-dialectic-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Thesis",
+    "Antithesis (Conflict)",
+    "Synthesis (Resolution)",
+    "Loop"
+  ],
+  "advanced": null
+}

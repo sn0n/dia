@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Simple Sequence",
+    "description": "Basic sequential railroad diagram",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Sequence(\"foo\", \"bar\", \"baz\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Choice Between Options",
+    "description": "Railroad diagram showing alternatives",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Choice(0, \"foo\", \"bar\", \"baz\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Optional Element",
+    "description": "Railroad diagram with optional path",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(Optional(\"foo\", \"skip\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "One Or More",
+    "description": "Railroad diagram for repeated elements",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(OneOrMore(\"foo\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  },
+  {
+    "title": "Zero Or More",
+    "description": "Railroad diagram for optional repetition",
+    "source": "railroad",
+    "category": "Syntax Diagram",
+    "type": "linear",
+    "code": "Diagram(ZeroOrMore(\"foo\"))",
+    "tags": [
+      "railroad",
+      "syntax",
+      "grammar",
+      "bnf"
+    ]
+  }
+]

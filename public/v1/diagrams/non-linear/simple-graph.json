@@ -1,0 +1,19 @@
+{
+  "id": "simple-graph",
+  "title": "Simple Graph",
+  "type": "non-linear",
+  "category": "Graph Diagram",
+  "description": "Graphviz DOT language example",
+  "slug": "simple-graph-diagram",
+  "url": "/non-linear/simple-graph-diagram",
+  "hasAdvanced": true,
+  "source": "graphviz",
+  "steps": [
+    "Graphviz DOT language example"
+  ],
+  "advanced": {
+    "code": "graph G {\n  A -- B;\n  B -- C;\n  C -- A;\n}",
+    "source": "graphviz",
+    "root": null
+  }
+}

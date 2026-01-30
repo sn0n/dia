@@ -1,0 +1,15 @@
+{
+  "id": "bpmn-properties",
+  "title": "Bpmn Properties",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 Bpmn Properties example from official bpmn-js repository",
+  "slug": "bpmn-properties-diagram",
+  "url": "/linear/bpmn-properties-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 Bpmn Properties example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

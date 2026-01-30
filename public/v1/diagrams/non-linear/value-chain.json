@@ -1,0 +1,19 @@
+{
+  "id": "value-chain",
+  "title": "Value Chain",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Primary Activities → Support Activities → Value → Margin → Competitive Advantage",
+  "slug": "value-chain-diagram",
+  "url": "/non-linear/value-chain-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Primary Activities",
+    "Support Activities",
+    "Value",
+    "Margin",
+    "Competitive Advantage"
+  ],
+  "advanced": null
+}

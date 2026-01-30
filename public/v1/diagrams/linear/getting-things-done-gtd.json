@@ -1,0 +1,80 @@
+{
+  "id": "getting-things-done-gtd",
+  "title": "Getting Things Done (GTD)",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Capture → Clarify → Organize → Reflect → Engage",
+  "slug": "getting-things-done-gtd-diagram",
+  "url": "/linear/getting-things-done-gtd-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Capture",
+    "Clarify",
+    "Organize",
+    "Reflect",
+    "Engage"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Stuff in Inbox",
+      "type": "start",
+      "next": {
+        "label": "Is it actionable?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "No",
+            "path": {
+              "label": "Eliminate / Incubate / Reference",
+              "type": "end",
+              "color": "red"
+            }
+          },
+          {
+            "label": "Yes",
+            "path": {
+              "label": "Will it take < 2 mins?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "Do it immediately",
+                    "type": "action",
+                    "color": "emerald"
+                  }
+                },
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "Am I the right person?",
+                    "type": "decision",
+                    "branches": [
+                      {
+                        "label": "No",
+                        "path": {
+                          "label": "Delegate",
+                          "type": "action"
+                        }
+                      },
+                      {
+                        "label": "Yes",
+                        "path": {
+                          "label": "Defer (Calendar/Next Actions)",
+                          "type": "action"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

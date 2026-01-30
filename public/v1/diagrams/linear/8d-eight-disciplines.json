@@ -1,0 +1,22 @@
+{
+  "id": "8d-eight-disciplines",
+  "title": "8D (Eight Disciplines)",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Form Team → Describe Problem → Containment → Root Cause → Corrective Action → Validate → Prevent → Recognize",
+  "slug": "8d-eight-disciplines-diagram",
+  "url": "/linear/8d-eight-disciplines-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Form Team",
+    "Describe Problem",
+    "Containment",
+    "Root Cause",
+    "Corrective Action",
+    "Validate",
+    "Prevent",
+    "Recognize"
+  ],
+  "advanced": null
+}

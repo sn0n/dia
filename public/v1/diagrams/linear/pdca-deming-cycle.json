@@ -1,0 +1,18 @@
+{
+  "id": "pdca-deming-cycle",
+  "title": "PDCA (Deming Cycle)",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Plan (Hypothesize) → Do (Test) → Check (Analyze) → Act (Implement)",
+  "slug": "pdca-deming-cycle-diagram",
+  "url": "/linear/pdca-deming-cycle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Plan (Hypothesize)",
+    "Do (Test)",
+    "Check (Analyze)",
+    "Act (Implement)"
+  ],
+  "advanced": null
+}

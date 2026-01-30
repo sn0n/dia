@@ -1,0 +1,18 @@
+{
+  "id": "tdd",
+  "title": "TDD",
+  "type": "linear",
+  "category": "Agile",
+  "description": "Write Fail Test → Write Code → Pass Test → Refactor",
+  "slug": "tdd-diagram",
+  "url": "/linear/tdd-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Write Fail Test",
+    "Write Code",
+    "Pass Test",
+    "Refactor"
+  ],
+  "advanced": null
+}

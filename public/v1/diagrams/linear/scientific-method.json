@@ -1,0 +1,57 @@
+{
+  "id": "scientific-method",
+  "title": "Scientific Method",
+  "type": "linear",
+  "category": "Science",
+  "description": "Observe → Question → Hypothesize → Experiment → Analyze → Conclusion",
+  "slug": "scientific-method-diagram",
+  "url": "/linear/scientific-method-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Observe",
+    "Question",
+    "Hypothesize",
+    "Experiment",
+    "Analyze",
+    "Conclusion"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Observation",
+      "type": "start",
+      "next": {
+        "label": "Hypothesis",
+        "type": "action",
+        "next": {
+          "label": "Experiment",
+          "type": "action",
+          "next": {
+            "label": "Analyze Data",
+            "type": "decision",
+            "branches": [
+              {
+                "label": "Results align?",
+                "path": {
+                  "label": "Theory Supported",
+                  "type": "end",
+                  "color": "emerald"
+                }
+              },
+              {
+                "label": "Mismatch?",
+                "path": {
+                  "label": "Revise Hypothesis",
+                  "type": "action",
+                  "loop": true
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

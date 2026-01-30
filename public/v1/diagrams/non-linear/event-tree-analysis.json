@@ -1,0 +1,18 @@
+{
+  "id": "event-tree-analysis",
+  "title": "Event Tree Analysis",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Initiating Event → System A Works? (Yes/No) → System B Works? (Yes/No) → Consequence",
+  "slug": "event-tree-analysis-diagram",
+  "url": "/non-linear/event-tree-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Initiating Event",
+    "System A Works? (Yes/No)",
+    "System B Works? (Yes/No)",
+    "Consequence"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "inversion",
+  "title": "Inversion",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Define Goal → Define Failure Mode → Avoid Failure Steps",
+  "slug": "inversion-diagram",
+  "url": "/linear/inversion-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Goal",
+    "Define Failure Mode",
+    "Avoid Failure Steps"
+  ],
+  "advanced": null
+}

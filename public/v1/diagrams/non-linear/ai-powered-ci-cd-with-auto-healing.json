@@ -1,0 +1,19 @@
+{
+  "id": "ai-powered-ci-cd-with-auto-healing",
+  "title": "AI-Powered CI/CD with Auto-Healing ⭐",
+  "type": "non-linear",
+  "category": "DevOps",
+  "description": "Autonomous CI/CD pipeline with AI-driven testing and auto-healing capabilities",
+  "slug": "ai-powered-ci-cd-with-auto-healing-diagram",
+  "url": "/non-linear/ai-powered-ci-cd-with-auto-healing-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Autonomous CI/CD pipeline with AI-driven testing and auto-healing capabilities"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Code Push] --> B[AI Code Review]\n    B --> C{Quality Check}\n    C -->|Pass| D[Build]\n    C -->|Fail| E[Auto-Fix Suggestions]\n    E --> A\n    D --> F[AI Test Generation]\n    F --> G[Run Tests]\n    G --> H{Tests Pass?}\n    H -->|No| I[AI Debug & Fix]\n    I --> D\n    H -->|Yes| J[Deploy]\n    J --> K[Monitor]\n    K --> L{Anomaly?}\n    L -->|Yes| M[Auto-Rollback]\n    L -->|No| N[Success]\n    M --> O[AI Root Cause]\n    O --> A",
+    "source": "mermaid",
+    "root": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "synectics",
+  "title": "Synectics",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Identify Problem → Make Strange Familiar → Make Familiar Strange → Force Connections",
+  "slug": "synectics-diagram",
+  "url": "/linear/synectics-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Identify Problem",
+    "Make Strange Familiar",
+    "Make Familiar Strange",
+    "Force Connections"
+  ],
+  "advanced": null
+}

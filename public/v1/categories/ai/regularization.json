@@ -1,0 +1,18 @@
+{
+  "category": "Regularization",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "dropout-regularization",
+      "title": "Dropout Regularization",
+      "type": "ai-workflows",
+      "category": "Regularization",
+      "description": "Forward Pass → Randomly Drop Neurons → Train → Test (All Active) → Prevent Overfitting",
+      "slug": "dropout-regularization-diagram",
+      "url": "/ai-workflows/dropout-regularization-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

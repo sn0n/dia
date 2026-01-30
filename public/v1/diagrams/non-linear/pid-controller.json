@@ -1,0 +1,70 @@
+{
+  "id": "pid-controller",
+  "title": "PID Controller",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Measure → Calculate Error → Apply Correction → Loop",
+  "slug": "pid-controller-diagram",
+  "url": "/non-linear/pid-controller-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Measure",
+    "Calculate Error",
+    "Apply Correction",
+    "Loop"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Set Point (Target)",
+      "type": "start",
+      "next": {
+        "label": "Calculate Error",
+        "note": "(Target - Current)",
+        "type": "action",
+        "next": {
+          "label": "Apply Corrections (Parallel)",
+          "type": "parallel",
+          "branches": [
+            {
+              "label": "P",
+              "path": {
+                "label": "Proportional (Present)",
+                "type": "sub"
+              }
+            },
+            {
+              "label": "I",
+              "path": {
+                "label": "Integral (Past)",
+                "type": "sub"
+              }
+            },
+            {
+              "label": "D",
+              "path": {
+                "label": "Derivative (Future)",
+                "type": "sub"
+              }
+            }
+          ],
+          "next": {
+            "label": "Sum Output",
+            "type": "action",
+            "next": {
+              "label": "Update Process",
+              "type": "action",
+              "next": {
+                "label": "Measure New State",
+                "type": "action",
+                "loop": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "switch-case",
+  "title": "Switch/Case",
+  "type": "non-linear",
+  "category": "Logic",
+  "description": "Input Variable → Case 1? → Case 2? → Case 3? → Default",
+  "slug": "switch-case-diagram",
+  "url": "/non-linear/switch-case-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input Variable",
+    "Case 1?",
+    "Case 2?",
+    "Case 3?",
+    "Default"
+  ],
+  "advanced": null
+}

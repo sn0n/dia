@@ -1,0 +1,19 @@
+{
+  "id": "eisenhardt-s-options",
+  "title": "Eisenhardt's Options",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Develop Option A → Develop Option B → Develop Option C → Compare Trade-offs → Select",
+  "slug": "eisenhardt-s-options-diagram",
+  "url": "/linear/eisenhardt-s-options-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Develop Option A",
+    "Develop Option B",
+    "Develop Option C",
+    "Compare Trade-offs",
+    "Select"
+  ],
+  "advanced": null
+}

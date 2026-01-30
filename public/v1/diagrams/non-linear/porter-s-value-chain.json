@@ -1,0 +1,20 @@
+{
+  "id": "porter-s-value-chain",
+  "title": "Porter's Value Chain",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Inbound → Operations → Outbound → Marketing → Service → Margin",
+  "slug": "porter-s-value-chain-diagram",
+  "url": "/non-linear/porter-s-value-chain-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Inbound",
+    "Operations",
+    "Outbound",
+    "Marketing",
+    "Service",
+    "Margin"
+  ],
+  "advanced": null
+}

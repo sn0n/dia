@@ -1,0 +1,20 @@
+{
+  "id": "sitemap",
+  "title": "Sitemap",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Homepage → Section → Subsection → Pages → Hierarchy → Navigation",
+  "slug": "sitemap-diagram",
+  "url": "/non-linear/sitemap-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Homepage",
+    "Section",
+    "Subsection",
+    "Pages",
+    "Hierarchy",
+    "Navigation"
+  ],
+  "advanced": null
+}

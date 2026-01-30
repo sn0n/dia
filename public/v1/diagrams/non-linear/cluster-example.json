@@ -1,0 +1,19 @@
+{
+  "id": "cluster-example",
+  "title": "Cluster Example",
+  "type": "non-linear",
+  "category": "Graph Diagram",
+  "description": "Graphviz DOT language example",
+  "slug": "cluster-example-diagram",
+  "url": "/non-linear/cluster-example-diagram",
+  "hasAdvanced": true,
+  "source": "graphviz",
+  "steps": [
+    "Graphviz DOT language example"
+  ],
+  "advanced": {
+    "code": "digraph G {\n  subgraph cluster_0 {\n    A -> B;\n  }\n  subgraph cluster_1 {\n    C -> D;\n  }\n}",
+    "source": "graphviz",
+    "root": null
+  }
+}

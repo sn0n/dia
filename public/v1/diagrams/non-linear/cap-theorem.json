@@ -1,0 +1,17 @@
+{
+  "id": "cap-theorem",
+  "title": "CAP Theorem",
+  "type": "non-linear",
+  "category": "Tech",
+  "description": "Consistency ↔ Availability ↔ Partition Tolerance (Pick 2)",
+  "slug": "cap-theorem-diagram",
+  "url": "/non-linear/cap-theorem-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Consistency",
+    "Availability",
+    "Partition Tolerance (Pick 2)"
+  ],
+  "advanced": null
+}

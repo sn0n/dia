@@ -1,0 +1,18 @@
+{
+  "id": "positive-feedback",
+  "title": "Positive Feedback",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Event A → Produces B → Amplifies A → Exponential Growth",
+  "slug": "positive-feedback-diagram",
+  "url": "/non-linear/positive-feedback-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Event A",
+    "Produces B",
+    "Amplifies A",
+    "Exponential Growth"
+  ],
+  "advanced": null
+}

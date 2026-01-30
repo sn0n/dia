@@ -1,0 +1,19 @@
+{
+  "id": "porter-s-five-forces",
+  "title": "Porter's Five Forces",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Supplier Power → Buyer Power → Rivalry → Substitution → New Entry",
+  "slug": "porter-s-five-forces-diagram",
+  "url": "/linear/porter-s-five-forces-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Supplier Power",
+    "Buyer Power",
+    "Rivalry",
+    "Substitution",
+    "New Entry"
+  ],
+  "advanced": null
+}

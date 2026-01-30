@@ -1,0 +1,19 @@
+{
+  "id": "situational-leadership",
+  "title": "Situational Leadership",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Diagnose Level → Directing? → Coaching? → Supporting? → Delegating?",
+  "slug": "situational-leadership-diagram",
+  "url": "/non-linear/situational-leadership-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Diagnose Level",
+    "Directing?",
+    "Coaching?",
+    "Supporting?",
+    "Delegating?"
+  ],
+  "advanced": null
+}

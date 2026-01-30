@@ -1,0 +1,19 @@
+{
+  "id": "oauth-2-0-authorization-code-flow",
+  "title": "OAuth 2.0 Authorization Code Flow ⭐",
+  "type": "linear",
+  "category": "Authentication",
+  "description": "Complete OAuth 2.0 authorization code flow with PKCE",
+  "slug": "oauth-2-0-authorization-code-flow-diagram",
+  "url": "/linear/oauth-2-0-authorization-code-flow-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Complete OAuth 2.0 authorization code flow with PKCE"
+  ],
+  "advanced": {
+    "code": "sequenceDiagram\n    participant User\n    participant Client\n    participant AuthServer\n    participant ResourceServer\n\n    User->>Client: Click Login\n    Client->>Client: Generate PKCE\n    Client->>AuthServer: Authorization Request + Code Challenge\n    AuthServer->>User: Login Page\n    User->>AuthServer: Credentials\n    AuthServer->>User: Authorization Code\n    User->>Client: Code\n    Client->>AuthServer: Token Request + Code Verifier\n    AuthServer->>Client: Access Token + Refresh Token\n    Client->>ResourceServer: Request + Access Token\n    ResourceServer->>Client: Protected Resource",
+    "source": "mermaid",
+    "root": null
+  }
+}

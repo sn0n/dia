@@ -1,0 +1,18 @@
+{
+  "id": "multi-task-learning",
+  "title": "Multi-Task Learning",
+  "type": "ai-workflows",
+  "category": "Training",
+  "description": "Shared Layers → Task-Specific Heads → Joint Training → Transfer Knowledge",
+  "slug": "multi-task-learning-diagram",
+  "url": "/ai-workflows/multi-task-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Shared Layers",
+    "Task-Specific Heads",
+    "Joint Training",
+    "Transfer Knowledge"
+  ],
+  "advanced": null
+}

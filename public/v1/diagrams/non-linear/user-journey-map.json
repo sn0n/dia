@@ -1,0 +1,20 @@
+{
+  "id": "user-journey-map",
+  "title": "User Journey Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Persona → Touchpoint → Action → Emotion → Pain Point → Opportunity",
+  "slug": "user-journey-map-diagram",
+  "url": "/non-linear/user-journey-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Persona",
+    "Touchpoint",
+    "Action",
+    "Emotion",
+    "Pain Point",
+    "Opportunity"
+  ],
+  "advanced": null
+}

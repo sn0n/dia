@@ -1,0 +1,20 @@
+{
+  "id": "process-map",
+  "title": "Process Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Start → Steps → Decision Points → Handoffs → End → Metrics",
+  "slug": "process-map-diagram",
+  "url": "/non-linear/process-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Start",
+    "Steps",
+    "Decision Points",
+    "Handoffs",
+    "End",
+    "Metrics"
+  ],
+  "advanced": null
+}

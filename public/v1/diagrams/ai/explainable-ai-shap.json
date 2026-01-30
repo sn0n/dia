@@ -1,0 +1,19 @@
+{
+  "id": "explainable-ai-shap",
+  "title": "Explainable AI (SHAP)",
+  "type": "ai-workflows",
+  "category": "Interpretability",
+  "description": "Model Prediction → SHAP Values → Feature Importance → Visualization → Interpretation",
+  "slug": "explainable-ai-shap-diagram",
+  "url": "/ai-workflows/explainable-ai-shap-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Model Prediction",
+    "SHAP Values",
+    "Feature Importance",
+    "Visualization",
+    "Interpretation"
+  ],
+  "advanced": null
+}

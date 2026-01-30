@@ -1,0 +1,20 @@
+{
+  "id": "network-topology",
+  "title": "Network Topology",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Nodes → Edges → Layout → Centrality → Clustering → Paths",
+  "slug": "network-topology-diagram",
+  "url": "/non-linear/network-topology-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Nodes",
+    "Edges",
+    "Layout",
+    "Centrality",
+    "Clustering",
+    "Paths"
+  ],
+  "advanced": null
+}

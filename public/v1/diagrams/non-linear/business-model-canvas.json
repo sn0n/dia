@@ -1,0 +1,21 @@
+{
+  "id": "business-model-canvas",
+  "title": "Business Model Canvas",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Partners → Activities → Resources → Value → Customers → Costs → Revenue",
+  "slug": "business-model-canvas-diagram",
+  "url": "/non-linear/business-model-canvas-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Partners",
+    "Activities",
+    "Resources",
+    "Value",
+    "Customers",
+    "Costs",
+    "Revenue"
+  ],
+  "advanced": null
+}

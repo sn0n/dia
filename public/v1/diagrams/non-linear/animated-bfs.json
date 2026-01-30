@@ -1,0 +1,15 @@
+{
+  "id": "animated-bfs",
+  "title": "Animated Bfs",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js animated-bfs demo from official repository",
+  "slug": "animated-bfs-diagram",
+  "url": "/non-linear/animated-bfs-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js animated-bfs demo from official repository"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,18 @@
+{
+  "category": "Rack Diagram",
+  "type": "linear",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "rackdiag-example",
+      "title": "RackDiag Example",
+      "type": "linear",
+      "category": "Rack Diagram",
+      "description": "Rack Diagram via Kroki unified API",
+      "slug": "rackdiag-example-diagram",
+      "url": "/linear/rackdiag-example-diagram",
+      "hasAdvanced": true,
+      "source": "kroki"
+    }
+  ]
+}

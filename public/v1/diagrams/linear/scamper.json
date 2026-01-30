@@ -1,0 +1,21 @@
+{
+  "id": "scamper",
+  "title": "SCAMPER",
+  "type": "linear",
+  "category": "Creativity",
+  "description": "Substitute → Combine → Adapt → Modify → Put to use → Eliminate → Reverse",
+  "slug": "scamper-diagram",
+  "url": "/linear/scamper-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Substitute",
+    "Combine",
+    "Adapt",
+    "Modify",
+    "Put to use",
+    "Eliminate",
+    "Reverse"
+  ],
+  "advanced": null
+}

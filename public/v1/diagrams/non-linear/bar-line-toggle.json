@@ -1,0 +1,15 @@
+{
+  "id": "bar-line-toggle",
+  "title": "Bar Line Toggle",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Bar Line Toggle",
+  "slug": "bar-line-toggle-diagram",
+  "url": "/non-linear/bar-line-toggle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Bar Line Toggle"
+  ],
+  "advanced": null
+}

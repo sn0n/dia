@@ -1,0 +1,17 @@
+{
+  "id": "hanlon-s-razor",
+  "title": "Hanlon's Razor",
+  "type": "linear",
+  "category": "Thinking",
+  "description": "Observe Negative Outcome → Question Malice → Default to Incompetence",
+  "slug": "hanlon-s-razor-diagram",
+  "url": "/linear/hanlon-s-razor-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Observe Negative Outcome",
+    "Question Malice",
+    "Default to Incompetence"
+  ],
+  "advanced": null
+}

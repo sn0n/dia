@@ -1,0 +1,19 @@
+{
+  "id": "class-diagram-example-3",
+  "title": "Class Diagram Example 3",
+  "type": "non-linear",
+  "category": "Class Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "class-diagram-example-3-diagram",
+  "url": "/non-linear/class-diagram-example-3-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\nClass11 &lt;|.. Class12\nClass13 --&gt; Class14\nClass15 ..&gt; Class16\nClass17 ..|&gt; Class18\nClass19 &lt;--* Class20\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

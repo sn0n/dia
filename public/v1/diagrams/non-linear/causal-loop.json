@@ -1,0 +1,20 @@
+{
+  "id": "causal-loop",
+  "title": "Causal Loop",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Variable A → Influence → Variable B → Feedback → Loop → Delay",
+  "slug": "causal-loop-diagram",
+  "url": "/non-linear/causal-loop-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Variable A",
+    "Influence",
+    "Variable B",
+    "Feedback",
+    "Loop",
+    "Delay"
+  ],
+  "advanced": null
+}

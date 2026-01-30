@@ -1,0 +1,19 @@
+{
+  "id": "cache-invalidation-strategy",
+  "title": "Cache Invalidation Strategy ⭐",
+  "type": "non-linear",
+  "category": "Caching",
+  "description": "Multi-level cache with intelligent invalidation",
+  "slug": "cache-invalidation-strategy-diagram",
+  "url": "/non-linear/cache-invalidation-strategy-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Multi-level cache with intelligent invalidation"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Request] --> B{L1 Cache Hit?}\n    B -->|Yes| C[Return from L1]\n    B -->|No| D{L2 Cache Hit?}\n    D -->|Yes| E[Return from L2]\n    D -->|No| F{L3 Cache Hit?}\n    F -->|Yes| G[Return from L3]\n    F -->|No| H[Database Query]\n    H --> I[Update L3]\n    I --> J[Update L2]\n    J --> K[Update L1]\n    K --> L[Return Data]\n    E --> K\n    G --> J\n\n    M[Data Update] --> N[Invalidate L1]\n    N --> O[Invalidate L2]\n    O --> P[Invalidate L3]\n    P --> Q[Update DB]",
+    "source": "mermaid",
+    "root": null
+  }
+}

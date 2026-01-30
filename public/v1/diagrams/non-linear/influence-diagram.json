@@ -1,0 +1,19 @@
+{
+  "id": "influence-diagram",
+  "title": "Influence Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Decision → Uncertainty → Value → Dependencies → Optimize",
+  "slug": "influence-diagram-diagram",
+  "url": "/non-linear/influence-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Decision",
+    "Uncertainty",
+    "Value",
+    "Dependencies",
+    "Optimize"
+  ],
+  "advanced": null
+}

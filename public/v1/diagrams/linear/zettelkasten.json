@@ -1,0 +1,18 @@
+{
+  "id": "zettelkasten",
+  "title": "Zettelkasten",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Fleeting Notes → Permanent Notes (One Idea) → Link to Existing → Review Connections",
+  "slug": "zettelkasten-diagram",
+  "url": "/linear/zettelkasten-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Fleeting Notes",
+    "Permanent Notes (One Idea)",
+    "Link to Existing",
+    "Review Connections"
+  ],
+  "advanced": null
+}

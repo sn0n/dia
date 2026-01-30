@@ -1,0 +1,20 @@
+{
+  "id": "bloom-s-taxonomy",
+  "title": "Bloom's Taxonomy",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Remember → Understand → Apply → Analyze → Evaluate → Create",
+  "slug": "bloom-s-taxonomy-diagram",
+  "url": "/linear/bloom-s-taxonomy-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ],
+  "advanced": null
+}

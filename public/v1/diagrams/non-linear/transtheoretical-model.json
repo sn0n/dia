@@ -1,0 +1,20 @@
+{
+  "id": "transtheoretical-model",
+  "title": "Transtheoretical Model",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Pre-contemplation → Contemplation → Preparation → Action → Maintenance → Relapse (Loop)",
+  "slug": "transtheoretical-model-diagram",
+  "url": "/non-linear/transtheoretical-model-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Pre-contemplation",
+    "Contemplation",
+    "Preparation",
+    "Action",
+    "Maintenance",
+    "Relapse (Loop)"
+  ],
+  "advanced": null
+}

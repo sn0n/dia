@@ -1,0 +1,19 @@
+{
+  "id": "c4-model-context",
+  "title": "C4 Model Context",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "System → Users → External Systems → Relationships → Boundaries",
+  "slug": "c4-model-context-diagram",
+  "url": "/non-linear/c4-model-context-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "System",
+    "Users",
+    "External Systems",
+    "Relationships",
+    "Boundaries"
+  ],
+  "advanced": null
+}

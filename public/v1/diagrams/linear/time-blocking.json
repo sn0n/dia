@@ -1,0 +1,18 @@
+{
+  "id": "time-blocking",
+  "title": "Time Blocking",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "List Tasks → Estimate Time → Assign Calendar Slots → Execute",
+  "slug": "time-blocking-diagram",
+  "url": "/linear/time-blocking-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "List Tasks",
+    "Estimate Time",
+    "Assign Calendar Slots",
+    "Execute"
+  ],
+  "advanced": null
+}

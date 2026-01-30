@@ -1,0 +1,19 @@
+{
+  "id": "sq3r",
+  "title": "SQ3R",
+  "type": "linear",
+  "category": "Learning",
+  "description": "Survey → Question → Read → Recite → Review",
+  "slug": "sq3r-diagram",
+  "url": "/linear/sq3r-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Survey",
+    "Question",
+    "Read",
+    "Recite",
+    "Review"
+  ],
+  "advanced": null
+}

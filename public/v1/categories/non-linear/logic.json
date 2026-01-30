@@ -1,0 +1,139 @@
+{
+  "category": "Logic",
+  "type": "non-linear",
+  "count": 12,
+  "diagrams": [
+    {
+      "id": "decision-tree",
+      "title": "Decision Tree",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Node → Branch A (Prob X) / Branch B (Prob Y) → Outcome → Value",
+      "slug": "decision-tree-diagram",
+      "url": "/non-linear/decision-tree-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Sort List → Pick Middle → Target < Middle? (Left) : Target > Middle? (Right)",
+      "slug": "binary-search-diagram",
+      "url": "/non-linear/binary-search-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "minimax-algorithm",
+      "title": "Minimax Algorithm",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Look Ahead → Maximize My Gain → Minimize Opponent Gain → Select",
+      "slug": "minimax-algorithm-diagram",
+      "url": "/non-linear/minimax-algorithm-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "fault-tree-analysis",
+      "title": "Fault Tree Analysis",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Undesired Event → Logic Gate (OR/AND) → Lower Events → Root Causes",
+      "slug": "fault-tree-analysis-diagram",
+      "url": "/non-linear/fault-tree-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "event-tree-analysis",
+      "title": "Event Tree Analysis",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Initiating Event → System A Works? (Yes/No) → System B Works? (Yes/No) → Consequence",
+      "slug": "event-tree-analysis-diagram",
+      "url": "/non-linear/event-tree-analysis-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "start-triage",
+      "title": "START Triage",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Walking? (Green) → Breathing? (No=Black/Yes=Red) → Pulse? (Red) → Cap Refill?",
+      "slug": "start-triage-diagram",
+      "url": "/non-linear/start-triage-diagram",
+      "hasAdvanced": true,
+      "source": null
+    },
+    {
+      "id": "genetic-algorithm",
+      "title": "Genetic Algorithm",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Init Pop → Evaluate Fitness → Select → Crossover/Mutate → New Gen → Loop",
+      "slug": "genetic-algorithm-diagram",
+      "url": "/non-linear/genetic-algorithm-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "monte-carlo-sim",
+      "title": "Monte Carlo Sim",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Define Domain → Generate Random Inputs → Loop x10k → Aggregate → Probability",
+      "slug": "monte-carlo-sim-diagram",
+      "url": "/non-linear/monte-carlo-sim-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "if-then-else",
+      "title": "If-Then-Else",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Condition Met? → True Path ↔ Condition Failed? → False Path",
+      "slug": "if-then-else-diagram",
+      "url": "/non-linear/if-then-else-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "switch-case",
+      "title": "Switch/Case",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Input Variable → Case 1? → Case 2? → Case 3? → Default",
+      "slug": "switch-case-diagram",
+      "url": "/non-linear/switch-case-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Function Call → Base Case Met? (Return) : Loop Deeper (Call Self)",
+      "slug": "recursion-diagram",
+      "url": "/non-linear/recursion-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "stride",
+      "title": "STRIDE",
+      "type": "non-linear",
+      "category": "Logic",
+      "description": "Inspect Flow → Branch: Spoofing? Tampering? Repudiation? Info Disclosure? DoS?",
+      "slug": "stride-diagram",
+      "url": "/non-linear/stride-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

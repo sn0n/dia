@@ -1,0 +1,21 @@
+{
+  "id": "ci-cd-pipeline",
+  "title": "CI/CD Pipeline",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Code → Build → Test → Stage → Deploy → Monitor → Feedback",
+  "slug": "ci-cd-pipeline-diagram",
+  "url": "/non-linear/ci-cd-pipeline-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Code",
+    "Build",
+    "Test",
+    "Stage",
+    "Deploy",
+    "Monitor",
+    "Feedback"
+  ],
+  "advanced": null
+}

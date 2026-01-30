@@ -1,0 +1,15 @@
+{
+  "id": "circle-packing",
+  "title": "Circle Packing",
+  "type": "non-linear",
+  "category": "Hierarchy",
+  "description": "Hierarchical circle layout from D3 Gallery",
+  "slug": "circle-packing-diagram",
+  "url": "/non-linear/circle-packing-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Hierarchical circle layout from D3 Gallery"
+  ],
+  "advanced": null
+}

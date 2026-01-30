@@ -1,0 +1,15 @@
+{
+  "id": "colajs-graph",
+  "title": "Colajs Graph",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js colajs-graph demo from official repository",
+  "slug": "colajs-graph-diagram",
+  "url": "/non-linear/colajs-graph-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js colajs-graph demo from official repository"
+  ],
+  "advanced": null
+}

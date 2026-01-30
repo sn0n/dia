@@ -1,0 +1,16 @@
+{
+  "id": "rice-score",
+  "title": "RICE Score",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Calculate (Reach × Impact × Confidence) / Effort → Sort by Score",
+  "slug": "rice-score-diagram",
+  "url": "/linear/rice-score-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Calculate (Reach × Impact × Confidence) / Effort",
+    "Sort by Score"
+  ],
+  "advanced": null
+}

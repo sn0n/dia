@@ -1,0 +1,18 @@
+{
+  "id": "wrap",
+  "title": "WRAP",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Widen Options → Reality Test → Attain Distance → Prepare to be Wrong",
+  "slug": "wrap-diagram",
+  "url": "/linear/wrap-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Widen Options",
+    "Reality Test",
+    "Attain Distance",
+    "Prepare to be Wrong"
+  ],
+  "advanced": null
+}

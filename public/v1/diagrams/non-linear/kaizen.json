@@ -1,0 +1,19 @@
+{
+  "id": "kaizen",
+  "title": "Kaizen",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Standardize → Measure → Compare → Innovate → Standardize (Loop)",
+  "slug": "kaizen-diagram",
+  "url": "/non-linear/kaizen-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Standardize",
+    "Measure",
+    "Compare",
+    "Innovate",
+    "Standardize (Loop)"
+  ],
+  "advanced": null
+}

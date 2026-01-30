@@ -1,0 +1,40 @@
+{
+  "category": "Compression",
+  "type": "ai",
+  "count": 3,
+  "diagrams": [
+    {
+      "id": "knowledge-distillation",
+      "title": "Knowledge Distillation",
+      "type": "ai-workflows",
+      "category": "Compression",
+      "description": "Teacher Model → Soft Labels → Student Model → Match Distributions → Compressed Model",
+      "slug": "knowledge-distillation-diagram",
+      "url": "/ai-workflows/knowledge-distillation-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "pruning",
+      "title": "Pruning",
+      "type": "ai-workflows",
+      "category": "Compression",
+      "description": "Train Full Model → Identify Important Weights → Remove Low-Magnitude → Fine-tune → Smaller Model",
+      "slug": "pruning-diagram",
+      "url": "/ai-workflows/pruning-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "quantization",
+      "title": "Quantization",
+      "type": "ai-workflows",
+      "category": "Compression",
+      "description": "FP32 Weights → INT8 Conversion → Calibration → Quantized Model → Faster Inference",
+      "slug": "quantization-diagram",
+      "url": "/ai-workflows/quantization-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

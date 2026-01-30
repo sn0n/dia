@@ -1,0 +1,20 @@
+{
+  "id": "a-b-testing-for-models",
+  "title": "A/B Testing for Models",
+  "type": "ai-workflows",
+  "category": "Deployment",
+  "description": "Model A → 50% Traffic → Model B → 50% Traffic → Compare Metrics → Winner",
+  "slug": "a-b-testing-for-models-diagram",
+  "url": "/ai-workflows/a-b-testing-for-models-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Model A",
+    "50% Traffic",
+    "Model B",
+    "50% Traffic",
+    "Compare Metrics",
+    "Winner"
+  ],
+  "advanced": null
+}

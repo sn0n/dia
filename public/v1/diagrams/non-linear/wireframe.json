@@ -1,0 +1,20 @@
+{
+  "id": "wireframe",
+  "title": "Wireframe",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Layout → Components → Navigation → Content → Interaction → Annotations",
+  "slug": "wireframe-diagram",
+  "url": "/non-linear/wireframe-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Layout",
+    "Components",
+    "Navigation",
+    "Content",
+    "Interaction",
+    "Annotations"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "blue-red-teaming",
+  "title": "Blue/Red Teaming",
+  "type": "non-linear",
+  "category": "Strategy",
+  "description": "Blue Team (Defend) ↔ Red Team (Attack) → Feedback Loop",
+  "slug": "blue-red-teaming-diagram",
+  "url": "/non-linear/blue-red-teaming-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Blue Team (Defend)",
+    "Red Team (Attack)",
+    "Feedback Loop"
+  ],
+  "advanced": null
+}

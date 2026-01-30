@@ -1,0 +1,117 @@
+{
+  "category": "Data Visualization",
+  "type": "non-linear",
+  "count": 10,
+  "diagrams": [
+    {
+      "id": "airport-connections",
+      "title": "Airport Connections",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Airport Connections",
+      "slug": "airport-connections-diagram",
+      "url": "/non-linear/airport-connections-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "annual-precipitation",
+      "title": "Annual Precipitation",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Annual Precipitation",
+      "slug": "annual-precipitation-diagram",
+      "url": "/non-linear/annual-precipitation-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "annual-temperature",
+      "title": "Annual Temperature",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Annual Temperature",
+      "slug": "annual-temperature-diagram",
+      "url": "/non-linear/annual-temperature-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "arc-diagram",
+      "title": "Arc Diagram",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Arc Diagram",
+      "slug": "arc-diagram-diagram",
+      "url": "/non-linear/arc-diagram-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "area-chart",
+      "title": "Area Chart",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Area Chart",
+      "slug": "area-chart-diagram",
+      "url": "/non-linear/area-chart-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bar-chart",
+      "title": "Bar Chart",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Bar Chart",
+      "slug": "bar-chart-diagram",
+      "url": "/non-linear/bar-chart-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "bar-line-toggle",
+      "title": "Bar Line Toggle",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Bar Line Toggle",
+      "slug": "bar-line-toggle-diagram",
+      "url": "/non-linear/bar-line-toggle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "barley-trellis-plot",
+      "title": "Barley Trellis Plot",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Barley Trellis Plot",
+      "slug": "barley-trellis-plot-diagram",
+      "url": "/non-linear/barley-trellis-plot-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "beeswarm-plot",
+      "title": "Beeswarm Plot",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Beeswarm Plot",
+      "slug": "beeswarm-plot-diagram",
+      "url": "/non-linear/beeswarm-plot-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "binned-scatter-plot",
+      "title": "Binned Scatter Plot",
+      "type": "non-linear",
+      "category": "Data Visualization",
+      "description": "Vega visualization: Binned Scatter Plot",
+      "slug": "binned-scatter-plot-diagram",
+      "url": "/non-linear/binned-scatter-plot-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

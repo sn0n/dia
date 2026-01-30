@@ -1,0 +1,19 @@
+{
+  "id": "wavedrom-timing-diagram-1",
+  "title": "WaveDrom Timing Diagram 1",
+  "type": "linear",
+  "category": "Timing Diagram",
+  "description": "Digital timing diagram from WaveDrom official tutorial",
+  "slug": "wavedrom-timing-diagram-1-diagram",
+  "url": "/linear/wavedrom-timing-diagram-1-diagram",
+  "hasAdvanced": true,
+  "source": "wavedrom",
+  "steps": [
+    "Digital timing diagram from WaveDrom official tutorial"
+  ],
+  "advanced": {
+    "code": "{ signal: [{ name: \"Alfa\", wave: \"01.zx=ud.23.456789\" }] }",
+    "source": "wavedrom",
+    "root": null
+  }
+}

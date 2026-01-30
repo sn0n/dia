@@ -1,0 +1,20 @@
+{
+  "id": "model-deployment",
+  "title": "Model Deployment",
+  "type": "ai-workflows",
+  "category": "MLOps",
+  "description": "Export Model → ONNX/TensorRT → Container → Load Balancer → Serve → Monitor",
+  "slug": "model-deployment-diagram",
+  "url": "/ai-workflows/model-deployment-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Export Model",
+    "ONNX/TensorRT",
+    "Container",
+    "Load Balancer",
+    "Serve",
+    "Monitor"
+  ],
+  "advanced": null
+}

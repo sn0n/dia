@@ -1,0 +1,19 @@
+{
+  "id": "concept-map",
+  "title": "Concept Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Concept → Link → Relationship → Proposition → Hierarchy",
+  "slug": "concept-map-diagram",
+  "url": "/non-linear/concept-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Concept",
+    "Link",
+    "Relationship",
+    "Proposition",
+    "Hierarchy"
+  ],
+  "advanced": null
+}

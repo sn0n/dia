@@ -1,0 +1,19 @@
+{
+  "id": "5s-system",
+  "title": "5S System",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Sort → Set in Order → Shine → Standardize → Sustain (Loop)",
+  "slug": "5s-system-diagram",
+  "url": "/non-linear/5s-system-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Sort",
+    "Set in Order",
+    "Shine",
+    "Standardize",
+    "Sustain (Loop)"
+  ],
+  "advanced": null
+}

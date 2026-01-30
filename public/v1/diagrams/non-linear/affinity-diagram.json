@@ -1,0 +1,20 @@
+{
+  "id": "affinity-diagram",
+  "title": "Affinity Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Ideas → Group → Category → Organize → Patterns → Insights",
+  "slug": "affinity-diagram-diagram",
+  "url": "/non-linear/affinity-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Ideas",
+    "Group",
+    "Category",
+    "Organize",
+    "Patterns",
+    "Insights"
+  ],
+  "advanced": null
+}

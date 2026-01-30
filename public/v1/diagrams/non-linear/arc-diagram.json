@@ -1,0 +1,15 @@
+{
+  "id": "arc-diagram",
+  "title": "Arc Diagram",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Arc Diagram",
+  "slug": "arc-diagram-diagram",
+  "url": "/non-linear/arc-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Arc Diagram"
+  ],
+  "advanced": null
+}

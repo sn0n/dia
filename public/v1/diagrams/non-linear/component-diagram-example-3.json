@@ -1,0 +1,19 @@
+{
+  "id": "component-diagram-example-3",
+  "title": "Component Diagram Example 3",
+  "type": "non-linear",
+  "category": "Component Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "component-diagram-example-3-diagram",
+  "url": "/non-linear/component-diagram-example-3-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n\n() &#34;First Interface&#34;\n() &#34;Another interface&#34; as Interf2\ninterface Interf3\ninterface &#34;Last\\ninterface&#34; as Interf4\n\n[component]\nfooter //Adding &#34;component&#34; to force diagram to be a **component diagram**//\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

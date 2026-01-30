@@ -1,0 +1,20 @@
+{
+  "id": "saga-pattern",
+  "title": "Saga Pattern",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Service 1 → Success → Service 2 → Failure → Compensate → Rollback",
+  "slug": "saga-pattern-diagram",
+  "url": "/non-linear/saga-pattern-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Service 1",
+    "Success",
+    "Service 2",
+    "Failure",
+    "Compensate",
+    "Rollback"
+  ],
+  "advanced": null
+}

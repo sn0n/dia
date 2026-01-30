@@ -1,0 +1,21 @@
+{
+  "id": "empathy-map",
+  "title": "Empathy Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Says → Thinks → Does → Feels → Pains → Gains → Insights",
+  "slug": "empathy-map-diagram",
+  "url": "/non-linear/empathy-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Says",
+    "Thinks",
+    "Does",
+    "Feels",
+    "Pains",
+    "Gains",
+    "Insights"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "component-diagram-example-1",
+  "title": "Component Diagram Example 1",
+  "type": "non-linear",
+  "category": "Component Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "component-diagram-example-1-diagram",
+  "url": "/non-linear/component-diagram-example-1-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\n\n[First component]\n[Another component] as Comp2\ncomponent Comp3\ncomponent [Last\\ncomponent] as Comp4\n\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

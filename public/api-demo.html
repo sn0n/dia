@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia API Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold mb-2">Dia Static API Demo</h1>
+        <p class="text-gray-600 mb-8">All data served from static JSON files - no backend needed!</p>
+
+        <!-- Stats Section -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">📊 Statistics</h2>
+            <div id="stats" class="grid grid-cols-3 gap-4">
+                <div class="text-center p-4 bg-blue-50 rounded">
+                    <div class="text-3xl font-bold text-blue-600" id="total">-</div>
+                    <div class="text-sm text-gray-600">Total Diagrams</div>
+                </div>
+                <div class="text-center p-4 bg-green-50 rounded">
+                    <div class="text-3xl font-bold text-green-600" id="linear">-</div>
+                    <div class="text-sm text-gray-600">Linear</div>
+                </div>
+                <div class="text-center p-4 bg-purple-50 rounded">
+                    <div class="text-3xl font-bold text-purple-600" id="ai">-</div>
+                    <div class="text-sm text-gray-600">AI Workflows</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- API Endpoints Section -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">🔗 Try API Endpoints</h2>
+            <div class="space-y-2">
+                <button onclick="testEndpoint('/v1/diagrams.json')"
+                    class="w-full text-left p-3 bg-gray-50 hover:bg-gray-100 rounded">
+                    <code class="text-sm text-blue-600">GET /v1/diagrams.json</code>
+                </button>
+                <button onclick="testEndpoint('/v1/diagrams/linear.json')"
+                    class="w-full text-left p-3 bg-gray-50 hover:bg-gray-100 rounded">
+                    <code class="text-sm text-blue-600">GET /v1/diagrams/linear.json</code>
+                </button>
+                <button onclick="testEndpoint('/v1/diagrams/ai.json')"
+                    class="w-full text-left p-3 bg-gray-50 hover:bg-gray-100 rounded">
+                    <code class="text-sm text-blue-600">GET /v1/diagrams/ai.json</code>
+                </button>
+                <button onclick="testEndpoint('/v1/categories.json')"
+                    class="w-full text-left p-3 bg-gray-50 hover:bg-gray-100 rounded">
+                    <code class="text-sm text-blue-600">GET /v1/categories.json</code>
+                </button>
+                <button onclick="testEndpoint('/v1/search/index.json')"
+                    class="w-full text-left p-3 bg-gray-50 hover:bg-gray-100 rounded">
+                    <code class="text-sm text-blue-600">GET /v1/search/index.json</code>
+                </button>
+            </div>
+        </div>
+
+        <!-- Response Section -->
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-2xl font-bold mb-4">📦 API Response</h2>
+            <pre id="response"
+                class="bg-gray-900 text-green-400 p-4 rounded overflow-auto max-h-96 text-sm">Click an endpoint above to see the response...</pre>
+        </div>
+    </div>
+
+    <script>
+        // Load stats on page load
+        async function loadStats() {
+            const response = await fetch('/v1/stats.json')
+            const data = await response.json()
+
+            document.getElementById('total').textContent = data.total_diagrams
+            document.getElementById('linear').textContent = data.by_type.linear
+            document.getElementById('ai').textContent = data.by_type.ai
+        }
+
+        // Test API endpoint
+        async function testEndpoint(url) {
+            const responseEl = document.getElementById('response')
+            responseEl.textContent = 'Loading...'
+
+            try {
+                const response = await fetch(url)
+                const data = await response.json()
+                responseEl.textContent = JSON.stringify(data, null, 2)
+            } catch (error) {
+                responseEl.textContent = `Error: ${error.message}`
+            }
+        }
+
+        // Load stats on page load
+        loadStats()
+    </script>
+</body>
+
+</html>

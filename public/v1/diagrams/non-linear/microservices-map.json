@@ -1,0 +1,19 @@
+{
+  "id": "microservices-map",
+  "title": "Microservices Map",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Services → API Gateway → Communication → Data Stores → Load Balancer",
+  "slug": "microservices-map-diagram",
+  "url": "/non-linear/microservices-map-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Services",
+    "API Gateway",
+    "Communication",
+    "Data Stores",
+    "Load Balancer"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bpmn-process",
+  "title": "BPMN Process",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Start Event → Task → Gateway → Intermediate Event → End Event → Pool/Lane",
+  "slug": "bpmn-process-diagram",
+  "url": "/non-linear/bpmn-process-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Start Event",
+    "Task",
+    "Gateway",
+    "Intermediate Event",
+    "End Event",
+    "Pool/Lane"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "WaveDrom Timing Diagram 1",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [{ name: \"Alfa\", wave: \"01.zx=ud.23.456789\" }] }",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 2",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"pclk\", wave: 'p.......' },\n  { name: \"Pclk\", wave: 'P.......' },\n  { name: \"nclk\", wave: 'n.......' },\n  { name: \"Nclk\", wave: 'N.......' },\n  {},\n  { name: 'clk0', wave: 'phnlPHNL' },\n  { name: 'clk1', wave: 'xhlhLHl.' },\n  { name: 'clk2', wave: 'hpHplnLn' },\n  { name: 'clk3', wave: 'nhNhplPl' },\n  { name: 'clk4', wave: 'xlh.L.Hx' },\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 3",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",  wave: \"P......\" },\n  { name: \"bus\",  wave: \"x.==.=x\", data: [\"head\", \"body\", \"tail\", \"data\"] },\n  { name: \"wire\", wave: \"0.1..0.\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 4",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",         wave: \"p.....|...\" },\n  { name: \"Data\",        wave: \"x.345x|=.x\", data: [\"head\", \"body\", \"tail\", \"data\"] },\n  { name: \"Request\",     wave: \"0.1..0|1.0\" },\n  {},\n  { name: \"Acknowledge\", wave: \"1.....|01.\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 5",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  {    name: 'clk',   wave: 'p..Pp..P'},\n  ['Master',\n    ['ctrl',\n      {name: 'write', wave: '01.0....'},\n      {name: 'read',  wave: '0...1..0'}\n    ],\n    {  name: 'addr',  wave: 'x3.x4..x', data: 'A1 A2'},\n    {  name: 'wdata', wave: 'x3.x....', data: 'D1'   },\n  ],\n  {},\n  ['Slave',\n    ['ctrl',\n      {name: 'ack',   wave: 'x01x0.1x'},\n    ],\n    {  name: 'rdata', wave: 'x.....4x', data: 'Q2'},\n  ]\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 6",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"CK\",   wave: \"P.......\",                                              period: 2  },\n  { name: \"CMD\",  wave: \"x.3x=x4x=x=x=x=x\", data: \"RAS NOP CAS NOP NOP NOP NOP\", phase: 0.5 },\n  { name: \"ADDR\", wave: \"x.=x..=x........\", data: \"ROW COL\",                     phase: 0.5 },\n  { name: \"DQS\",  wave: \"z.......0.1010z.\" },\n  { name: \"DQ\",   wave: \"z.........5555z.\", data: \"D0 D1 D2 D3\" }\n]}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 7",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ signal: [\n  { name: \"clk\",     wave: \"p....\" },\n  { name: \"Data\",    wave: \"x345x\",  data: [\"head\", \"body\", \"tail\"] },\n  { name: \"Request\", wave: \"01..0\" }\n  ],\n  config: { hscale: 1 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 8",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ \"signal\" : [\n  { \"name\": \"clk\",         \"wave\": \"p....\" },\n  { \"name\": \"Data\",        \"wave\": \"x345x\", \"data\": [\"head\", \"body\", \"tail\"] },\n  { \"name\": \"Request\",     \"wave\": \"01..0\" }\n],\n  \"config\" : { \"hscale\" : 2 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 9",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{ \"signal\" : [\n  { \"name\": \"clk\",         \"wave\": \"p....\" },\n  { \"name\": \"Data\",        \"wave\": \"x345x\", \"data\": [\"head\", \"body\", \"tail\"] },\n  { \"name\": \"Request\",     \"wave\": \"01..0\" }\n],\n  \"config\" : { \"hscale\" : 3 }\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  },
+  {
+    "title": "WaveDrom Timing Diagram 10",
+    "description": "Digital timing diagram from WaveDrom official tutorial",
+    "source": "wavedrom",
+    "category": "Timing Diagram",
+    "type": "linear",
+    "code": "{signal: [\n  {name:'clk',         wave: 'p....' },\n  {name:'Data',        wave: 'x345x', data: 'a b c' },\n  {name:'Request',     wave: '01..0' }\n],\n head:{\n   text:'WaveDrom example',\n   tick:0,\n   every:2\n },\n foot:{\n   text:'Figure 100',\n   tock:9\n },\n}",
+    "tags": [
+      "wavedrom",
+      "timing",
+      "digital",
+      "hardware",
+      "official"
+    ]
+  }
+]

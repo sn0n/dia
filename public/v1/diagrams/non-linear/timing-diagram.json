@@ -1,0 +1,20 @@
+{
+  "id": "timing-diagram",
+  "title": "Timing Diagram",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Clock → Signal 1 → Signal 2 → Timing → Propagation Delay → Cycle",
+  "slug": "timing-diagram-diagram",
+  "url": "/non-linear/timing-diagram-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Clock",
+    "Signal 1",
+    "Signal 2",
+    "Timing",
+    "Propagation Delay",
+    "Cycle"
+  ],
+  "advanced": null
+}

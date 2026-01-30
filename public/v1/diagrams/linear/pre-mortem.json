@@ -1,0 +1,18 @@
+{
+  "id": "pre-mortem",
+  "title": "Pre-Mortem",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Assume Failure → Brainstorm Reasons → Create Prevention Plan → Execute",
+  "slug": "pre-mortem-diagram",
+  "url": "/linear/pre-mortem-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Assume Failure",
+    "Brainstorm Reasons",
+    "Create Prevention Plan",
+    "Execute"
+  ],
+  "advanced": null
+}

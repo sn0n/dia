@@ -1,0 +1,19 @@
+{
+  "id": "crucial-conversations",
+  "title": "Crucial Conversations",
+  "type": "linear",
+  "category": "Emotional",
+  "description": "Start with Heart → Learn to Look → Make it Safe → State Path → Explore Others",
+  "slug": "crucial-conversations-diagram",
+  "url": "/linear/crucial-conversations-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Start with Heart",
+    "Learn to Look",
+    "Make it Safe",
+    "State Path",
+    "Explore Others"
+  ],
+  "advanced": null
+}

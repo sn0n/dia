@@ -1,0 +1,106 @@
+{
+  "category": "Philosophy",
+  "type": "non-linear",
+  "count": 9,
+  "diagrams": [
+    {
+      "id": "hegelian-dialectic",
+      "title": "Hegelian Dialectic",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Thesis → Antithesis (Conflict) → Synthesis (Resolution) → Loop",
+      "slug": "hegelian-dialectic-diagram",
+      "url": "/non-linear/hegelian-dialectic-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "the-work",
+      "title": "The Work",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Is it true? → Can you know? → Reaction? → Who without thought? → Turnaround",
+      "slug": "the-work-diagram",
+      "url": "/non-linear/the-work-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "flow-state-cycle",
+      "title": "Flow State Cycle",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Struggle (Load) → Release (Disengage) → Flow (Peak) → Recovery → Loop",
+      "slug": "flow-state-cycle-diagram",
+      "url": "/non-linear/flow-state-cycle-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "maslow-s-hierarchy",
+      "title": "Maslow's Hierarchy",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Physio Met? → Safety Met? → Love Met? → Esteem Met? → Self-Act",
+      "slug": "maslow-s-hierarchy-diagram",
+      "url": "/non-linear/maslow-s-hierarchy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "abcde-model",
+      "title": "ABCDE Model",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Activating Event → Belief → Consequence → Disputation → Effect",
+      "slug": "abcde-model-diagram",
+      "url": "/non-linear/abcde-model-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "woop",
+      "title": "WOOP",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Wish → Outcome → Obstacle → Plan (If Obstacle -> Then Action)",
+      "slug": "woop-diagram",
+      "url": "/non-linear/woop-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "k-bler-ross-loop",
+      "title": "Kübler-Ross Loop",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Denial → Anger → Bargaining → Depression → Acceptance",
+      "slug": "k-bler-ross-loop-diagram",
+      "url": "/non-linear/k-bler-ross-loop-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "self-fulfilling-prophecy",
+      "title": "Self-Fulfilling Prophecy",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Belief → Action → Impact Others → Others' Belief → Others' Action → Reinforce",
+      "slug": "self-fulfilling-prophecy-diagram",
+      "url": "/non-linear/self-fulfilling-prophecy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "imposter-syndrome",
+      "title": "Imposter Syndrome",
+      "type": "non-linear",
+      "category": "Philosophy",
+      "description": "Task → Anxiety → Over-prep/Procrastinate → Success → Discount → Loop",
+      "slug": "imposter-syndrome-diagram",
+      "url": "/non-linear/imposter-syndrome-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

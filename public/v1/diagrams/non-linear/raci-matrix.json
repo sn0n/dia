@@ -1,0 +1,19 @@
+{
+  "id": "raci-matrix",
+  "title": "RACI Matrix",
+  "type": "non-linear",
+  "category": "Management",
+  "description": "Task → Responsible? → Accountable? → Consulted? → Informed?",
+  "slug": "raci-matrix-diagram",
+  "url": "/non-linear/raci-matrix-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Task",
+    "Responsible?",
+    "Accountable?",
+    "Consulted?",
+    "Informed?"
+  ],
+  "advanced": null
+}

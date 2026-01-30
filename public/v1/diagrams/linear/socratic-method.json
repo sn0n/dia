@@ -1,0 +1,18 @@
+{
+  "id": "socratic-method",
+  "title": "Socratic Method",
+  "type": "linear",
+  "category": "Thinking",
+  "description": "Make Claim → Ask Probing Questions → Reveal Contradictions → Refine Claim",
+  "slug": "socratic-method-diagram",
+  "url": "/linear/socratic-method-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Make Claim",
+    "Ask Probing Questions",
+    "Reveal Contradictions",
+    "Refine Claim"
+  ],
+  "advanced": null
+}

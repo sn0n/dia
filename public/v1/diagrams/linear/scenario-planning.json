@@ -1,0 +1,18 @@
+{
+  "id": "scenario-planning",
+  "title": "Scenario Planning",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Identify Drivers → Create Uncertainties Matrix → Develop 4 Scenarios → Strategy for Each",
+  "slug": "scenario-planning-diagram",
+  "url": "/linear/scenario-planning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Identify Drivers",
+    "Create Uncertainties Matrix",
+    "Develop 4 Scenarios",
+    "Strategy for Each"
+  ],
+  "advanced": null
+}

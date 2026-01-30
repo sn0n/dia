@@ -1,0 +1,20 @@
+{
+  "id": "dependency-graph",
+  "title": "Dependency Graph",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Nodes → Dependencies → Transitive → Cycles → Order → Resolve",
+  "slug": "dependency-graph-diagram",
+  "url": "/non-linear/dependency-graph-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Nodes",
+    "Dependencies",
+    "Transitive",
+    "Cycles",
+    "Order",
+    "Resolve"
+  ],
+  "advanced": null
+}

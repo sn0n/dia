@@ -1,0 +1,18 @@
+{
+  "id": "the-habit-loop",
+  "title": "The Habit Loop",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Cue (Trigger) → Routine (Behavior) → Reward → Craving (Loop)",
+  "slug": "the-habit-loop-diagram",
+  "url": "/non-linear/the-habit-loop-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cue (Trigger)",
+    "Routine (Behavior)",
+    "Reward",
+    "Craving (Loop)"
+  ],
+  "advanced": null
+}

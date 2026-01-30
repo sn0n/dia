@@ -1,0 +1,19 @@
+{
+  "id": "sequence-diagram-example-1",
+  "title": "Sequence Diagram Example 1",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "sequence-diagram-example-1-diagram",
+  "url": "/linear/sequence-diagram-example-1-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\nAlice -&gt; Bob: Authentication Request\nBob --&gt; Alice: Authentication Response\n\nAlice -&gt; Bob: Another authentication Request\nAlice &lt;-- Bob: Another authentication Response\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

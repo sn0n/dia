@@ -1,0 +1,15 @@
+{
+  "id": "github",
+  "title": ".github",
+  "type": "linear",
+  "category": "Business Process",
+  "description": "BPMN 2.0 .github example from official bpmn-js repository",
+  "slug": "github-diagram",
+  "url": "/linear/github-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "BPMN 2.0 .github example from official bpmn-js repository"
+  ],
+  "advanced": null
+}

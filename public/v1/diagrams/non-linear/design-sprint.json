@@ -1,0 +1,19 @@
+{
+  "id": "design-sprint",
+  "title": "Design Sprint",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Map (Mon) → Sketch (Tue) → Decide (Wed) → Prototype (Thu) → Test (Fri)",
+  "slug": "design-sprint-diagram",
+  "url": "/non-linear/design-sprint-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Map (Mon)",
+    "Sketch (Tue)",
+    "Decide (Wed)",
+    "Prototype (Thu)",
+    "Test (Fri)"
+  ],
+  "advanced": null
+}

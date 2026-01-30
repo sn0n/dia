@@ -1,0 +1,82 @@
+{
+  "id": "eisenhower-matrix",
+  "title": "Eisenhower Matrix",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Categorize Urgency/Importance → Do → Decide → Delegate → Delete",
+  "slug": "eisenhower-matrix-diagram",
+  "url": "/linear/eisenhower-matrix-diagram",
+  "hasAdvanced": true,
+  "source": null,
+  "steps": [
+    "Categorize Urgency/Importance",
+    "Do",
+    "Decide",
+    "Delegate",
+    "Delete"
+  ],
+  "advanced": {
+    "code": null,
+    "source": "mermaid",
+    "root": {
+      "label": "Incoming Task",
+      "type": "start",
+      "next": {
+        "label": "Is it Urgent?",
+        "type": "decision",
+        "branches": [
+          {
+            "label": "Yes",
+            "path": {
+              "label": "Is it Important?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "DO (Do it now)",
+                    "type": "end",
+                    "color": "emerald"
+                  }
+                },
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "DELEGATE (Who can do it?)",
+                    "type": "end",
+                    "color": "amber"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "No",
+            "path": {
+              "label": "Is it Important?",
+              "type": "decision",
+              "branches": [
+                {
+                  "label": "Yes",
+                  "path": {
+                    "label": "DECIDE (Schedule it)",
+                    "type": "end",
+                    "color": "blue"
+                  }
+                },
+                {
+                  "label": "No",
+                  "path": {
+                    "label": "DELETE (Eliminate it)",
+                    "type": "end",
+                    "color": "red"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

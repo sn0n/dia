@@ -1,0 +1,20 @@
+{
+  "id": "signal-flow",
+  "title": "Signal Flow",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Input → Block → Transfer Function → Summing Junction → Output → Feedback",
+  "slug": "signal-flow-diagram",
+  "url": "/non-linear/signal-flow-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input",
+    "Block",
+    "Transfer Function",
+    "Summing Junction",
+    "Output",
+    "Feedback"
+  ],
+  "advanced": null
+}

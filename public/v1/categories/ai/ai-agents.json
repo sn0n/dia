@@ -1,0 +1,29 @@
+{
+  "category": "AI Agents",
+  "type": "ai",
+  "count": 2,
+  "diagrams": [
+    {
+      "id": "agent-loop",
+      "title": "Agent Loop",
+      "type": "ai-workflows",
+      "category": "AI Agents",
+      "description": "Observe → Think (Reasoning) → Act (Tool Use) → Observe Result → Loop",
+      "slug": "agent-loop-diagram",
+      "url": "/ai-workflows/agent-loop-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "react-pattern",
+      "title": "ReAct Pattern",
+      "type": "ai-workflows",
+      "category": "AI Agents",
+      "description": "Thought → Action → Observation → Thought → Action → ... → Answer",
+      "slug": "react-pattern-diagram",
+      "url": "/ai-workflows/react-pattern-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

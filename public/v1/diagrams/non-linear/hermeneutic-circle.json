@@ -1,0 +1,19 @@
+{
+  "id": "hermeneutic-circle",
+  "title": "Hermeneutic Circle",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Understand Part → Understand Whole → Re-interpret Part → Re-interpret Whole → Loop",
+  "slug": "hermeneutic-circle-diagram",
+  "url": "/non-linear/hermeneutic-circle-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Understand Part",
+    "Understand Whole",
+    "Re-interpret Part",
+    "Re-interpret Whole",
+    "Loop"
+  ],
+  "advanced": null
+}

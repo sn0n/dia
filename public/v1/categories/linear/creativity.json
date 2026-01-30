@@ -1,0 +1,117 @@
+{
+  "category": "Creativity",
+  "type": "linear",
+  "count": 10,
+  "diagrams": [
+    {
+      "id": "design-thinking",
+      "title": "Design Thinking",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Empathize → Define → Ideate → Prototype → Test",
+      "slug": "design-thinking-diagram",
+      "url": "/linear/design-thinking-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "scamper",
+      "title": "SCAMPER",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Substitute → Combine → Adapt → Modify → Put to use → Eliminate → Reverse",
+      "slug": "scamper-diagram",
+      "url": "/linear/scamper-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "six-thinking-hats",
+      "title": "Six Thinking Hats",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "White (Data) → Red (Emotion) → Black (Caution) → Yellow (Optimism) → Green (Creative) → Blue (Control)",
+      "slug": "six-thinking-hats-diagram",
+      "url": "/linear/six-thinking-hats-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "lateral-thinking",
+      "title": "Lateral Thinking",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Select Focus → Generate Provocation → Move to New Idea",
+      "slug": "lateral-thinking-diagram",
+      "url": "/linear/lateral-thinking-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "crazy-8s",
+      "title": "Crazy 8s",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Fold Paper 8x → Sketch 8 Ideas (8 mins) → Review",
+      "slug": "crazy-8s-diagram",
+      "url": "/linear/crazy-8s-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "double-diamond",
+      "title": "Double Diamond",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Discover (Diverge) → Define (Converge) → Develop (Diverge) → Deliver (Converge)",
+      "slug": "double-diamond-diagram",
+      "url": "/linear/double-diamond-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "disney-strategy",
+      "title": "Disney Strategy",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "The Dreamer → The Realist → The Critic",
+      "slug": "disney-strategy-diagram",
+      "url": "/linear/disney-strategy-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "snowflake-method",
+      "title": "Snowflake Method",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "One Sentence → One Paragraph → Character Sheets → Scene List → First Draft",
+      "slug": "snowflake-method-diagram",
+      "url": "/linear/snowflake-method-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "hero-s-journey",
+      "title": "Hero's Journey",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Call to Adventure → Threshold → Challenges → Abyss → Transformation → Return",
+      "slug": "hero-s-journey-diagram",
+      "url": "/linear/hero-s-journey-diagram",
+      "hasAdvanced": false,
+      "source": null
+    },
+    {
+      "id": "synectics",
+      "title": "Synectics",
+      "type": "linear",
+      "category": "Creativity",
+      "description": "Identify Problem → Make Strange Familiar → Make Familiar Strange → Force Connections",
+      "slug": "synectics-diagram",
+      "url": "/linear/synectics-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "boyd-s-e-m-theory",
+  "title": "Boyd's E-M Theory",
+  "type": "non-linear",
+  "category": "Systems",
+  "description": "Energy State → Trade for Position/Speed → Regain Energy → Loop",
+  "slug": "boyd-s-e-m-theory-diagram",
+  "url": "/non-linear/boyd-s-e-m-theory-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Energy State",
+    "Trade for Position/Speed",
+    "Regain Energy",
+    "Loop"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rackdiag-example",
+  "title": "RackDiag Example",
+  "type": "linear",
+  "category": "Rack Diagram",
+  "description": "Rack Diagram via Kroki unified API",
+  "slug": "rackdiag-example-diagram",
+  "url": "/linear/rackdiag-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Rack Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "rackdiag {\n  1: UPS;\n  2: Database;\n}",
+    "source": "kroki",
+    "root": null
+  }
+}

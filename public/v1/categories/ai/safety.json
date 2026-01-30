@@ -1,0 +1,18 @@
+{
+  "category": "Safety",
+  "type": "ai",
+  "count": 1,
+  "diagrams": [
+    {
+      "id": "constitutional-ai",
+      "title": "Constitutional AI",
+      "type": "ai-workflows",
+      "category": "Safety",
+      "description": "Generate Response → Self-Critique → Revise → Principle Alignment → Final Output",
+      "slug": "constitutional-ai-diagram",
+      "url": "/ai-workflows/constitutional-ai-diagram",
+      "hasAdvanced": false,
+      "source": null
+    }
+  ]
+}

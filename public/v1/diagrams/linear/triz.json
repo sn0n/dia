@@ -1,0 +1,18 @@
+{
+  "id": "triz",
+  "title": "TRIZ",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Define Specific Problem → Match to General Problem → Find General Solution → Adapt to Specific",
+  "slug": "triz-diagram",
+  "url": "/linear/triz-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Define Specific Problem",
+    "Match to General Problem",
+    "Find General Solution",
+    "Adapt to Specific"
+  ],
+  "advanced": null
+}

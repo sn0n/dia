@@ -1,0 +1,20 @@
+{
+  "id": "attack-tree",
+  "title": "Attack Tree",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Goal → OR Gate → AND Gate → Leaf Attacks → Probability → Cost",
+  "slug": "attack-tree-diagram",
+  "url": "/non-linear/attack-tree-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Goal",
+    "OR Gate",
+    "AND Gate",
+    "Leaf Attacks",
+    "Probability",
+    "Cost"
+  ],
+  "advanced": null
+}

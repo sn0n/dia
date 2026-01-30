@@ -1,0 +1,25 @@
+{
+  "id": "transformer-architecture",
+  "title": "Transformer Architecture",
+  "type": "ai-workflows",
+  "category": "Architecture",
+  "description": "Input Embedding → Positional Encoding → Multi-Head Attention → Add & Norm → Feed Forward → Add & Norm → Output",
+  "slug": "transformer-architecture-diagram",
+  "url": "/ai-workflows/transformer-architecture-diagram",
+  "hasAdvanced": true,
+  "source": "mermaid",
+  "steps": [
+    "Input Embedding",
+    "Positional Encoding",
+    "Multi-Head Attention",
+    "Add & Norm",
+    "Feed Forward",
+    "Add & Norm",
+    "Output"
+  ],
+  "advanced": {
+    "code": "graph TB\n    A[Input Tokens] --> B[Token Embedding]\n    B --> C[Positional Encoding]\n    C --> D[Multi-Head Attention]\n    D --> E[Add & Normalize]\n    E --> F[Feed Forward Network]\n    F --> G[Add & Normalize]\n    G --> H{More Layers?}\n    H -->|Yes| D\n    H -->|No| I[Output Layer]\n    I --> J[Softmax]\n    J --> K[Prediction]",
+    "source": "mermaid",
+    "root": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "eat-the-frog",
+  "title": "Eat The Frog",
+  "type": "linear",
+  "category": "Productivity",
+  "description": "Identify Hardest Task → Do First Thing → Move to Smaller Tasks",
+  "slug": "eat-the-frog-diagram",
+  "url": "/linear/eat-the-frog-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Identify Hardest Task",
+    "Do First Thing",
+    "Move to Smaller Tasks"
+  ],
+  "advanced": null
+}

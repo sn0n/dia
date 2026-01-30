@@ -1,0 +1,17 @@
+{
+  "id": "rubber-duck-debugging",
+  "title": "Rubber Duck Debugging",
+  "type": "linear",
+  "category": "Problem Solving",
+  "description": "Get Duck → Explain Code Line-by-Line → Self-Correct",
+  "slug": "rubber-duck-debugging-diagram",
+  "url": "/linear/rubber-duck-debugging-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Get Duck",
+    "Explain Code Line-by-Line",
+    "Self-Correct"
+  ],
+  "advanced": null
+}

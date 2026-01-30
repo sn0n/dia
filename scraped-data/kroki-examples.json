@@ -1,0 +1,106 @@
+[
+  {
+    "title": "BlockDiag Example",
+    "description": "Block Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Block Diagram",
+    "type": "nonlinear",
+    "code": "blockdiag {\n  A -> B -> C;\n  B -> D;\n}",
+    "tags": [
+      "kroki",
+      "blockdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "SeqDiag Example",
+    "description": "Sequence Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Sequence Diagram",
+    "type": "linear",
+    "code": "seqdiag {\n  browser -> webserver [label = \"GET /\"];\n  webserver -> database [label = \"SELECT\"];\n}",
+    "tags": [
+      "kroki",
+      "seqdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "ActDiag Example",
+    "description": "Activity Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Activity Diagram",
+    "type": "linear",
+    "code": "actdiag {\n  write -> convert -> image;\n}",
+    "tags": [
+      "kroki",
+      "actdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "NwDiag Example",
+    "description": "Network Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Network Diagram",
+    "type": "nonlinear",
+    "code": "nwdiag {\n  network dmz {\n    web01;\n    web02;\n  }\n}",
+    "tags": [
+      "kroki",
+      "nwdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "PacketDiag Example",
+    "description": "Packet Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Packet Diagram",
+    "type": "linear",
+    "code": "packetdiag {\n  0-15: Source Port\n  16-31: Destination Port\n}",
+    "tags": [
+      "kroki",
+      "packetdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "RackDiag Example",
+    "description": "Rack Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Rack Diagram",
+    "type": "linear",
+    "code": "rackdiag {\n  1: UPS;\n  2: Database;\n}",
+    "tags": [
+      "kroki",
+      "rackdiag",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "Pikchr Example",
+    "description": "Pikchr Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "Pikchr Diagram",
+    "type": "nonlinear",
+    "code": "box \"Hello\" \"World\"",
+    "tags": [
+      "kroki",
+      "pikchr",
+      "unified-api"
+    ]
+  },
+  {
+    "title": "Erd Example",
+    "description": "ER Diagram via Kroki unified API",
+    "source": "kroki",
+    "category": "ER Diagram",
+    "type": "nonlinear",
+    "code": "[Person] *--1 [Address]",
+    "tags": [
+      "kroki",
+      "erd",
+      "unified-api"
+    ]
+  }
+]

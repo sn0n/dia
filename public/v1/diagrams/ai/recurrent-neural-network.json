@@ -1,0 +1,20 @@
+{
+  "id": "recurrent-neural-network",
+  "title": "Recurrent Neural Network",
+  "type": "ai-workflows",
+  "category": "Sequence Processing",
+  "description": "Input Sequence → Hidden State → Process Token → Update State → Next Token → Loop",
+  "slug": "recurrent-neural-network-diagram",
+  "url": "/ai-workflows/recurrent-neural-network-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Input Sequence",
+    "Hidden State",
+    "Process Token",
+    "Update State",
+    "Next Token",
+    "Loop"
+  ],
+  "advanced": null
+}

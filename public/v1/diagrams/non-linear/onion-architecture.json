@@ -1,0 +1,19 @@
+{
+  "id": "onion-architecture",
+  "title": "Onion Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Domain Model → Services → Infrastructure → UI → Dependencies Inward",
+  "slug": "onion-architecture-diagram",
+  "url": "/non-linear/onion-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Domain Model",
+    "Services",
+    "Infrastructure",
+    "UI",
+    "Dependencies Inward"
+  ],
+  "advanced": null
+}

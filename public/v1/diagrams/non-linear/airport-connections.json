@@ -1,0 +1,15 @@
+{
+  "id": "airport-connections",
+  "title": "Airport Connections",
+  "type": "non-linear",
+  "category": "Data Visualization",
+  "description": "Vega visualization: Airport Connections",
+  "slug": "airport-connections-diagram",
+  "url": "/non-linear/airport-connections-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Vega visualization: Airport Connections"
+  ],
+  "advanced": null
+}

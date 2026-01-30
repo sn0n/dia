@@ -1,0 +1,62 @@
+{
+  "category": "DevOps",
+  "type": "non-linear",
+  "count": 5,
+  "diagrams": [
+    {
+      "id": "ai-powered-ci-cd-with-auto-healing",
+      "title": "AI-Powered CI/CD with Auto-Healing ⭐",
+      "type": "non-linear",
+      "category": "DevOps",
+      "description": "Autonomous CI/CD pipeline with AI-driven testing and auto-healing capabilities",
+      "slug": "ai-powered-ci-cd-with-auto-healing-diagram",
+      "url": "/non-linear/ai-powered-ci-cd-with-auto-healing-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "self-optimizing-infrastructure",
+      "title": "Self-Optimizing Infrastructure ⭐",
+      "type": "non-linear",
+      "category": "DevOps",
+      "description": "Infrastructure that autonomously optimizes based on load patterns",
+      "slug": "self-optimizing-infrastructure-diagram",
+      "url": "/non-linear/self-optimizing-infrastructure-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "intelligent-deployment-router",
+      "title": "Intelligent Deployment Router ⭐",
+      "type": "non-linear",
+      "category": "DevOps",
+      "description": "AI agent routes deployments based on risk assessment and canary analysis",
+      "slug": "intelligent-deployment-router-diagram",
+      "url": "/non-linear/intelligent-deployment-router-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "autonomous-security-remediation",
+      "title": "Autonomous Security Remediation ⭐",
+      "type": "non-linear",
+      "category": "DevOps",
+      "description": "Security system that detects and autonomously remediates vulnerabilities",
+      "slug": "autonomous-security-remediation-diagram",
+      "url": "/non-linear/autonomous-security-remediation-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    },
+    {
+      "id": "multi-agent-incident-response",
+      "title": "Multi-Agent Incident Response ⭐",
+      "type": "non-linear",
+      "category": "DevOps",
+      "description": "Coordinated AI agents handling incident detection, diagnosis, and resolution",
+      "slug": "multi-agent-incident-response-diagram",
+      "url": "/non-linear/multi-agent-incident-response-diagram",
+      "hasAdvanced": true,
+      "source": "mermaid"
+    }
+  ]
+}

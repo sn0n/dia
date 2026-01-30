@@ -1,0 +1,20 @@
+{
+  "id": "few-shot-learning",
+  "title": "Few-Shot Learning",
+  "type": "ai-workflows",
+  "category": "Prompting",
+  "description": "Task Description → Example 1 → Example 2 → Example 3 → Your Turn → Response",
+  "slug": "few-shot-learning-diagram",
+  "url": "/ai-workflows/few-shot-learning-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Task Description",
+    "Example 1",
+    "Example 2",
+    "Example 3",
+    "Your Turn",
+    "Response"
+  ],
+  "advanced": null
+}

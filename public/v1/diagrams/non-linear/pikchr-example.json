@@ -1,0 +1,19 @@
+{
+  "id": "pikchr-example",
+  "title": "Pikchr Example",
+  "type": "non-linear",
+  "category": "Pikchr Diagram",
+  "description": "Pikchr Diagram via Kroki unified API",
+  "slug": "pikchr-example-diagram",
+  "url": "/non-linear/pikchr-example-diagram",
+  "hasAdvanced": true,
+  "source": "kroki",
+  "steps": [
+    "Pikchr Diagram via Kroki unified API"
+  ],
+  "advanced": {
+    "code": "box \"Hello\" \"World\"",
+    "source": "kroki",
+    "root": null
+  }
+}

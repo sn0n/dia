@@ -1,0 +1,19 @@
+{
+  "id": "layered-architecture",
+  "title": "Layered Architecture",
+  "type": "non-linear",
+  "category": "Diagrams",
+  "description": "Presentation → Business Logic → Data Access → Database → Separation",
+  "slug": "layered-architecture-diagram",
+  "url": "/non-linear/layered-architecture-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Presentation",
+    "Business Logic",
+    "Data Access",
+    "Database",
+    "Separation"
+  ],
+  "advanced": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "swot-analysis",
+  "title": "SWOT Analysis",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Analyze Internal (Strengths/Weaknesses) → Analyze External (Opportunities/Threats) → Match",
+  "slug": "swot-analysis-diagram",
+  "url": "/linear/swot-analysis-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Analyze Internal (Strengths/Weaknesses)",
+    "Analyze External (Opportunities/Threats)",
+    "Match"
+  ],
+  "advanced": null
+}

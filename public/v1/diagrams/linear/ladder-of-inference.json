@@ -1,0 +1,21 @@
+{
+  "id": "ladder-of-inference",
+  "title": "Ladder of Inference",
+  "type": "linear",
+  "category": "Thinking",
+  "description": "Data → Select Data → Interpret → Assume → Conclude → Believe → Act",
+  "slug": "ladder-of-inference-diagram",
+  "url": "/linear/ladder-of-inference-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Data",
+    "Select Data",
+    "Interpret",
+    "Assume",
+    "Conclude",
+    "Believe",
+    "Act"
+  ],
+  "advanced": null
+}

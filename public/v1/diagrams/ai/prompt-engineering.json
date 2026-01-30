@@ -1,0 +1,19 @@
+{
+  "id": "prompt-engineering",
+  "title": "Prompt Engineering",
+  "type": "ai-workflows",
+  "category": "Prompting",
+  "description": "System Prompt → User Input → Few-Shot Examples → Instructions → LLM Response",
+  "slug": "prompt-engineering-diagram",
+  "url": "/ai-workflows/prompt-engineering-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "System Prompt",
+    "User Input",
+    "Few-Shot Examples",
+    "Instructions",
+    "LLM Response"
+  ],
+  "advanced": null
+}

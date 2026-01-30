@@ -1,0 +1,19 @@
+{
+  "id": "bayesian-updating",
+  "title": "Bayesian Updating",
+  "type": "non-linear",
+  "category": "Iterative",
+  "description": "Prior Belief → New Evidence → Likelihood → Posterior Belief (New Prior) → Loop",
+  "slug": "bayesian-updating-diagram",
+  "url": "/non-linear/bayesian-updating-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Prior Belief",
+    "New Evidence",
+    "Likelihood",
+    "Posterior Belief (New Prior)",
+    "Loop"
+  ],
+  "advanced": null
+}

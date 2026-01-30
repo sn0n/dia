@@ -1,0 +1,17 @@
+{
+  "id": "batna",
+  "title": "BATNA",
+  "type": "linear",
+  "category": "Strategy",
+  "description": "Determine Best Alternative → Set Reservation Price → Negotiate",
+  "slug": "batna-diagram",
+  "url": "/linear/batna-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Determine Best Alternative",
+    "Set Reservation Price",
+    "Negotiate"
+  ],
+  "advanced": null
+}

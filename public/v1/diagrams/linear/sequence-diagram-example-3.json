@@ -1,0 +1,19 @@
+{
+  "id": "sequence-diagram-example-3",
+  "title": "Sequence Diagram Example 3",
+  "type": "linear",
+  "category": "Sequence Diagram",
+  "description": "Official example from PlantUML documentation",
+  "slug": "sequence-diagram-example-3-diagram",
+  "url": "/linear/sequence-diagram-example-3-diagram",
+  "hasAdvanced": true,
+  "source": "plantuml",
+  "steps": [
+    "Official example from PlantUML documentation"
+  ],
+  "advanced": {
+    "code": "@startuml\nactor Bob #red\n&#39; The only difference between actor\n&#39;and participant is the drawing\nparticipant Alice\nparticipant &#34;I have a really\\nlong name&#34; as L #99FF99\n/&#39; You can also declare:\n   participant L as &#34;I have a really\\nlong name&#34;  #99FF99\n  &#39;/\n\nAlice-&gt;Bob: Authentication Request\nBob-&gt;Alice: Authentication Response\nBob-&gt;L: Log transaction\n@enduml",
+    "source": "plantuml",
+    "root": null
+  }
+}

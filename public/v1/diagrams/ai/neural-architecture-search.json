@@ -1,0 +1,19 @@
+{
+  "id": "neural-architecture-search",
+  "title": "Neural Architecture Search",
+  "type": "ai-workflows",
+  "category": "AutoML",
+  "description": "Search Space → Train Candidates → Evaluate → Select Best → Evolve",
+  "slug": "neural-architecture-search-diagram",
+  "url": "/ai-workflows/neural-architecture-search-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Search Space",
+    "Train Candidates",
+    "Evaluate",
+    "Select Best",
+    "Evolve"
+  ],
+  "advanced": null
+}

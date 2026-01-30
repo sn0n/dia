@@ -1,0 +1,15 @@
+{
+  "id": "concentric-layout",
+  "title": "Concentric Layout",
+  "type": "non-linear",
+  "category": "Network Graph",
+  "description": "Cytoscape.js concentric-layout demo from official repository",
+  "slug": "concentric-layout-diagram",
+  "url": "/non-linear/concentric-layout-diagram",
+  "hasAdvanced": false,
+  "source": null,
+  "steps": [
+    "Cytoscape.js concentric-layout demo from official repository"
+  ],
+  "advanced": null
+}
