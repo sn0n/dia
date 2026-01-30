@@ -8,11 +8,11 @@ export function AboutModal() {
         return (
             <button
                 onClick={() => setIsOpen(true)}
-                className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-500 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-all duration-300 hover:shadow-blue-500/50 group"
+                className="fixed bottom-6 right-6 z-[100] w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-all duration-300 hover:shadow-blue-500/50 group border-2 border-white/20"
                 title="About & Credits"
             >
-                <Icon name="HelpCircle" className="w-6 h-6" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse" />
+                <span className="sr-only">About Dia</span>
+                <Icon name="HelpCircle" className="w-7 h-7" />
             </button>
         )
     }
@@ -21,18 +21,21 @@ export function AboutModal() {
         <>
             {/* Backdrop */}
             <div
-                className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 animate-fadeIn"
+                className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[200] animate-fadeIn"
                 onClick={() => setIsOpen(false)}
             />
 
             {/* Modal */}
-            <div className="fixed inset-4 md:inset-auto md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:w-full md:max-w-3xl md:max-h-[90vh] bg-white rounded-2xl shadow-2xl z-50 overflow-hidden animate-slideUp">
+            <div className="fixed inset-4 md:inset-auto md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:w-full md:max-w-3xl md:max-h-[90vh] bg-white rounded-2xl shadow-2xl z-[201] overflow-hidden animate-slideUp flex flex-col">
                 {/* Header */}
-                <div className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 p-6 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 p-6 text-white relative overflow-hidden flex-shrink-0">
                     <div className="absolute inset-0 bg-white/10 backdrop-blur-sm" />
                     <div className="relative">
                         <div className="flex items-center justify-between mb-2">
-                            <h2 className="text-3xl font-bold">About Dia</h2>
+                            <h2 className="text-3xl font-bold flex items-center gap-3">
+                                <Icon name="Workflow" className="w-8 h-8" />
+                                Dia
+                            </h2>
                             <button
                                 onClick={() => setIsOpen(false)}
                                 className="p-2 hover:bg-white/20 rounded-full transition-colors"
@@ -40,194 +43,157 @@ export function AboutModal() {
                                 <Icon name="X" className="w-6 h-6" />
                             </button>
                         </div>
-                        <p className="text-white/90">Workflow & Diagram Library</p>
+                        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-white/90">
+                            <a href="https://dia.ai-prompts.help" target="_blank" rel="noopener" className="hover:text-white hover:underline flex items-center gap-1.5 transition-colors">
+                                <Icon name="ExternalLink" className="w-4 h-4" />
+                                dia.ai-prompts.help
+                            </a>
+                            <span className="opacity-50 hidden sm:inline">•</span>
+                            <a href="https://github.com/sn0n/dia" target="_blank" rel="noopener" className="hover:text-white hover:underline flex items-center gap-1.5 transition-colors">
+                                <Icon name="GitBranch" className="w-4 h-4" />
+                                github.com/sn0n/dia
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 {/* Content */}
-                <div className="overflow-y-auto max-h-[calc(90vh-180px)] p-6">
-                    {/* Stats */}
-                    <div className="grid grid-cols-3 gap-4 mb-6">
-                        <div className="text-center p-4 bg-blue-50 rounded-lg">
-                            <div className="text-3xl font-bold text-blue-600">398</div>
-                            <div className="text-sm text-gray-600">Diagrams</div>
-                        </div>
-                        <div className="text-center p-4 bg-purple-50 rounded-lg">
-                            <div className="text-3xl font-bold text-purple-600">484</div>
-                            <div className="text-sm text-gray-600">API Endpoints</div>
-                        </div>
-                        <div className="text-center p-4 bg-green-50 rounded-lg">
-                            <div className="text-3xl font-bold text-green-600">100%</div>
-                            <div className="text-sm text-gray-600">Offline</div>
-                        </div>
-                    </div>
+                <div className="overflow-y-auto p-6 space-y-8 bg-slate-50 overscroll-contain">
 
-                    {/* Description */}
-                    <div className="mb-6">
-                        <h3 className="text-xl font-bold mb-3 text-gray-900">What is Dia?</h3>
-                        <p className="text-gray-700 leading-relaxed mb-3">
+                    {/* Main Description */}
+                    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 className="text-xl font-bold mb-3 text-slate-800">What is Dia?</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
                             Dia is a comprehensive, fully offline-capable library of 398+ workflow patterns and
                             diagram examples. Built as a 100% static site with a REST API - no backend required!
                         </p>
-                        <p className="text-gray-700 leading-relaxed">
-                            Browse mental models, productivity frameworks, system patterns, AI/ML workflows,
-                            and technical diagrams. All data is available via a static JSON API for integration
-                            with your own applications.
-                        </p>
+
+                        {/* Stats */}
+                        <div className="grid grid-cols-3 gap-4 mt-6">
+                            <div className="text-center p-3 bg-blue-50 rounded-lg border border-blue-100">
+                                <div className="text-2xl font-bold text-blue-600">398</div>
+                                <div className="text-xs font-medium text-blue-600 uppercase tracking-wider mt-1">Diagrams</div>
+                            </div>
+                            <div className="text-center p-3 bg-purple-50 rounded-lg border border-purple-100">
+                                <div className="text-2xl font-bold text-purple-600">484</div>
+                                <div className="text-xs font-medium text-purple-600 uppercase tracking-wider mt-1">Endpoints</div>
+                            </div>
+                            <div className="text-center p-3 bg-green-50 rounded-lg border border-green-100">
+                                <div className="text-2xl font-bold text-green-600">100%</div>
+                                <div className="text-xs font-medium text-green-600 uppercase tracking-wider mt-1">Offline</div>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Attributions */}
-                    <div className="mb-6">
-                        <h3 className="text-xl font-bold mb-3 text-gray-900 flex items-center gap-2">
-                            <Icon name="Award" className="w-5 h-5 text-blue-500" />
+                    <div>
+                        <h3 className="text-lg font-bold mb-4 text-slate-800 flex items-center gap-2">
+                            <Icon name="Award" className="w-5 h-5 text-amber-500" />
                             Data Sources & Attribution
                         </h3>
-                        <div className="space-y-2 text-sm">
-                            <p className="text-gray-700">
-                                Diagram examples were ethically collected from the following open-source projects and documentation:
-                            </p>
-                            <ul className="space-y-2 ml-4">
-                                <li className="flex items-start gap-2">
-                                    <Icon name="ExternalLink" className="w-4 h-4 mt-0.5 text-blue-500 flex-shrink-0" />
-                                    <div>
-                                        <a href="https://mermaid.js.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">
-                                            Mermaid.js
-                                        </a>
-                                        <span className="text-gray-600"> - Diagramming and charting tool (MIT License)</span>
-                                    </div>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <Icon name="ExternalLink" className="w-4 h-4 mt-0.5 text-blue-500 flex-shrink-0" />
-                                    <div>
-                                        <a href="https://plantuml.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">
-                                            PlantUML
-                                        </a>
-                                        <span className="text-gray-600"> - UML diagram creator (Open Source)</span>
-                                    </div>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <Icon name="ExternalLink" className="w-4 h-4 mt-0.5 text-blue-500 flex-shrink-0" />
-                                    <div>
-                                        <a href="https://github.com/bpmn-io/bpmn-js-examples" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">
-                                            BPMN.io Examples
-                                        </a>
-                                        <span className="text-gray-600"> - Business Process diagrams (bpmn.io license)</span>
-                                    </div>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <Icon name="ExternalLink" className="w-4 h-4 mt-0.5 text-blue-500 flex-shrink-0" />
-                                    <div>
-                                        <a href="https://wavedrom.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">
-                                            WaveDrom
-                                        </a>
-                                        <span className="text-gray-600"> - Digital timing diagrams (MIT License)</span>
-                                    </div>
-                                </li>
-                                <li className="flex items-start gap-2">
-                                    <Icon name="ExternalLink" className="w-4 h-4 mt-0.5 text-blue-500 flex-shrink-0" />
-                                    <div>
-                                        <a href="https://blockdiag.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">
-                                            blockdiag
-                                        </a>
-                                        <span className="text-gray-600"> - Block diagram generator (Apache License 2.0)</span>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div className="bg-white rounded-xl border border-slate-200 overflow-hidden divide-y divide-slate-100 shadow-sm">
+                            <a href="https://mermaid.js.org/" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 hover:bg-slate-50 transition-colors group">
+                                <Icon name="ExternalLink" className="w-5 h-5 text-slate-400 group-hover:text-blue-500 mr-3" />
+                                <div className="flex-1">
+                                    <span className="font-semibold text-slate-800">Mermaid.js</span>
+                                    <span className="ml-2 text-sm text-slate-500">Diagramming and charting tool</span>
+                                </div>
+                                <span className="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded">MIT License</span>
+                            </a>
+
+                            <a href="https://plantuml.com/" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 hover:bg-slate-50 transition-colors group">
+                                <Icon name="ExternalLink" className="w-5 h-5 text-slate-400 group-hover:text-blue-500 mr-3" />
+                                <div className="flex-1">
+                                    <span className="font-semibold text-slate-800">PlantUML</span>
+                                    <span className="ml-2 text-sm text-slate-500">UML diagram creator</span>
+                                </div>
+                                <span className="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded">GPL/MIT</span>
+                            </a>
+
+                            <a href="https://github.com/bpmn-io/bpmn-js-examples" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 hover:bg-slate-50 transition-colors group">
+                                <Icon name="ExternalLink" className="w-5 h-5 text-slate-400 group-hover:text-blue-500 mr-3" />
+                                <div className="flex-1">
+                                    <span className="font-semibold text-slate-800">BPMN.io</span>
+                                    <span className="ml-2 text-sm text-slate-500">Business Process diagrams</span>
+                                </div>
+                                <span className="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded">bpmn.io</span>
+                            </a>
+
+                            <a href="https://wavedrom.com/" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 hover:bg-slate-50 transition-colors group">
+                                <Icon name="ExternalLink" className="w-5 h-5 text-slate-400 group-hover:text-blue-500 mr-3" />
+                                <div className="flex-1">
+                                    <span className="font-semibold text-slate-800">WaveDrom</span>
+                                    <span className="ml-2 text-sm text-slate-500">Digital timing diagrams</span>
+                                </div>
+                                <span className="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded">MIT</span>
+                            </a>
                         </div>
                     </div>
 
                     {/* Copyright Disclaimer */}
-                    <div className="mb-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
-                        <h3 className="text-lg font-bold mb-2 text-yellow-900 flex items-center gap-2">
-                            <Icon name="AlertCircle" className="w-5 h-5" />
-                            Copyright & Ownership
-                        </h3>
-                        <p className="text-sm text-yellow-800 leading-relaxed">
-                            This project claims <strong>no copyright rights or ownership</strong> over the diagram examples
-                            and workflow methodologies presented. All content is attributed to its original creators and
-                            licensed under their respective open-source licenses. This is an educational resource for
-                            learning and reference purposes.
-                        </p>
+                    <div className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex gap-4">
+                        <Icon name="AlertCircle" className="w-6 h-6 text-amber-600 flex-shrink-0 mt-0.5" />
+                        <div>
+                            <h3 className="text-sm font-bold text-amber-900 mb-1">Copyright & Ownership Disclaimer</h3>
+                            <p className="text-sm text-amber-800 leading-relaxed opacity-90">
+                                This project claims <strong>no copyright rights or ownership</strong> over the diagram examples
+                                and workflow methodologies presented. All content is attributed to its original creators and
+                                licensed under their respective open-source licenses. This is an educational resource for
+                                learning and reference purposes.
+                            </p>
+                        </div>
                     </div>
 
-                    {/* Made With Love */}
-                    <div className="mb-6">
-                        <h3 className="text-xl font-bold mb-3 text-gray-900 flex items-center gap-2">
-                            <Icon name="Heart" className="w-5 h-5 text-red-500" />
-                            Made With ❤️ By
+                    {/* AI Credits */}
+                    <div>
+                        <h3 className="text-lg font-bold mb-4 text-slate-800 flex items-center gap-2">
+                            <Icon name="Heart" className="w-5 h-5 text-rose-500" />
+                            Made with AI
                         </h3>
-                        <p className="text-sm text-gray-700 mb-3">
-                            This project was collaboratively built with the help of various AI assistants:
+                        <p className="text-sm text-slate-600 mb-4">
+                            Built collaboratively with the following AI assistants:
                         </p>
-                        <div className="flex flex-wrap gap-2">
-                            <a
-                                href="https://gemini.google.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors flex items-center gap-2"
-                            >
-                                <Icon name="Sparkles" className="w-4 h-4" />
-                                Google Gemini
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <a href="https://gemini.google.com/" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg hover:border-blue-400 hover:shadow-sm transition-all group">
+                                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
+                                    <Icon name="Sparkles" className="w-4 h-4" />
+                                </div>
+                                <span className="font-medium text-slate-700">Google Gemini</span>
                             </a>
-                            <a
-                                href="https://claude.ai/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors flex items-center gap-2"
-                            >
-                                <Icon name="Sparkles" className="w-4 h-4" />
-                                Anthropic Claude
+
+                            <a href="https://claude.ai/" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg hover:border-purple-400 hover:shadow-sm transition-all group">
+                                <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 group-hover:scale-110 transition-transform">
+                                    <Icon name="Sparkles" className="w-4 h-4" />
+                                </div>
+                                <span className="font-medium text-slate-700">Anthropic Claude</span>
                             </a>
-                            <a
-                                href="https://github.com/features/copilot"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium hover:bg-green-200 transition-colors flex items-center gap-2"
-                            >
-                                <Icon name="Sparkles" className="w-4 h-4" />
-                                GitHub Copilot
+
+                            <a href="https://github.com/features/copilot" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg hover:border-green-400 hover:shadow-sm transition-all group">
+                                <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center text-green-600 group-hover:scale-110 transition-transform">
+                                    <Icon name="Sparkles" className="w-4 h-4" />
+                                </div>
+                                <span className="font-medium text-slate-700">GitHub Copilot</span>
                             </a>
-                            <a
-                                href="https://openai.com/blog/openai-codex"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors flex items-center gap-2"
-                            >
-                                <Icon name="Sparkles" className="w-4 h-4" />
-                                OpenAI Codex
+
+                            <a href="https://openai.com/blog/openai-codex" target="_blank" rel="noopener" className="flex items-center gap-3 p-3 bg-white border border-slate-200 rounded-lg hover:border-orange-400 hover:shadow-sm transition-all group">
+                                <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-600 group-hover:scale-110 transition-transform">
+                                    <Icon name="Code" className="w-4 h-4" />
+                                </div>
+                                <span className="font-medium text-slate-700">OpenAI Codex</span>
                             </a>
                         </div>
                     </div>
 
-                    {/* Tech Stack */}
-                    <div className="mb-6">
-                        <h3 className="text-xl font-bold mb-3 text-gray-900 flex items-center gap-2">
-                            <Icon name="Code" className="w-5 h-5 text-purple-500" />
-                            Built With
-                        </h3>
-                        <div className="flex flex-wrap gap-2 text-sm">
-                            <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full">React 19</span>
-                            <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full">TypeScript</span>
-                            <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full">Vite 6</span>
-                            <span className="px-3 py-1 bg-cyan-50 text-cyan-700 rounded-full">Tailwind CSS 4</span>
-                            <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full">Mermaid v11</span>
-                            <span className="px-3 py-1 bg-orange-50 text-orange-700 rounded-full">Viz.js (Graphviz WASM)</span>
+                    {/* Footer */}
+                    <div className="text-center pt-4 border-t border-slate-200">
+                        <div className="flex flex-wrap justify-center gap-4 text-xs text-slate-500 mb-2">
+                            <span className="flex items-center gap-1"><Icon name="CheckCircle2" className="w-3 h-3 text-green-500" /> React 19</span>
+                            <span className="flex items-center gap-1"><Icon name="CheckCircle2" className="w-3 h-3 text-green-500" /> TypeScript</span>
+                            <span className="flex items-center gap-1"><Icon name="CheckCircle2" className="w-3 h-3 text-green-500" /> Vite 6</span>
                         </div>
-                    </div>
-
-                    {/* Open Source */}
-                    <div className="text-center p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
-                        <p className="text-sm font-medium text-gray-700 mb-2">
-                            <Icon name="Heart" className="w-4 h-4 inline text-red-500" /> Open Source • MIT License
+                        <p className="text-xs text-slate-400">
+                            Open Source • MIT License • {new Date().getFullYear()}
                         </p>
-                        <a
-                            href="https://github.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline text-sm font-medium"
-                        >
-                            View on GitHub →
-                        </a>
                     </div>
                 </div>
             </div>

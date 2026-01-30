@@ -2,6 +2,10 @@
 
 A comprehensive, **fully offline-capable** library of 398+ workflow patterns and diagram examples. Built as a 100% static site with a REST API - no backend required!
 
+### 🔗 Links
+- **Live Demo:** [dia.ai-prompts.help](https://dia.ai-prompts.help)
+- **Repository:** [github.com/sn0n/dia](https://github.com/sn0n/dia)
+
 ## ✨ Highlights
 
 - 🎯 **398 Diagrams**: Linear workflows, non-linear patterns, and AI/ML workflows

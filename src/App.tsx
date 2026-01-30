@@ -244,7 +244,7 @@ const LandingPage: React.FC = () => {
       {/* Floating AI Brain Icon - Glassmorphic */}
       <button
         onClick={() => navigate('/ai-workflows')}
-        className="fixed left-1/2 -translate-x-1/2 z-50 group"
+        className="fixed left-1/2 -translate-x-1/2 z-40 group"
         style={{ top: '10%' }}
         title="AI-Powered Workflows"
       >
