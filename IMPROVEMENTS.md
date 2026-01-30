@@ -83,7 +83,7 @@ This document tracks potential improvements and optimizations for the Dia projec
 
 - [ ] **Focus management**
   - Visible focus indicators
-  - Focus trap in modals/dialrams
+  - Focus trap in modals/dialogs
   - Return focus on dialog close
 
 ### Testing
